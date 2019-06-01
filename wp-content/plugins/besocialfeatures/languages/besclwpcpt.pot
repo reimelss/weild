@@ -1,0 +1,301 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in echo
+#: besocialfeatures/so-widgets/besclwp-activity/tpl/besclwp-activity-template.php:89
+msgid "&mdash; Show Everything &mdash;"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-faq.php:1
+msgid "Add new category"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-faq.php:1
+msgid "Add new question"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/so-widgets/besclwp-activity/tpl/besclwp-activity-template.php:27
+msgid "All Members %s"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-faq.php:1
+msgid "Answer"
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/so-custom-fields/rgba-colorpicker.class.php:27
+msgid "Background Color"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocialfeatures.php:1
+msgid "Besocial 16:9 Medium"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocialfeatures.php:1
+msgid "Besocial 21:9 Large"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocialfeatures.php:1
+msgid "Besocial 3:4 Medium"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-iframe.php:1
+msgid "Besocial Iframe"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-so-widgets.php:1
+msgid "Besocial Widgets"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-faq-menu.php:9
+#: besocialfeatures/besocial-post-form.php:1
+msgid "Categories"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-iframe.php:1
+msgid "Displays a responsive iframe, object or embed"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-faq.php:1
+msgid "Edit question"
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/besocial-iframe.php:91
+msgid "Embed Code:"
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/so-custom-fields/wp-oembed.class.php:26
+msgid "Enter a Youtube, Vimeo, Dailymotion, Vine, VideoPress or WordPress.tv URL."
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/besocial-faq-search.php:2
+msgid "Enter a keyword..."
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-faq.php:1
+msgid "FAQ"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-faq.php:1
+msgid "FAQ Categories"
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/featured-members.php:70
+msgid "Feature this user"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-post-form.php:1
+msgid "Featured Image"
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/featured-members.php:64
+msgid "Featured Members Setting"
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/featured-members.php:67
+msgid "Featured User Setting"
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/so-widgets/besclwp-activity/tpl/besclwp-activity-template.php:121
+msgid "Load More"
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/so-widgets/besclwp-activity/tpl/besclwp-activity-template.php:68
+msgid "Mentions"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/so-widgets/besclwp-activity/tpl/besclwp-activity-template.php:60
+msgid "My Favorites %s"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/so-widgets/besclwp-activity/tpl/besclwp-activity-template.php:38
+msgid "My Friends %s"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/so-widgets/besclwp-activity/tpl/besclwp-activity-template.php:50
+msgid "My Groups %s"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-post-form.php:1
+msgid "New Post"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-faq.php:1
+msgid "New category"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-faq.php:1
+msgid "New question"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-faq.php:1
+msgid "No question found"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-faq.php:1
+msgid "No question found in trash"
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/besocial-faq-search.php:
+msgid "No results found."
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-faq.php:1
+msgid "Parent question:"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-post-form.php:1
+msgid "Post Content"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-post-form.php:1
+msgid "Post Excerpt"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-post-form.php:1
+msgid "Post Title"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-faq.php:1
+msgid "Question"
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/so-widgets/besclwp-activity/tpl/besclwp-activity-template.php:83
+msgid "RSS Feed"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/so-widgets/besclwp-slider/tpl/besclwp-slider-template.php:46
+msgid "Sale!"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-faq.php:1
+msgid "Search questions"
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/so-custom-fields/author-select.class.php:42
+msgid "Select Author"
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/so-widgets/besclwp-activity/tpl/besclwp-activity-template.php:21
+msgid "Sitewide activities navigation"
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/so-widgets/besclwp-group-carousel/tpl/besclwp-group-carousel-template.php:145
+msgid "Sorry, no groups were found."
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/so-widgets/besclwp-member-carousel/tpl/besclwp-member-carousel-template.php:169
+#: besocialfeatures/so-widgets/besclwp-member-list/tpl/besclwp-member-list-template.php:147
+msgid "Sorry, no members were found."
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/so-widgets/besclwp-activity/tpl/besclwp-activity-template.php:135
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-post-form.php:1
+msgid "Submit Post"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-post-form.php:1
+msgid "Tags"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-post-form.php:1
+msgid "Thank you, your new post has been published."
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-post-form.php:1
+msgid "Thank you, your new post has been submitted and is pending review by a site administrator."
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-post-form.php:1
+msgid "There was an error in the submission: %s"
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/so-widgets/besclwp-group-list/tpl/besclwp-group-list-template.php:114
+msgid "There were no groups found."
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/featured-members.php:1
+msgid "User Featured Status Is Changed"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/featured-members.php:1
+msgid "User ID"
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/besocial-faq.php:1
+msgid "View question"
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/so-widgets/besclwp-group-carousel/tpl/besclwp-group-carousel-template.php:150
+msgid "You must enable Group Photo Uploads from BuddyPress settings page."
+msgstr ""
+
+#. Text in function
+#: besocialfeatures/so-widgets/besclwp-group-list/tpl/besclwp-group-list-template.php:88
+msgid "active %s"
+msgstr ""
+
+#. Text in echo
+#: besocialfeatures/so-widgets/besclwp-member-list/tpl/besclwp-member-list-template.php:110
+msgid "friends"
+msgstr ""

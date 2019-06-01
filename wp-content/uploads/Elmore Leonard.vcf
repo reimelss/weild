@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Leonard;Elmore;
+FN:Elmore Leonard
+URL;TYPE=WORK:www.elmoreleonard.com
+PHOTO;ENCODING=b;TYPE=JPEG:
+ORG:Acme Co.
+NOTE:
+TITLE:Creative Director
+TEL;TYPE=WORK,VOICE:303-123-4567
+TEL;TYPE=WORK,FAX:
+TEL;TYPE=CELL,VOICE:303-123-9874
+EMAIL;TYPE=PREF,INTERNET:ryanb@newmediadenver.com
+ADR;TYPE=WORK:;;123 Main St.;Detroit;MI;50125;United States
+END:VCARD

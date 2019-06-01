@@ -1,0 +1,41 @@
+/*
+Theme Name: BeSocial Child
+Theme URI: https://themeforest.net/user/egemenerd/portfolio?ref=egemenerd
+Description: BeSocial Child Theme
+Author: Egemenerd
+Author URI: http://themeforest.net/user/egemenerd?ref=egemenerd
+Template: besocial
+Version: 1.0
+*/
+
+#field_70 label, #field_77 label,  #field_79 label,
+#field_204 label, #field_208 label, #field_215 label, #field_231 label, #field_245 label, #field_253 label, #field_261 label, #field_270 label, #field_279 label, #field_286 label, #field_293 label,
+#field_298 > label
+{
+    padding-left: 20px;
+}
+#field_70 label:first-child, #field_77 label:first-child, #field_79 label:first-child,
+#field_204 label:first-child, #field_208 label:first-child, #field_215 label:first-child, #field_231 label:first-child, #field_245 label:first-child, #field_253 label:first-child, #field_261 label:first-child, #field_270 label:first-child, #field_279 label:first-child, #field_286 label:first-child, #field_293 label:first-child,
+
+#field_298 > label:nth-child(1), #field_298 > label:nth-child(4), #field_298 > label:nth-child(10), #field_298 > label:nth-child(25), #field_298 > label:nth-child(38), #field_298 > label:nth-child(45), #field_298 > label:nth-child(52), #field_298 > label:nth-child(60), #field_298 > label:nth-child(68), #field_298 > label:nth-child(74), #field_298 > label:nth-child(80),
+#field_79 label:last-child
+{
+    padding-left: 0;
+}
+#field_77 > label:nth-child(4), #field_77 > label:nth-child(5), #field_77 > label:nth-child(6), #field_77 > label:nth-child(7), #field_77 > label:nth-child(8), #field_77 > label:nth-child(9), 
+#field_79 > label:nth-child(3), #field_79 > label:nth-child(4), #field_79 > label:nth-child(5), #field_79 > label:nth-child(6),
+#field_79 > label:nth-child(12), #field_79 > label:nth-child(13), #field_79 > label:nth-child(14), #field_79 > label:nth-child(15), #field_79 > label:nth-child(16), #field_79 > label:nth-child(17), #field_79 > label:nth-child(18),#field_79 > label:nth-child(19), #field_79 > label:nth-child(20), #field_79 > label:nth-child(21)
+{
+    padding-left: 40px;
+}
+
+#field_79 > label:nth-child(7), #field_79 > label:nth-child(8), #field_79 > label:nth-child(9), #field_79 > label:nth-child(10)
+
+{
+    padding-left: 60px;
+}
+
+.field_204 legend, .field_208 legend, .field_215 legend, .field_231 legend, .field_245 legend, .field_253 legend, .field_261 legend, .field_270 legend, .field_279 legend, .field_286 legend, .field_293 legend
+{
+	display: none !important;
+}

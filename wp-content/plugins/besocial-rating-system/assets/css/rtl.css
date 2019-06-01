@@ -1,0 +1,43 @@
+.besocial-container-dislike,
+.besocial-container-dislike-comment,
+.besocial-container-dislike {
+    margin-left: 0px;
+    margin-right: 1px;
+}
+
+.besocial-align-left {
+    text-align: right
+}
+
+.besocial-align-right {
+    text-align: left
+}
+
+#activity-stream .besocial-container-vote,
+.besclwp-single-post-tags .besocial-container-vote {
+    left: 0;
+    right: auto;
+}
+
+.besclwp_comment_text .besocial-container-vote-comment {
+    left: 0;
+    right: auto;
+}
+
+.bbp-reply-content .besocial-container-vote {
+    left: 20px;
+    right: auto;
+}
+
+.besclwp-go-to-comments .besocial-container-vote {
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+
+@media only screen and (max-width: 640px) {
+    .bbp-reply-content .besocial-container-vote {
+        left: 0px;
+        right: auto;
+    }
+}

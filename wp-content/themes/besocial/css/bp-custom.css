@@ -1,0 +1,148 @@
+/*--------------------------------------------------------------
+CUSTOM BUDDYPRESS STYLES - Theme Settings
+--------------------------------------------------------------*/
+#besocial-preview {
+    width: 500px;
+}
+p.drag-drop-buttons input#bp-browse-button {
+    font-size: 16px;
+}
+#buddypress #whats-new-submit input,#buddypress .besocial-whats-new-text,body.activity-permalink #buddypress .activity-list li .activity-header span.time-since,#buddypress div.activity-header a.activity-time-since,#buddypress div.activity-comments a.activity-time-since,#buddypress a.activity-time-since,#buddypress #item-header-content span.activity,#buddypress a.bp-primary-action,#buddypress a.bp-secondary-action,#buddypress #reply-title small a,#buddypress .standard-form p.description,#buddypress .standard-form button,#buddypress a.button,#buddypress .generic-button a,#buddypress .comment-reply-link,a.bp-title-button,#buddypress .standard-form #profile-details-section .field-visibility-settings legend,#buddypress .profile .standard-form .field-visibility-settings legend,#buddypress .standard-form .field-visibility-settings-toggle,#buddypress .standard-form .field-visibility-settings-notoggle,#buddypress .field-visibility-settings-toggle,#group-create-body .radio ul li,#buddypress #cover-image-container .group-type,#buddypress .besocial-member-meta,#buddypress .besocial-group-meta,.besocial-member a.mutual-friends,#buddypress #bpfb_add_remote_image,#buddypress #bpfb_cancel_action,#buddypress #bpfb_link_url_preview,#buddypress input.bpfb_primary_button,#buddypress #bpfb_cancel,#buddypress #bpfb_video_url_preview,#buddypress #bpfb_remote_image_preview,#buddypress .bpfb_controls_container .qq-upload-button,.widget.buddypress div.item-options a,.widget_bps_widget #buddypress form .clear-value,#buddypress .message-metadata span.activity,#buddypress table#message-threads tr.unread td .thread-excerpt, #buddypress table#message-threads tr.unread td .activity, #buddypress table#message-threads tr.unread td.thread-options {
+    font-size: 14px;
+}
+#buddypress a.bp-primary-action span,#buddypress #reply-title small a span {
+    font-size: 12px;
+}
+#sitewide-notice strong {
+    font-size: 18px;
+}
+.widget_bp_core_sitewide_messages.besclwp-sidebar-box .bp-site-wide-message p strong,.bp-notice-subject p strong {
+    font-size: 24px;
+}
+.besocial-mentionname {
+    font-size: 22px;
+}
+#besocial-submenu #besocial-bdpress-mobile a {
+    font-size: 20px;
+}
+.besocial-member a.mutual-friends,#buddypress div.activity-header a,#buddypress .acomment-meta a,#buddypress #bpfb_video_url.changed,#buddypress #bpfb_link_preview_url.changed,#bpfb_tmp_photo_list,#buddypress .bpfb_preview_container,#buddypress input.bpfb_remote_image {
+    color: #6b717e;
+}
+#buddypress .activity-list li.load-more a,#buddypress .activity-list li.load-newest a,#buddypress a.bp-primary-action span,#buddypress #reply-title small a span,#buddypress .acomment-options a,#buddypress #pass-strength-result,#buddypress ul.button-nav li a:hover,#buddypress ul.button-nav li.current a,#sitewide-notice #message p,#sitewide-notice #close-notice:before,.widget_bp_core_sitewide_messages.besclwp-sidebar-box .bp-site-wide-message p,.widget_bp_core_sitewide_messages.besclwp-sidebar-box #close-notice:before,#buddypress .standard-form button,#buddypress a.button,#buddypress .generic-button a,#buddypress .comment-reply-link,a.bp-title-button,#buddypress .activity-list li.load-more.loading:after,.widget.buddypress div.item-options a,#besocial-submenu #besocial-bdpress-mobile a,#buddypress .bpfb_actions_container.bpfb-theme-new .bpfb_toolbarItem,#buddypress .bpfb_actions_container.bpfb-theme-new .bpfb_toolbarItem:visited,#buddypress .bpfb_actions_container.bpfb-theme-new,#bpfb_addPhotos,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addVideos,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addLinks,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addDocuments,button#rtmedia-add-media-button-post-update {
+    color: #fff;
+}
+#buddypress div#item-header-cover-image .user-nicename a,#buddypress div#item-header-cover-image .user-nicename,#buddypress div#item-header h1.besocial-group-name,#buddypress li span.unread-count,#buddypress tr.unread span.unread-count,#buddypress div.item-list-tabs ul li.selected a {
+    color: #fff !important;
+}
+#buddypress .item-list-tabs li.feed a:before,#besocial-bp-bar-left a,#buddypress table.notifications tr td a.mark-unread:hover:after,#buddypress table.notifications tr td a.delete:hover:after,#buddypress table.notifications tr td a.mark-read:hover:after,#buddypress table.messages-notices tr td.thread-options a.unread:hover:after,#buddypress table.messages-notices tr td.thread-options a.read:hover:after,#buddypress table.messages-notices tr td.thread-options a.delete:hover:after,.besocial-member a.mutual-friends:hover {
+    color: #427aa1;
+}
+#besocial-bp-bar-left a:hover {
+    color: #3e6990 !important;
+}
+#buddypress div.item-list-tabs ul li a,#buddypress div.item-list-tabs ul li span,#buddypress #cover-image-container .group-type,body.besocial .bmf-white-popup header {
+    color: #2c3d55;
+}
+@media only screen and (max-width: 782px) {
+    #buddypress div#item-header-cover-image .user-nicename a,
+    #buddypress div#item-header-cover-image .user-nicename,
+    #buddypress div#item-header h1.besocial-group-name a,
+    #buddypress div#item-header h1.besocial-group-name {
+        color: #2c3d55 !important;
+    }
+}
+#buddypress .activity-list li.load-more,#buddypress .activity-list li.load-newest,#buddypress .acomment-options a,#sitewide-notice #message p,.widget_bp_core_sitewide_messages.besclwp-sidebar-box .bp-site-wide-message p,#buddypress .standard-form button,#buddypress a.button,#buddypress .generic-button a,#buddypress .comment-reply-link,a.bp-title-button,#buddypress div.item-list-tabs ul li.selected a,#buddypress div.item-list-tabs ul li.active a,#buddypress li span.unread-count,#buddypress tr.unread span.unread-count,.widget.buddypress div.item-options a,#buddypress .bpfb_controls_container .qq-upload-button,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addPhotos.bpfb_toolbarItem,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addVideos.bpfb_toolbarItem,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addLinks.bpfb_toolbarItem,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addDocuments.bpfb_toolbarItem,body.besocial .rtmedia-list-item .rtmedia-album-media-count,body.besocial .rtm-options.rtm-options,button#rtmedia-add-media-button-post-update {
+    background: #427aa1;
+}
+body.besocial .rtm-options.rtm-options:after {
+    border-bottom-color: #427aa1;
+}
+#buddypress .activity-list li.load-more:hover,#buddypress .activity-list li.load-newest:hover,#buddypress div.activity-meta,#buddypress div.activity-meta a.delete-activity,#buddypress div.activity-meta a.delete-activity-single,#buddypress .acomment-options a.acomment-delete,#buddypress a.bp-primary-action span,#buddypress #reply-title small a span,#buddypress .acomment-options,#buddypress .acomment-options a:hover,#buddypress ul.button-nav li a:hover,#buddypress ul.button-nav li.current a,#buddypress .standard-form button:hover,#buddypress a.button:hover,#buddypress a.button:focus,#buddypress div.generic-button a:hover,#buddypress .comment-reply-link:hover,#buddypress .activity-list li.load-more.loading,.widget.buddypress div.item-options a:hover,.widget.buddypress div.item-options a:focus,#besocial-submenu #besocial-bdpress-mobile,#buddypress input.bpfb_primary_button,#buddypress input.bpfb_primary_button:hover,button#rtmedia-add-media-button-post-update:hover {
+    background: #3e6990;
+}
+#buddypress .bpfb_actions_container.bpfb-theme-new .bpfb_toolbarItem:active,#buddypress .bpfb_actions_container.bpfb-theme-new .bpfb_toolbarItem:hover,#buddypress .bpfb_actions_container.bpfb-theme-new .bpfb_toolbarItem.bpfb_active,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addPhotos.bpfb_toolbarItem:active,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addPhotos.bpfb_toolbarItem:hover,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addPhotos.bpfb_active,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addVideos.bpfb_toolbarItem:active,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addVideos.bpfb_toolbarItem:hover,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addVideos.bpfb_active,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addLinks.bpfb_toolbarItem:active,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addLinks.bpfb_toolbarItem:hover,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addLinks.bpfb_active,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addDocuments.bpfb_toolbarItem:active,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addDocuments.bpfb_toolbarItem:hover,#buddypress .bpfb_actions_container.bpfb-theme-new #bpfb_addDocuments.bpfb_active.bpfb_toolbarItem {
+    background: #2c3d55;
+}
+#buddypress div.activity-comments form.ac-form,#buddypress #whats-new-form,#buddypress div#message p,#sitewide-notice p,#buddypress p.error,#buddypress p.warning,#buddypress p.updated,#buddypress ul.button-nav li a,#buddypress table.notifications thead tr,#buddypress table.notifications-settings thead tr,#buddypress table.profile-settings thead tr,#buddypress table.profile-fields thead tr,#buddypress table.wp-profile-fields thead tr,#buddypress table.messages-notices thead tr,#buddypress table.forum thead tr,#buddypress div#message-thread p#message-recipients,#buddypress ul.acfb-holder li.friend-tab,#buddypress ul#topic-post-list li.alt,#buddypress .html-active button.switch-html,#buddypress .tmce-active button.switch-tmce,.besocial-bp-page-title,#buddypress .besocial-item-list-tabs li,#buddypress .besocial-invite-top ul,#buddypress .bp-cover-image-status p.warning,#buddypress #bbpress-forums div.bbp-template-notice,#buddypress #bbpress-forums div.indicator-hint,.widget_bps_widget #buddypress form .clear-value,.besocial-numeric-pagination ul li,input[type="file"],body.besocial .media_search.media_search .search_option,body.besocial .rtmedia-item-title,body.besocial .rtm-media-single-comments textarea,body.besocial .rtm-comment-list li,body.besocial .rtmedia-no-media-found {
+    background: #f1f1f1;
+}
+#buddypress #bbpress-forums div.bbp-the-content-wrapper input {
+    background: #f1f1f1 !important;
+}
+#buddypress #pass-strength-result,#buddypress div.item-list-tabs ul li a,#buddypress #header-cover-image,#buddypress #item-header {
+    background-color: #f1f1f1;
+}
+#buddypress div.item-list-tabs ul li.selected a span,#buddypress div.item-list-tabs ul li a span,#buddypress #cover-image-container .group-type {
+    background-color: #fff;
+}
+#buddypress .besocial-item-list-tabs li a span,#buddypress form#whats-new-form textarea,#buddypress .besocial-whats-new-text,#buddypress #whats-new-form #message,#besocial-preview-loader-container,#besocial-preview,#besocial-preview-thumb img {
+    background: #fff;
+}
+#buddypress #item-header-cover-image #item-header-avatar img.avatar,body.besocial .bmf-white-popup {
+    background: #fff !important;
+}
+#buddypress table.notifications,#buddypress table.notifications-settings,#buddypress table.profile-settings,#buddypress table.profile-fields,#buddypress table.wp-profile-fields,#buddypress table.messages-notices,#buddypress table.forum,#buddypress table.notifications td,#buddypress table.notifications-settings td,#buddypress table.profile-settings td,#buddypress table.profile-fields tr td,#buddypress table.wp-profile-fields td,#buddypress table.messages-notices td,#buddypress table.forum td,#buddypress div#message-thread div.message-box,#buddypress .wp-editor-container,#besocial-invite-list ul,#buddypress .besocial-member-outer,#buddypress .besocial-group-outer,#buddypress #bbpress-forums li.bbp-body,.besocial-notice-div,#front-end-post-form ul.cmb2-checkbox-list li {
+    border: 1px solid #f1f1f1;
+}
+#buddypress #whats-new-form {
+    border: 10px double #fff;
+}
+#buddypress form#whats-new-form textarea,#buddypress form#whats-new-form textarea:focus {
+    border-color: #fff;
+}
+#buddypress .bpfb_preview_photo_item {
+    border: 3px solid #fff;
+}
+#buddypress #besocial-preview-thumb img {
+    border: 5px solid #fff;
+}
+#buddypress #bbpress-forums input,#buddypress #bbpress-forums textarea,body.besocial .media_search.media_search .media_search_input {
+    border: 3px solid #f1f1f1;
+}
+body.activity-permalink #buddypress .activity-list li .activity-content,#buddypress table.notification-settings,#buddypress ul.item-list li,#buddypress #bbpress-forums #bbp-single-user-details #bbp-user-navigation a,.widget_bps_widget #buddypress form .radio {
+    border-bottom: 1px solid #f1f1f1;
+}
+#buddypress div.activity-comments ul li,#buddypress ul.item-list,#buddypress .bbp-topic-form,.bbp-reply-form,.bbp-topic-tag-form,.bp-notice-buttons,.widget_bps_widget #buddypress form .radio {
+    border-top: 1px solid #f1f1f1;
+}
+#buddypress .activity-list li.new_forum_post .activity-content .activity-inner,#buddypress .activity-list li.new_forum_topic .activity-content .activity-inner {
+    border-left: 2px solid #f1f1f1;
+}
+#buddypress .besocial-item-list-tabs li {
+    border-left: 3px solid #f1f1f1;
+}
+#buddypress div#message p,#sitewide-notice p,#buddypress div#message-thread p#message-recipients,#buddypress .besocial-item-list-tabs li.current,#buddypress .besocial-item-list-tabs li.selected,#buddypress .bps_filters,body.besocial .rtmedia-no-media-found {
+    border-left: 3px solid #427aa1;
+}
+.besocial-bp-page-title {
+    border-left: 5px solid #427aa1;
+}
+#besocial-preview-loader {
+    border-top-color: #427aa1 !important;
+}
+.widget.buddypress div.item-options a {
+    border-right:1px solid #3e6990;
+}
+@media only screen and (max-width: 480px) {
+    .bp-notice-buttons {
+        border-bottom: 1px solid #f1f1f1;
+    }
+    p.drag-drop-buttons input#bp-browse-button {
+        font-size: 14px;
+    }
+    #buddypress #whats-new-submit input,#buddypress .besocial-whats-new-text,body.activity-permalink #buddypress .activity-list li .activity-header span.time-since,#buddypress div.activity-header a.activity-time-since,#buddypress div.activity-comments a.activity-time-since,#buddypress a.activity-time-since,#buddypress #item-header-content span.activity,#buddypress a.bp-primary-action,#buddypress a.bp-secondary-action,#buddypress #reply-title small a,#buddypress .standard-form p.description,#buddypress .standard-form button,#buddypress a.button,#buddypress .generic-button a,#buddypress .comment-reply-link,a.bp-title-button,#buddypress .standard-form #profile-details-section .field-visibility-settings legend,#buddypress .profile .standard-form .field-visibility-settings legend,#buddypress .standard-form .field-visibility-settings-toggle,#buddypress .standard-form .field-visibility-settings-notoggle,#buddypress .field-visibility-settings-toggle,#group-create-body .radio ul li,#buddypress #cover-image-container .group-type,#buddypress .besocial-member-meta,#buddypress .besocial-group-meta,.besocial-member a.mutual-friends,#buddypress #bpfb_add_remote_image,#buddypress #bpfb_cancel_action,#buddypress #bpfb_link_url_preview,#buddypress input.bpfb_primary_button,#buddypress #bpfb_cancel,#buddypress #bpfb_video_url_preview,#buddypress #bpfb_remote_image_preview,#buddypress .bpfb_controls_container .qq-upload-button,.widget.buddypress div.item-options a,.widget_bps_widget #buddypress form .clear-value,#buddypress .message-metadata span.activity,#buddypress table#message-threads tr.unread td .thread-excerpt, #buddypress table#message-threads tr.unread td .activity, #buddypress table#message-threads tr.unread td.thread-options {
+        font-size: 12px;
+    }
+    #sitewide-notice strong {
+        font-size: 16px;
+    }
+    .widget_bp_core_sitewide_messages.besclwp-sidebar-box .bp-site-wide-message p strong,.bp-notice-subject p strong {
+        font-size: 22px;
+    }
+    .besocial-mentionname {
+        font-size: 20px;
+    }
+    #besocial-submenu #besocial-bdpress-mobile a {
+        font-size: 18px;
+    }
+}

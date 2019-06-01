@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'fontello';
+    src: url(../font/fontello.eot?63585644);
+    src: url(../font/fontello.eot?63585644#iefix) format("embedded-opentype"), url(../font/fontello.woff?63585644) format("woff"), url(../font/fontello.ttf?63585644) format("truetype"), url(../font/fontello.svg?63585644#fontello) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: 400;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-thumbs-up-1:before {
+    content: '\e800'
+}
+
+.icon-thumbs-down-1:before {
+    content: '\e801'
+}
+
+.icon-thumbs-down-alt:before {
+    content: '\e802'
+}
+
+.icon-thumbs-up-alt:before {
+    content: '\e803'
+}
+
+.icon-thumbs-down:before {
+    content: '\e804'
+}
+
+.icon-thumbs-up:before {
+    content: '\e805'
+}
+
+.icon-thumbs-down-3:before {
+    content: '\e806'
+}
+
+.icon-thumbs-up-3:before {
+    content: '\e807'
+}
+
+.icon-thumbs-down-4:before {
+    content: '\e808'
+}
+
+.icon-thumbs-up-4:before {
+    content: '\e809'
+}
+
+.icon-thumbs-down-2:before {
+    content: '\e80a'
+}
+
+.icon-thumbs-up-2:before {
+    content: '\e80b'
+}
+
+.icon-plus-circled:before {
+    content: '\e80c'
+}
+
+.icon-plus:before {
+    content: '\e80d'
+}
+
+.icon-minus:before {
+    content: '\e80e'
+}
+
+.icon-minus-circled:before {
+    content: '\e80f'
+}
+
+.icon-down:before {
+    content: '\e810'
+}
+
+.icon-down-big:before {
+    content: '\e811'
+}
+
+.icon-up:before {
+    content: '\e812'
+}
+
+.icon-up-big:before {
+    content: '\e813'
+}
+
+.icon-heart:before {
+    content: '\e814'
+}
+
+.icon-heart-broken:before {
+    content: '\e815'
+}
+
+.icon-star-empty:before {
+    content: '\e816'
+}
+
+.icon-star:before {
+    content: '\e817'
+}
+
+.icon-cancel-circle:before {
+    content: '\e818'
+}
+
+.icon-cancel:before {
+    content: '\e819'
+}
+
+.icon-ok-circle:before {
+    content: '\e81a'
+}
+
+.icon-ok:before {
+    content: '\e81b'
+}
+
+.besocial-container-like,
+.besocial-container-dislike,
+.besocial-container-like-comment,
+.besocial-container-dislike-comment {
+    font-weight: 700;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+
+.besocial-container-dislike,
+.besocial-container-dislike-comment,
+.besocial-container-dislike {
+    margin-left: 1px
+}
+
+.besocial-p-like-active,
+.besocial-p-like:hover,
+.besocial-p-dislike-active,
+.besocial-p-dislike:hover,
+.besocial-p-like-active-comment,
+.besocial-p-like-comment:hover,
+.besocial-p-dislike-active-comment,
+.besocial-p-dislike-comment:hover {
+    cursor: pointer
+}
+
+.besocial-align-left {
+    text-align: left
+}
+
+.besocial-align-center {
+    text-align: center
+}
+
+.besocial-align-right {
+    text-align: right
+}
+
+#activity-stream .besocial-container-vote,
+.besclwp-single-post-tags .besocial-container-vote {
+    position: absolute;
+    right: 0;
+    bottom: 6px
+}
+
+.besclwp_comment_text .besocial-container-vote-comment {
+    position: absolute;
+    right: 0;
+    bottom: -6px
+}
+
+.bbp-reply-content .besocial-container-vote {
+    position: absolute;
+    right: 20px;
+    bottom: 15px
+}
+
+.besclwp-single-post-tags .besocial-container-vote {
+    bottom: 5px
+}
+
+.besclwp-go-to-comments .besocial-container-vote {
+    display: inline-block;
+    margin-left: 10px
+}
+
+body.activity-permalink #buddypress .activity-list li .activity-content .besocial-container-vote {
+    bottom: 40px
+}
+
+div.besocial-p-like,div.besocial-p-like-comment,
+div.besocial-p-dislike,div.besocial-p-dislike-comment {
+    line-height: 30px;
+    padding: 0px 8px 0px 8px;
+}
+
+@media only screen and (max-width: 640px) {
+    .bbp-reply-content .besocial-container-vote {
+        top: -75px;
+        bottom: auto;
+        right: 0px;
+    }
+}

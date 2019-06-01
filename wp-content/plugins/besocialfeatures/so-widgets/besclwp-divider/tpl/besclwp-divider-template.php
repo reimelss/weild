@@ -1,0 +1,1 @@
+<?php echo "<hr style='margin-top:" . esc_attr($instance['margintop']) . "px; margin-bottom:" . esc_attr($instance['marginbottom']) . "px; background:" . esc_attr($instance['bgcolor']) . "; height:" . esc_attr($instance['thickness']) . "px;' />"; ?>

@@ -1,0 +1,306 @@
+/* ================= FONTS ================== */
+body,p {
+    font-family: 'Lato', sans-serif;
+}
+
+#wpadminbar *:not([class="ab-icon"]) {
+    font-family: 'Lato', sans-serif !important;
+}
+
+body,p,#header-menu .besclwp-nav,.besclwp-page-title.besclwp-page-quote-title .besclwp-subtitle span,.tab-with-posts h6 a {
+    font-size: 16px;
+}
+.besclwp-page-title .besclwp-post-cat-tags span,.besclwp-single-post-tags,.besclwp-format-quote p.besclwp-cite,.besclwp_comment_links a,.besclwp_comment_links,.widget_rss ul li .rssSummary,#wp-calendar tbody td,.footer-credits,.besclwp-post-slider-tags span,.besclwp_comments_rss,.tribe-events-loop .tribe-events-event-meta,.single-tribe_events a.tribe-events-ical,.single-tribe_events a.tribe-events-ical:hover,.single-tribe_events a.tribe-events-gcal,.single-tribe_events a.tribe-events-gcal:hover,.single-tribe_events .tribe-events-event-meta,.tribe-events-tooltip p.entry-summary {
+    font-size: 14px;
+}
+.besclwp-post-cat-tags span,.besclwp-article-box .besclwp-post-date,.besclwp-article-list-right .besclwp-post-date a,.besclwp-xs-article-box .besclwp-format-quote p.besclwp-cite,.widget_recent_entries ul li span.post-date,.widget_categories ul li span,#wp-calendar caption,#wp-calendar thead,#wp-calendar tfoot #next,#wp-calendar tfoot #prev,.tribe-events-tooltip .tribe-events-event-body {
+    font-size: 12px;
+}
+h1,#besocial-header-left span,#buddypress div#item-header-cover-image .user-nicename a, #buddypress div#item-header-cover-image .user-nicename,.besclwp-slider-title span,.single-tribe_events h1.tribe-events-single-event-title {
+    font-size: 32px;
+}
+
+h2,#header-menu .besclwp-toggle-menu,h2.tribe-events-page-title,#tribe-geo-results h2.tribe-events-page-title,.tribe-events-list-separator-year,.single-tribe_events h2.tribe-events-single-event-title,.tribe-events-list .type-tribe_events h2 {
+    font-size: 28px;
+}
+
+h3,.besclwp-subtitle,.besclwp-format-quote p,.besclwp-slider-subtitle span,.tribe-events-list-separator-month,.sow-features-feature h5,#buddypress .bboss-results-wrap h2.results-group-title {
+    font-size: 24px;
+}
+
+h4,.tribe-events-day .tribe-events-day-time-slot h5,.besclwp-post-carousel-overlay p {
+    font-size: 22px;
+}
+
+h5,blockquote p,.besocial-topbar-searchbox input[type="text"].besocial-topbar-searchtext,.besclwp-404-container p,.besclwp-xs-article-box .besclwp-format-quote p,.resp-tabs-list li,.besocial-car-img span {
+    font-size: 20px;
+}
+
+h6,.single-tribe_events .tribe-events-schedule h3,.tribe-events-meta-group .tribe-events-single-section-title,#tribe-events-content .tribe-events-tooltip h4,span.tribe-event-date-start,span.tribe-event-date-end,.besclwp-testimonial-center p,.single-tribe_events .tribe-events-schedule h2 {
+    font-size: 18px;
+}
+/* ================= WP ADMIN BAR ================== */
+#wpadminbar,#wpadminbar .ab-sub-wrapper{
+    background: #3e6990 !important;
+}
+
+#wpadminbar .ab-sub-wrapper,#wpadminbar .ab-item:hover{
+    background: #2c3d55 !important;
+}
+
+#wpadminbar .quicklinks .menupop ul.ab-sub-secondary, #wpadminbar .quicklinks .menupop ul.ab-sub-secondary .ab-submenu,.mejs-container, .mejs-container .mejs-controls, .mejs-embed, .mejs-embed body {
+    background: #324661 !important;
+}
+        
+#wpadminbar .ab-item,#wpadminbar .ab-item:before,#wpadminbar .ab-icon:before,#wpadminbar .ab-label,#wpadminbar .ab-icon,#wpadminbar .ab-icon,#wpadminbar .quicklinks li#wp-admin-bar-bp-notifications #ab-pending-notifications {
+    color:#ffffff !important;
+}
+
+#wpadminbar .quicklinks li#wp-admin-bar-bp-notifications #ab-pending-notifications, #wpadminbar .quicklinks li#wp-admin-bar-my-account a span.count, #wpadminbar .quicklinks li#wp-admin-bar-my-account-with-avatar a span.count,#wpadminbar .quicklinks li#wp-admin-bar-bp-notifications #ab-pending-notifications.alert {
+    background:#427aa1 !important;
+}
+
+/* ================= COLORS ================== */
+h1,h2,h3,h4,h5,h6,.besclwp-single-post-date,a,.slick-dots li button:before,.resp-tabs-list li,#bbpress-forums fieldset.bbp-form legend,.besocial-p-dislike.besocial-p-dislike-active,.besocial-p-dislike:hover,.besocial-p-dislike-comment.besocial-p-dislike-active-comment,.besocial-p-dislike-comment:hover,input[type="text"]:focus,input[type="tel"]:focus,input[type="search"]:focus,input[type="email"]:focus,input[type="number"]:focus,input[type="date"]:focus,input[type="password"]:focus,input[type="url"]:focus,textarea:focus,.besocial-button.besclwp-light,.besocial-button.besclwp-light:hover,#tribe-events-content .tribe-events-tooltip h4,#tribe_events_filters_wrapper .tribe_events_slider_val,.single-tribe_events a.tribe-events-ical,.single-tribe_events a.tribe-events-gcal { 
+    color:#2c3d55; 
+}
+
+#besocial-icon-menu,#header-menu .besclwp-nav li ul,#header-menu .besclwp-nav > li:hover,#header-menu .besclwp-nav > li:focus,#header-menu .besclwp-nav > li:active,#footer-info-fullwidth,#footer .tagcloud a,#footer a[class^="tag"],#footer .besclwp-accordion-header, #footer .besclwp-accordion-content,#footer .slick-dots,#footer .besclwp-article-content,#footer .resp-tabs-list li:hover,#footer .resp-tabs-list li.resp-tab-active,#footer .resp-tabs-container,#footer .resp-tab-active,#footer .resp-vtabs .resp-tabs-list li:hover,#footer .resp-vtabs .resp-tabs-list li.resp-tab-active,#footer .besclwp-article-list-img,#footer .besclwp-article-list-right,#footer .widget_mc4wp_form_widget,.besclwp-post-slider-tags span.besclwp-post-slider-date,#footer .selectric {
+    background-color:#2c3d55; 
+}
+
+#footer .selectric {
+    border-color:#2c3d55;
+}
+
+#besocial-sidemenu > li:hover,#besocial-sidemenu > li.active,#besocial-sidemenu > li .sidemenu-sub,#footer,.besclwp-footer-icon a:hover:before,#bbpress-forums #bbp-your-profile fieldset span.description { 
+    background-color:#324661; 
+}
+
+#besocial-sidemenu > li > a { 
+    box-shadow: inset 0 -1px 0 #324661; 
+}
+
+.besclwp-footer-icon a,.footer-credits { 
+    box-shadow: inset -1px 0 0 #324661; 
+}
+
+input[type="submit"]:hover,.besocial-button:hover,button[type="submit"]:hover,input[type="button"]:hover,#besocial-sidemenu > li:first-child,#besocial-header-right,.besocial-topbar-searchbox input[type="submit"],.besocial-topbar-searchbox input[type="text"].besocial-topbar-searchtext,.selectric-items li.highlighted,.selectric-items li:hover,.selectric-items li.selected,.besocial-car-img:after,.tribe-events-read-more:hover,.tribe-events-button:hover,#tribe-bar-form .tribe-bar-submit input[type=submit]:hover,#tribe_events_filters_wrapper input[type=submit]:hover,.tribe-events-button.tribe-active:hover,.tribe-events-calendar thead th,.besclwp-view-more a:hover { 
+    background:#3e6990; 
+}
+
+#besocial-icon-menu-toggle {
+    border:5px solid #3e6990;
+}
+
+a:hover,.besclwp-highlight,#besocial-sidemenu > li > a,.besclwp-post-cat-tags span a:hover,.besclwp-post-date a:hover,.widget_recent_entries ul li a:hover,.widget_categories ul li a:hover,.widget_recent_comments ul li a:hover,.widget_pages ul li a:hover,.widget_meta ul li a:hover,.widget_archive ul li a:hover,.widget_archives ul li a:hover,.widget_recent-posts ul li a:hover,.widget_rss ul li a:hover,.widget_nav_menu div ul > li a:hover,.recentcomments a:hover,.besclwp-footer-icon a:before,.bbp-header #subscription-toggle a,#subscription-toggle,.widget_display_forums ul li a:hover,.widget_display_views ul li a:hover,.widget_display_stats ul li a:hover,.widget_display_replies ul li a:hover,.widget_display_topics ul li a:hover,.besocial-p-like.besocial-p-like-active,.besocial-p-like:hover,.besocial-p-like-comment:hover,.besocial-p-like-comment.besocial-p-like-active-comment,.widget_mc4wp_form_widget:after,code,pre { 
+    color:#427aa1; 
+}
+
+input[type="submit"],.besocial-button,button[type="submit"],input[type="button"],#header-menu .besclwp-nav > li,.besclwp-format-img-box,.widget_categories ul li span,.besclwp-post-slider-tags span,#bbpress-forums li.bbp-header,#subscription-toggle,.widget_display_stats ul li strong,#bbpress-forums #bbp-single-user-details #bbp-user-navigation li.current a,.selectric-items,.tb-close-icon,.besclwp-statistics-icon-inner,.besclwp-faq-cat-title span,.besocial-faq-menu ul li.besocial-faq-title,.besocial-faq-menu li a span,span.besclwp-page-title-count,.tribe-events-read-more,.tribe-events-day .tribe-events-day-time-slot h5,.tribe-events-calendar td.tribe-events-present div[id*='tribe-events-daynum-'],.tribe-events-calendar td.tribe-events-present div[id*='tribe-events-daynum-'] > a,#tribe_events_filters_wrapper input[type=submit],.tribe-events-button,#tribe-events .tribe-events-button,.tribe-events-button.tribe-inactive,#tribe-bar-form .tribe-bar-submit input[type=submit],#tribe-events .tribe-events-button:hover,.tribe-events-button.tribe-active:hover,#besocial-icon-menu-toggle,.single-tribe_events .tribe-events-schedule .tribe-events-cost,.besclwp-view-more a { 
+    background:#427aa1; 
+}
+
+#besocial-loading-animation .spinner > div,#besocial-sidemenu > li[data-count="0"] > a > .icon-count,#besocial-sidemenu > li[data-count="0"] .icon-count-list,#besocial-sidemenu > li .icon-count-list.default-blue,#besocial-sidemenu > li .sidemenu-sub h5 span,#besocial-header-outer,.besclwp-format-icon:after,.slick-arrow,.slick-arrow:hover,.slick-arrow:active,.slick-arrow:focus,.featherlight .featherlight-close-icon,.besclwp-lightbox-icon,.bbp-row-actions #favorite-toggle a:hover,.bbp-row-actions #favorite-toggle span.is-favorite a,.bbp-row-actions #favorite-toggle span.is-favorite a:hover,.bbp-row-actions #subscription-toggle a,.bbp-row-actions #subscription-toggle a:hover,.bbp-row-actions #favorite-toggle a,.bbp-row-actions #subscription-toggle a,.besclwp_comments_block h3 span,.besocial-car-img { 
+    background-color:#427aa1; 
+}
+
+.besclwp-page-title { 
+    border-left:7px solid #427aa1; 
+}
+
+.besclwp-widget-title {
+    border-left:5px solid #427aa1; 
+}
+
+div.bbp-template-notice,div.indicator-hint,div.bbp-template-notice.info,#besclwp-no-results-message,.besocial-faq-menu ul li.besocial-faq-title,.tribe-events-notices {
+    border-left:3px solid #427aa1; 
+}
+
+.post.sticky {
+    border-top:5px solid #427aa1; 
+}
+
+.featherlight-loading .featherlight-content {
+    border-left-color:#427aa1;
+}
+
+.selectric-focus .selectric,.selectric-open .selectric,div.wpcf7-mail-sent-ok, div.wpcf7-mail-sent-ng, div.wpcf7-spam-blocked, div.wpcf7-validation-errors {
+    border-color: #427aa1;
+}
+
+.selectric-hover .selectric .button:after {
+    border-top-color: #427aa1;
+}
+
+#tribe-bar-form input[type=text]:focus
+{
+	border-bottom:1px solid #427aa1
+}
+
+body,p,.tagcloud a,a[class^="tag"],.besclwp_comment_links a,.besclwp_comment_links,.besclwp-post-cat-tags span a,.besclwp-post-date a,.besclwp-subtitle,.widget_recent_entries ul li a,.widget_categories ul li a,.widget_recent_comments ul li a,.widget_pages ul li a,.widget_meta ul li a,.widget_archive ul li a,.widget_archives ul li a,.widget_recent-posts ul li a,.widget_rss ul li a,.widget_nav_menu div ul > li a,.recentcomments a,.widget_display_forums ul li a,.widget_display_views ul li a,.widget_display_stats ul li a,.widget_display_replies ul li a,.widget_display_topics ul li a,.besocial-p-like,.besocial-p-dislike,.besocial-p-like-comment,.besocial-p-dislike-comment,#bbpress-forums div.bbp-meta a,input[type="text"],input[type="email"],input[type="number"],input[type="date"],input[type="password"],input[type="url"],input[type="tel"],input[type="search"],textarea,.tribe-events-calendar div[id*='tribe-events-daynum-'],.tribe-events-calendar div[id*='tribe-events-daynum-'] a,.tribe-events-calendar div[id*='tribe-events-daynum-'] a:hover,.tribe-events-calendar td.tribe-events-past div[id*='tribe-events-daynum-'],.tribe-events-calendar td.tribe-events-past div[id*='tribe-events-daynum-'] > a,.tab-with-posts h6 a,body.besocial .bboss_ajax_search_item .item .item-desc { 
+    color:#6b717e; 
+}
+
+body,code,pre,.tagcloud a,a[class^="tag"],#wp-calendar tbody td,.besclwp-post-content .besclwp-accordion-header,.besclwp-post-content .besclwp-accordion-content,.besclwp-post-content .besclwp-article-box .besclwp-article-content,.besclwp-post-content .resp-tabs-list li:hover,.besclwp-post-content .resp-tabs-list li.resp-tab-active,.besclwp-post-content .resp-tabs-container,.besclwp-post-content .resp-tab-active,.besclwp-post-content .resp-vtabs .resp-tabs-list li:hover,.besclwp-post-content .resp-vtabs .resp-tabs-list li.resp-tab-active,#bbpress-forums div.bbp-the-content-wrapper input,#bbpress-forums #bbp-single-user-details #bbp-user-navigation a,#besocial-loading-overlay,hr,#tribe-bar-form,#tribe-bar-collapse-toggle,.tribe-events-notices,.single-tribe_events .tribe-events-event-meta,.tribe-events-calendar div[id*='tribe-events-daynum-'],.tribe-events-calendar div[id*='tribe-events-daynum-'] a,div.wpcf7-mail-sent-ok,div.wpcf7-mail-sent-ng,div.wpcf7-spam-blocked,div.wpcf7-validation-errors,div.besocial-p-like,div.besocial-p-like-comment,div.besocial-p-dislike,div.besocial-p-dislike-comment,.besclwp-page-links { 
+    background-color:#f1f1f1; 
+}
+
+body.besocial .bb-global-search-ac li.bbls-category,body.besocial .bb-global-search-ac.ui-menu .ui-menu-item:last-child,body.besocial .bb-global-search-ac.ui-menu .ui-menu-item.ui-state-hover:last-child,body.besocial .bb-global-search-ac.ui-menu .ui-menu-item.ui-state-focus:last-child { 
+    background:#f1f1f1 !important; 
+}
+
+blockquote {
+    border-left:5px solid #f1f1f1;
+}
+
+.widget_nav_menu div ul ul {
+    border-left:3px solid #f1f1f1;
+}
+
+input[type="text"],input[type="email"],input[type="number"],input[type="date"],input[type="password"],input[type="url"],textarea,.selectric,input[type="tel"],input[type="search"] {
+    border:3px solid #f1f1f1;
+}
+
+.widget_recent_entries ul li,.widget_categories ul li,.widget_recent_comments ul li,.widget_pages ul li,.widget_meta ul li,.widget_archive ul li,.widget_archives ul li,.widget_recent-posts ul li,.widget_rss ul li,.widget_nav_menu div ul > li,.recentcomments,.widget_display_forums ul li,.widget_display_views ul li,.widget_display_stats ul li,.widget_display_replies ul li,.widget_display_topics ul li,.besclwp-statistics,.besclwp-post-top-bar,.besclwp-testimonial,body.besocial .tribe-events-list .type-tribe_events,.tribe-events-list-separator-month:after,#tribe-events-content table.tribe-events-calendar,body.besocial .bb-global-search-ac li:not(.bbls-category) .bboss_ajax_search_item {
+    border-bottom:1px solid #f1f1f1;
+}
+
+#bbpress-forums li.bbp-body ul.forum,#bbpress-forums li.bbp-body ul.topic,.single-tribe_events #tribe-events-footer,.tribe-events-day #tribe-events-footer,.events-list #tribe-events-footer,.tribe-events-map #tribe-events-footer,.tribe-events-photo #tribe-events-footer {
+    border-top: 1px solid #f1f1f1;
+}
+
+#bbpress-forums .bbp-user-section {
+    border-top: 5px solid #f1f1f1;
+}
+
+#bbpress-forums #bbp-single-user-details #bbp-user-avatar img.avatar {
+    border: 5px solid #f1f1f1;
+}
+
+.besclwp-share-buttons {
+    border-top: 3px solid #f1f1f1;
+}
+
+#bbp-user-body ul.bbp-lead-topic,#bbp-user-body ul.bbp-topics,#bbp-user-body ul.bbp-forums,#bbp-user-body ul.bbp-replies,#bbp-user-body ul.bbp-search-results,#tribe-events-content .tribe-events-calendar td,.bboss_search_results_wrapper .besclwp-article-list,.bboss_search_page .besclwp_comment,.besocial-global-search-box,#besocial-bp-widgets .besclwp-article-list,#besocial-bp-widgets-mobile .besclwp-article-list {
+    border: 1px solid #f1f1f1;
+}
+
+.besclwp-testimonial.testimonial-left .besclwp-testimonial-left img {
+    border-bottom: 15px solid #f1f1f1;
+    border-right: 15px solid #f1f1f1;
+}
+
+.besclwp-testimonial.testimonial-right .besclwp-testimonial-left img {
+    border-bottom: 15px solid #f1f1f1;
+    border-left: 15px solid #f1f1f1;
+}
+
+input[type="submit"],.besocial-button,button[type="submit"],input[type="button"],input[type="submit"],.besocial-button:hover,button[type="submit"]:hover,input[type="button"]:hover,#besocial-sidemenu > li > a:hover,#besocial-sidemenu > li.active > a,#besocial-sidemenu > li:first-child > a,#besocial-sidemenu > li:first-child > a,#besocial-sidemenu > li .icon-count,#besocial-sidemenu .icon-count-list,#besocial-sidemenu > li .sidemenu-sub h5 span,#besocial-sidemenu > li .sidemenu-sub > li > a:hover,#besocial-sidemenu > li .sidemenu-sub h5,#besocial-header-left span,#besocial-header-left a,#besocial-header-right,.besocial-topbar-searchbox input[type="submit"],.besocial-topbar-searchbox input[type="text"].besocial-topbar-searchtext,#header-menu .besclwp-toggle-menu,#header-menu .besclwp-toggle-menu,#header-menu .besclwp-toggle-menu:hover,#header-menu .besclwp-nav a,#header-menu .besclwp-nav > .activelink > a,#header-menu .besclwp-nav li a:hover,#header-menu .besclwp-nav li li .parent:after,#header-menu .besclwp-nav li .parent:after,.besclwp-format-icon:after,.besclwp-format-img-content h3,.widget_categories ul li span,#footer h1,#footer h2,#footer h3,#footer h4,#footer h5,#footer a:hover,.besclwp-footer-icon a:hover:before,.slick-arrow,.slick-arrow:hover,.slick-arrow:active,.slick-arrow:focus,.featherlight .featherlight-close-icon,.besclwp-lightbox-icon,.besclwp-post-slider-tags span,.besclwp-post-slider-tags span a,#footer .resp-tabs-list li,#bbpress-forums li.bbp-header,#bbpress-forums li.bbp-header a,#bbpress-forums div.bbp-forum-title h3,#bbpress-forums div.bbp-forum-title h3 a,#bbpress-forums div.bbp-topic-title h3,#bbpress-forums div.bbp-topic-title h3 a,#bbpress-forums div.bbp-reply-title h3,#bbpress-forums div.bbp-reply-title h3 a,#bbpress-forums li.bbp-header a,#subscription-toggle a,#subscription-toggle,.bbp-row-actions #favorite-toggle a,.bbp-row-actions #subscription-toggle a,.bbp-row-actions #favorite-toggle a:hover,.bbp-row-actions #favorite-toggle span.is-favorite a,.bbp-row-actions #favorite-toggle span.is-favorite a:hover,.bbp-row-actions #subscription-toggle a,.bbp-row-actions #subscription-toggle a:hover,#bbpress-forums #bbp-your-profile fieldset span.description,.widget_display_stats ul li strong,#bbpress-forums #bbp-single-user-details #bbp-user-navigation li.current a,.selectric-items li,.besclwp-statistics-icon span,.besclwp_comments_block h3 span,.wp-social-login-provider,.wp-social-login-provider:hover,#besocial-header-login-profile,#besocial-header-login-profile a,.besocial-car-img span,.besclwp-faq-cat-title span,.besocial-faq-menu li a span,.besocial-faq-menu ul li.besocial-faq-title,span.besclwp-page-title-count,.tribe-events-read-more,.tribe-events-read-more:hover,.tribe-events-button.tribe-inactive,.tribe-events-button:hover,#tribe-events .tribe-events-button:hover,.tribe-events-button.tribe-active:hover,.tribe-events-day .tribe-events-day-time-slot h5,.tribe-events-calendar thead th,#footer a.besocial-button,#besocial-icon-menu-toggle,.single-tribe_events .tribe-events-schedule .tribe-events-cost,.besclwp-view-more a { 
+    color:#ffffff; 
+}
+
+.tb-close-icon,.tb-close-icon:before,#buddypress .bboss_search_page div.item-list-tabs ul li.active a {
+    color:#ffffff !important;
+}
+
+input[type="text"],input[type="email"],input[type="number"],input[type="date"],input[type="password"],input[type="url"],input[type="tel"],input[type="search"],textarea,.besclwp-article-content,.besclwp-page-title,.besclwp-pager,.besclwp-accordion-header,.besclwp-accordion-content,.slick-dots,.besclwp-article-list-row,.besclwp-article-list-img,.besclwp-widget-title,div.bbp-breadcrumb,#bbpress-forums div.bbp-topic-tags p,.bbp-pagination-links a,.bbp-pagination-links span.current,div.bbp-template-notice,div.indicator-hint,.selectric,.besocial-button.besclwp-light,.besocial-button.besclwp-light:hover,#breadcrumbs,.besclwp-faq-cat-title,#besclwp-no-results-message,.besocial-faq-menu li,#buddypress #whats-new-form #message p { 
+    background:#ffffff; 
+}
+
+.besclwp-post-content,.besclwp_comment_form,.besclwp-format-video-wrapper,.besclwp-sidebar-box,.besclwp-single-post-nav,.besclwp_comments_block,.besclwp-author-box,.besclwp-post-slider,.slick-dots.besclwp-gallery-dots,.slick-dots.besclwp-slider-dots,.besclwp-post-format-gallery,#besclwp-gallery-slider,.besclwp-format-gallery-carousel,.besclwp-post-slider,.featherlight .featherlight-content,.resp-tabs-list li:hover,.resp-tabs-list li.resp-tab-active,.resp-tabs-container,.resp-tab-active,.resp-vtabs .resp-tabs-list li:hover,.resp-vtabs .resp-tabs-list li.resp-tab-active,#bbpress-forums div.even,#bbpress-forums div.odd,#bbpress-forums ul.even,#bbpress-forums ul.odd,body.topic-edit .bbp-topic-form div.avatar img,body.reply-edit .bbp-reply-form div.avatar img,body.single-forum .bbp-topic-form div.avatar img,body.single-reply .bbp-reply-form div.avatar img,#bbpress-forums div.bbp-the-content-wrapper div.quicktags-toolbar,#besclwp-facebook-comments,.widget_mc4wp_form_widget,.tribe-events-list-separator-month span,.tribe-events-calendar .tribe-events-tooltip,.tribe-events-week .tribe-events-tooltip,.tribe-events-shortcode.view-week .tribe-events-tooltip,.recurring-info-tooltip,body.besocial .bb-global-search-ac.ui-autocomplete { 
+    background-color:#ffffff; 
+}
+
+.besclwp-sidebar-box.widget_search.widget_search .besocial-searchbox input[type="text"].besocial-searchtext,#bbpress-forums div.bbp-the-content-wrapper textarea.bbp-the-content,.widget_product_search input[type="search"] { 
+    border: 3px solid #ffffff; 
+}
+
+.besocial-faq-menu li {
+    border-left: 3px solid #ffffff; 
+}
+
+.tagcloud .besclwp-tag-count { 
+    border-left: 1px solid #ffffff; 
+}
+
+#wp-calendar tbody td {
+    border: 1px solid #ffffff;
+}
+
+.bbp-topic-form,.bbp-reply-form,.bbp-topic-tag-form {
+    border-top: 1px solid #ffffff;
+}
+
+.featherlight-loading .featherlight-content {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+    border-right-color: #ffffff;
+}
+#bbpress-forums #bbp-single-user-details #bbp-user-navigation a,#tribe-bar-form input[type=text] {
+    border-bottom: 1px solid #ffffff;
+}
+#besocial-sidemenu > li .sidemenu-sub > li > a,#header-menu .besclwp-nav ul a,#footer,#footer a,#footer p,#footer .slick-dots li button:before,#besocial-sidemenu > li .sidemenu-sub > li > p {
+    color:#bfbdc1;
+}
+/* ================= TRANSPARENT COLORS  ================== */
+#besocial-sidemenu > li .sidemenu-sub h5 {
+    border-bottom:1px solid rgba(255,255,255,0.05);
+}
+#besocial-sidemenu > li .sidemenu-sub > li > a {
+    border-bottom:1px solid rgba(255,255,255,0.05);
+}
+
+#header-menu .besclwp-nav li ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.featherlight {
+    background:rgba(255,255,255,0.7);
+}
+/* ================= OTHERS  ================== */
+#header-menu .besclwp-nav ul { 
+    width:15em; 
+}
+body.buddypress .bmf-spinner {
+    background-image:url('../images/loader.gif');
+}
+/* ================= MEDIA  ================== */
+@media only screen and (max-width: 1170px) {
+    #header-menu .besclwp-nav > li:hover,#header-menu .besclwp-nav > li:focus,#header-menu .besclwp-nav > li:active {
+    background-color: #427aa1;
+}
+}
+@media only screen and (max-width: 700px) {
+    .footer-credits {
+        border-bottom:1px solid #324661;
+    }
+    .besclwp-footer-icon a:hover:before {
+        background:#2c3d55;
+    }
+}
+@media only screen and (max-width: 480px) {
+    h1,#besocial-header-left span,#buddypress div#item-header-cover-image .user-nicename a, #buddypress div#item-header-cover-image .user-nicename,.besclwp-slider-title span,.single-tribe_events h1.tribe-events-single-event-title {
+        font-size: 26px;
+    }
+    h2,#header-menu .besclwp-toggle-menu,h2.tribe-events-page-title,#tribe-geo-results h2.tribe-events-page-title,.tribe-events-list-separator-year,.single-tribe_events h2.tribe-events-single-event-title,.tribe-events-list .type-tribe_events h2 {
+        font-size: 24px;
+    }
+    h3,.besclwp-subtitle,.besclwp-format-quote p,.tribe-events-list-separator-month,.sow-features-feature h5 {
+        font-size: 22px;
+    }
+    h4,.tribe-events-day .tribe-events-day-time-slot h5 {
+        font-size: 20px;
+    }
+    h5,blockquote p,.besocial-topbar-searchbox input[type="text"].besocial-topbar-searchtext,.besclwp-404-container p,.besclwp-xs-article-box .besclwp-format-quote p,.resp-tabs-list li,.besocial-car-img span,.besclwp-slider-subtitle span,.besclwp-testimonial-center p {
+        font-size: 18px;
+    }
+    h6,.single-tribe_events .tribe-events-schedule h3,.tribe-events-meta-group .tribe-events-single-section-title,#tribe-events-content .tribe-events-tooltip h4,span.tribe-event-date-start,span.tribe-event-date-end,.besclwp-post-carousel-overlay p,.besclwp-testimonial-center p,.single-tribe_events .tribe-events-schedule h2 {
+        font-size: 16px;
+    }
+    body,p,#header-menu .besclwp-nav,.besclwp-page-title.besclwp-page-quote-title .besclwp-subtitle span,.tab-with-posts h6 a {
+        font-size: 14px;
+    }
+    .besclwp-page-title .besclwp-post-cat-tags span,.besclwp-single-post-tags,.besclwp-format-quote p.besclwp-cite,.besclwp_comment_links a,.besclwp_comment_links,.widget_rss ul li .rssSummary,#wp-calendar tbody td,.footer-credits,.besclwp-post-slider-tags span,.besclwp_comments_rss,.tribe-events-loop .tribe-events-event-meta,.single-tribe_events a.tribe-events-ical,.single-tribe_events a.tribe-events-ical:hover,.single-tribe_events a.tribe-events-gcal,.single-tribe_events a.tribe-events-gcal:hover,.single-tribe_events .tribe-events-event-meta,.tribe-events-tooltip p.entry-summary {
+        font-size: 12px;
+    }
+}

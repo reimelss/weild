@@ -1,0 +1,269 @@
+/** Theme My Login plugin CSS **/
+.tml * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tml .error,
+.tml .message {
+    padding:15px 20px;
+    background-color: #f1f1f1;
+}
+
+.tml .error {
+    border-left:3px solid #c0392b;
+}
+
+.tml .message {
+    border-left:3px solid #427aa1;
+}
+
+.tml p {
+    margin: 0 0 1.5em 0;
+    padding: 0;
+}
+
+.tml label {
+    display: block;
+    text-align: left;
+}
+
+.tml .tml-rememberme-wrap label {
+    display: inline;
+    padding-left:3px;
+}
+
+.tml input,
+.tml textarea,
+.tml select {
+    margin: 0.5em 0;
+    width: 100%;
+}
+
+.tml input[type="checkbox"],
+.tml input[type="radio"],
+.tml .tml-rememberme-wrap input {
+    vertical-align: middle;
+    width: auto;
+}
+
+.tml .tml-action-links {
+    display: block;
+    list-style: none;
+    margin: 40px -40px -15px -40px;
+    padding: 20px 40px 0px 40px;
+    text-align: center;
+    border-top:3px solid #ebe9e9;
+}
+
+.tml .tml-action-links li {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    float: left;
+    line-height: 1;
+    list-style: none;
+    margin: 0 0.5em 0 0;
+    padding: 0 0.5em 0 0;
+}
+
+.tml .tml-action-links li:last-child {
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.tml .tml-action-links a {
+    border: none;
+    display: block;
+    padding: 0;
+    text-decoration: none;
+}
+
+.tml .tml-rememberme-submit-wrap:before,
+.tml .tml-rememberme-submit-wrap:after,
+.tml .tml-action-links:before,
+.tml .tml-action-links:after {
+    content: "";
+    display: table;
+}
+
+.tml .tml-rememberme-submit-wrap:after,
+.tml .tml-action-links:after {
+    clear: both;
+}
+
+.tml .tml-user-avatar {
+    text-align: left;
+}
+
+.mu_register .hint {
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.mu_register label.checkbox {
+    display: inline;
+}
+
+#pass-strength-result {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    color: #23282d;
+    font-weight: 600;
+    margin: 0;
+    padding: 3px 5px;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+}
+
+#pass-strength-result.short {
+    background-color: #f1adad;
+    border-color: #e35b5b;
+    opacity: 1;
+}
+
+#pass-strength-result.bad {
+    background-color: #fbc5a9;
+    border-color: #f78b53;
+    opacity: 1;
+}
+
+#pass-strength-result.good {
+    background-color: #ffe399;
+    border-color: #ffc733;
+    opacity: 1;
+}
+
+#pass-strength-result.strong {
+    background-color: #c1e1b9;
+    border-color: #83c373;
+    opacity: 1;
+}
+
+.pw-weak {
+    display: none;
+}
+
+.indicator-hint {
+    padding-top: 8px;
+}
+
+#pass1,
+#pass1-text {
+    width: 100%;
+}
+
+#pass1-text,
+.show-password #pass1 {
+    display: none;
+}
+
+.show-password #pass1-text {
+    display: inline-block;
+}
+
+
+/* ================= CUSTOM ================== */
+
+.tml-user-links li {
+    list-style: none;
+}
+
+.widget_theme_my_login.besclwp-sidebar-box {
+    padding: 0px !important;
+    background-color: transparent;
+}
+
+.widget_theme_my_login h3 {
+    margin: 0px 0px 3px 0px;
+    padding: 30px 40px;
+    background: #fff;
+}
+
+.tml-login,.tml-user-panel,.tml-register,.tml-lostpassword  {
+    padding:40px;
+    background:#fff;
+}
+
+.besclwp-post-content .tml-login,.besclwp-post-content .tml-user-panel,.besclwp-post-content .tml-register,.besclwp-post-content .tml-lostpassword {
+    padding:0px;
+    background-color: transparent;
+}
+
+.tml-user-panel {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.tml-user-avatar,
+.tml-user-links {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tml-user-links {
+    padding-right: 0px;
+    text-align: right;
+}
+
+.tml-user-links li {
+    line-height: 2;
+}
+
+.tml-user-avatar img {
+    vertical-align: bottom;
+}
+
+.tml .tml-rememberme-wrap {
+    vertical-align:top;
+}
+
+.tml .g-recaptcha {
+    margin-bottom:20px;
+}
+
+/* ================= MEDIA ================== */
+
+@media screen and (min-width: 768px) {
+    .tml .tml-submit-wrap input {
+        width: auto;
+    }
+    .tml-login .tml-rememberme-submit-wrap {
+        display: table;
+        margin-bottom: 1.5em;
+        width: 100%;
+    }
+    .tml-login .tml-rememberme-wrap {
+        display: table-cell;
+    }
+    .tml-login .tml-rememberme-wrap input {
+        margin: 0;
+    }
+    .tml-login .tml-submit-wrap {
+        display: table-cell;
+        text-align: right;
+    }
+    .tml-login .tml-submit-wrap input {
+        margin: 0;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .tml-user-avatar img {
+        max-width: 80px !important;
+        height: auto;
+    }
+    .widget_theme_my_login.besclwp-sidebar-box h4,
+    .tml-user-panel,.tml-login,.tml-register,.tml-lostpassword {
+        padding: 20px;
+    }
+    .tml .tml-action-links {
+        margin: 30px -20px 0px -20px;
+        padding: 20px 20px 0px 20px;
+    }
+}

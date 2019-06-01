@@ -1,0 +1,8 @@
+0000.000 (1) Opened log file at time: Sat, 01 Jun 2019 19:36:23 +0000 on http://localhost/dev/weildco
+0000.001 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.8 WP: 5.0.3 PHP: 7.2.17-0ubuntu0.18.04.1 (apache2handler, Linux shammi-HP-Laptop-15-da0xxx 4.15.0-50-generic #54-Ubuntu SMP Mon May 6 18:46:08 UTC 2019 x86_64) MySQL: 5.7.26-0ubuntu0.18.04.1 WPLANG: en_US Server: Apache/2.4.29 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 15.4M | 12M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.001 (1) Free space on disk containing Updraft's temporary directory: 800280.1 MB
+0000.001 (1) This backup task (6533f539330b) is either complete or began over 2 days ago: ending (1559417783.287, ) (existing jobdata keys: )
+0000.000 (1) Opened log file at time: Sat, 01 Jun 2019 19:39:02 +0000 on http://localhost/dev/weildco
+0000.001 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.8 WP: 5.0.3 PHP: 7.2.17-0ubuntu0.18.04.1 (apache2handler, Linux shammi-HP-Laptop-15-da0xxx 4.15.0-50-generic #54-Ubuntu SMP Mon May 6 18:46:08 UTC 2019 x86_64) MySQL: 5.7.26-0ubuntu0.18.04.1 WPLANG: en_US Server: Apache/2.4.29 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 15.3M | 18M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.002 (1) Free space on disk containing Updraft's temporary directory: 800351.4 MB
+0000.003 (1) This backup task (6533f539330b) is either complete or began over 2 days ago: ending (1559417942.582, ) (existing jobdata keys: )

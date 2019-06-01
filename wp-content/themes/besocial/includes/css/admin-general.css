@@ -1,0 +1,99 @@
+.cmb2-wrap input[type="text"],
+.cmb2-wrap input[type="number"],
+.cmb2-wrap textarea {
+    width: 100% !important;
+}
+#setting-error-besclwp {
+    width:100%;
+    padding:0px;
+    display:block;
+}
+#setting-error-besclwp p{
+    padding:20px;
+}
+#besclwp-delete-social {
+    padding:20px 0px;
+    display:block;
+}
+#besclwp-delete-social .button {
+    float:right;
+}
+.cmb2-wrap span.wp-picker-input-wrap {
+    position:relative;
+    width:150px;
+    display:inline-block !important;
+}
+.cmb2-wrap .wp-picker-clear {
+    margin:0px 0px 0px 10px !important;
+}
+#cmb2-metabox-besclwp_sidebar .cmb2-id-besclwp-cmb2-sidebar {
+    margin:0px;
+    padding:10px 0px 0px 0px !important;
+}
+.cmb2-radio-list li label img {
+    display:inline-block;
+    vertical-align:bottom;
+    margin-bottom:-3px;
+}
+.cmb2-radio-list li {
+    padding-bottom:10px;
+}
+#besclwp_gallery,#besclwp_audio,#besclwp_link,#besclwp_video,#besclwp_image {
+    display: none;
+}
+#cmb2-metabox-besclwp_image .cmb2-upload-button,#cmb2-metabox-besclwp_bg_image .cmb2-upload-button {
+    margin-left:0px;
+    margin-top: 5px;
+}
+#besclwp-social-wrapper,#besclwp-iconmenu-wrapper {
+    position: relative;
+    margin:40px 20px 0px 20px;
+    padding:40px;
+    display:block;
+    max-width:940px;
+    background:#fff;
+}
+#cmb2-metabox-besclwpiconmenu_option_metabox {
+    margin-bottom:15px;
+}
+.besclwp-social-title span {
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1;
+    display: block;
+}
+.besclwp-social-title .dashicons {
+    display:inline-block;
+    margin-right:10px;
+}
+p.besclwp-social-subitle {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom:30px;
+}
+#besclwp-delete-iconmenu {
+    position:absolute;
+    bottom:40px;
+    right:40px;
+}
+.besclwp-cat-img {
+    max-height: 24px;
+    height: 100%;
+    width: auto;
+}
+.cmb2-id-besclwp-cmb2-review-items {
+    padding:40px !important;
+    background:#f9f9f9;
+    max-width:100% !important;
+}
+.cmb2-id-besclwp-cmb2-general-review, .cmb2-id-besclwp-cmb2-review-subtitle, .cmb2-id-besclwp-cmb2-review-desc, .cmb2-id-besclwp-cmb2-review-items,.cmb2-id-besclwp-cmb2-review-placement {
+    display:none;
+}
+.cmb2-id-besclwp-cmb2-display-reviews {
+    border:none !important;
+}
+.manage-column.column-likes,.manage-column.column-dislikes {
+    width:80px;
+}

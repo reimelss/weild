@@ -1,0 +1,228 @@
+/* ---------------------- 
+Stylesheet Guide
+-------------------------
+
+WIDGET TITLE AND SUBTITLE
+WIDGET VIEW MORE
+STATISTICS
+STATISTIC
+POST SLIDER
+ACCORDION
+FAQ
+TABS
+MEDIA
+
+*/
+
+/* ================= WIDGET TITLE AND SUBTITLE ================== */
+
+.besclwp-widget-title {
+    border:none !important;
+}
+
+/* ================= WIDGET VIEW MORE ================== */
+
+.besclwp-view-more {
+    text-align: left;
+}
+
+.besclwp-view-more a .fa:before {
+    content:"\f177";
+}
+
+/* ================= STATISTICS ================== */
+
+
+.besclwp-statistics-title,
+.besclwp-statistics-number {
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+.besclwp-statistics-number {
+    text-align: left;
+    padding-left: 0px;
+}
+
+
+/* ================= STATISTIC ================== */
+
+
+.besclwp-statistic-title,
+.besclwp-statistic-number {
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+.besclwp-statistic-number {
+    text-align: left;
+    padding-left: 0px;
+}
+
+/* ================= POST SLIDER ================== */
+
+.besclwp-post-slider .besclwp-format-icon {
+    left: 30px;
+    right: auto;
+}
+
+.besclwp-post-slider-thumbnails .slick-dots.besclwp-slider-dots {
+    text-align: right;
+}
+
+.besclwp-post-slider-desc {
+    right: 0px;
+    left: auto;
+}
+
+.besclwp-woo-price del {
+    padding-right:0px;
+    padding-left: 5px;
+}
+
+.besclwp-post-slider-tags {
+    margin: 0px 0px 0px 70px;
+    left: auto;
+    right: 15px;
+}
+
+.besclwp-post-slider-tags span {
+    margin: 0px 0px 3px 3px;
+    float: right;
+}
+
+.besclwp-post-slider-thumbnails .slick-dots.besclwp-slider-dots li {
+    float: right;
+}
+
+.slick-prev, .slick-next {
+    border-radius: 0px !important;
+}
+
+
+/* ================= ACCORDION ================== */
+
+.besclwp-accordion-header:after {
+    left: 15px;
+    right: auto;
+}
+
+.besclwp-accordion-content ul,
+.besclwp-accordion-content ol {
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+
+/* ================= FAQ ================== */
+
+.besclwp-faq-right {
+    float: left;
+}
+
+.besclwp-faq-left {
+    float: right;
+    padding-right: 0px;
+    padding-left: 40px;
+}
+
+.besclwp-faq-cat-title {
+    padding: 20px 20px 20px 45px;
+}
+
+.besclwp-faq-cat-title span {
+    left: 20px;
+    right: auto;
+}
+
+#besclwp-live-search-container .besclwp-live-search-icon:before {
+    left: 20px;
+    right: auto;
+}
+
+/* FAQ Navigation */
+
+.besocial-faq-menu li a {
+    padding-left: 20px;
+    padding-right: 0px;
+}
+
+.besocial-faq-menu li a span {
+    left: 0px;
+    right: auto;
+}
+
+span.besclwp-page-title-count {
+    left: 20px;
+    right: auto;
+}
+
+/* ================= TABS ================== */
+
+.resp-tabs-list li {
+    float: right;
+}
+.resp-tabs-container {
+    clear: right;
+}
+
+.resp-tab-content ul,.resp-tab-content ol {
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+/*-----------Vertical tabs-----------*/
+.resp-vtabs ul.resp-tabs-list {
+    float: right;
+}
+.resp-vtabs .resp-tabs-container {
+    float: right;
+}
+.resp-arrow {
+    float: left;
+}
+
+/* ================= MEDIA ================== */
+
+@media only screen and (max-width: 1170px) {
+    .besclwp-faq-left,
+    .besclwp-faq-right {
+        width: 100%;
+        padding: 0px;
+    }
+    .besclwp-faq-left {
+        margin-bottom: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .besclwp-post-slider-desc {
+        right: 0;
+        left: 0;
+    }
+    .besclwp-post-slider-tags {
+        margin: 0px 0px 0px 50px;
+        right: 20px;
+        left: auto;
+    }
+    .besclwp-post-slider .besclwp-format-icon {
+        left: 20px;
+        right: auto;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    h6.resp-accordion {
+        padding-left: 0px !important;
+        padding-right: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .besclwp-statistics-title,
+    .besclwp-statistics-number {
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+}

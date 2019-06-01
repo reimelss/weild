@@ -1,0 +1,4040 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: besocial/templates/formats/content/content-gallery.php:66
+#: besocial/templates/formats/content/content-gallery.php:72
+#: besocial/templates/formats/content/content.php:50
+#: besocial/templates/formats/content/content.php:56
+#: besocial/templates/formats/content/content-audio.php:45
+#: besocial/templates/formats/content/content-audio.php:51
+#: besocial/templates/formats/content/content-video.php:45
+#: besocial/templates/formats/content/content-video.php:51
+#: besocial/templates/formats/content/content-quote.php:41
+#: besocial/templates/formats/content/content-quote.php:47
+#: besocial/templates/formats/content/content-image.php:58
+#: besocial/templates/formats/content/content-image.php:64
+#: besocial/templates/formats/excerpt/masonry/post.php:28
+#: besocial/templates/formats/excerpt/masonry/post.php:34
+#: besocial/templates/formats/excerpt/masonry/post-quote.php:29
+#: besocial/templates/formats/excerpt/masonry/post-quote.php:35
+#: besocial/templates/formats/excerpt/masonry/post-gallery.php:49
+#: besocial/templates/formats/excerpt/masonry/post-gallery.php:55
+#: besocial/templates/formats/excerpt/masonry/post-video.php:41
+#: besocial/templates/formats/excerpt/masonry/post-video.php:47
+#: besocial/templates/formats/excerpt/masonry/post-audio.php:28
+#: besocial/templates/formats/excerpt/masonry/post-audio.php:34
+#: besocial/templates/formats/excerpt/masonry/post-image.php:61
+#: besocial/templates/formats/excerpt/masonry/post-image.php:67
+msgid "% comments"
+msgstr ""
+
+#. Text in function
+#: besocial/comments.php:32
+msgid "%1$d %2$s for \"%3$s\""
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:699
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/members/single/profile/profile-wp.php:28
+msgid "%s's Profile"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/activity.php:42
+#: besocial/buddypress/members/single/activity.php:57
+msgid "&mdash; Everything &mdash;"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/activity/index.php:160
+msgid "&mdash; Show Everything &mdash;"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/groups/single/admin/group-settings.php:82
+#: besocial/buddypress/groups/create.php:159
+msgid "&ndash; %s"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:699
+msgid "(Edit)"
+msgstr ""
+
+#. Text in function
+#: besocial/bbpress/form-topic.php:115
+msgid "(No Forum)"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/manage-members.php:254
+msgid "(banned)"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:84
+#: besocial/buddypress/members/register.php:95
+#: besocial/buddypress/members/register.php:106
+#: besocial/buddypress/members/register.php:118
+#: besocial/buddypress/members/register.php:278
+#: besocial/buddypress/members/register.php:294
+msgid "(required)"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/forums/index.php:190
+msgid "----"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/formats/content/content-gallery.php:66
+#: besocial/templates/formats/content/content-gallery.php:72
+#: besocial/templates/formats/content/content.php:50
+#: besocial/templates/formats/content/content.php:56
+#: besocial/templates/formats/content/content-audio.php:45
+#: besocial/templates/formats/content/content-audio.php:51
+#: besocial/templates/formats/content/content-video.php:45
+#: besocial/templates/formats/content/content-video.php:51
+#: besocial/templates/formats/content/content-quote.php:41
+#: besocial/templates/formats/content/content-quote.php:47
+#: besocial/templates/formats/content/content-image.php:58
+#: besocial/templates/formats/content/content-image.php:64
+#: besocial/templates/formats/excerpt/masonry/post.php:28
+#: besocial/templates/formats/excerpt/masonry/post.php:34
+#: besocial/templates/formats/excerpt/masonry/post-quote.php:29
+#: besocial/templates/formats/excerpt/masonry/post-quote.php:35
+#: besocial/templates/formats/excerpt/masonry/post-gallery.php:49
+#: besocial/templates/formats/excerpt/masonry/post-gallery.php:55
+#: besocial/templates/formats/excerpt/masonry/post-video.php:41
+#: besocial/templates/formats/excerpt/masonry/post-video.php:47
+#: besocial/templates/formats/excerpt/masonry/post-audio.php:28
+#: besocial/templates/formats/excerpt/masonry/post-audio.php:34
+#: besocial/templates/formats/excerpt/masonry/post-image.php:61
+#: besocial/templates/formats/excerpt/masonry/post-image.php:67
+msgid "1 comment"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "1024px"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "1024x576px (16:9)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "1200px"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "1360x765 px (16:9)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "240x240px (Square)"
+msgstr ""
+
+#. Text in echo
+#: besocial/404.php:3
+msgid "404"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "480px"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "480x360 px (4:3)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "640px"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "768px"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/activity/comment.php:48
+msgid "<a href=\"%1$s\">%2$s</a> replied <a href=\"%3$s\" class=\"activity-time-since\"><span class=\"time-since\" data-livestamp=\"%4$s\">%5$s</span></a>"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/groups/create.php:205
+msgid "<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s\">correct setup and configuration</a> of a bbPress installation."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/profile/profile-wp.php:71
+msgid "AOL Messenger"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/profile/profile-wp.php:44
+msgid "About Me"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/groups/single/requests-loop.php:57
+#: besocial/buddypress/members/single/groups/invites.php:78
+#: besocial/buddypress/members/single/friends/requests.php:93
+msgid "Accept"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:82
+msgid "Account Details"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/settings/general.php:21
+msgid "Account Email"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/messages-loop.php:85
+msgid "Actions"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/activate.php:59
+msgid "Activate"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Activate Facebook Comments"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Activate Related Posts"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/activate.php:55
+msgid "Activation Key:"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+#: besocial/buddypress/members/single/activity.php:11
+#: besocial/templates/iconmenu/activity-menu.php:9
+msgid "Activity"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Activity (After)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Activity (Before)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Activity Menu Title"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Add Another Icon"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Add Another Link"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/bp-functions.php:1
+#: besocial/templates/iconmenu/blog-menu.php:19
+msgid "Add New Post"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Additional Margin Bottom"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Additional Margin Top"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/manage-members.php:25
+msgid "Administrators"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/groups/index.php:61
+msgid "All Groups %s"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/activity/index.php:60
+#: besocial/buddypress/members/index.php:61
+msgid "All Members %s"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/blogs/index.php:62
+msgid "All Sites %s"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/forums/index.php:60
+msgid "All Topics %s"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:104
+#: besocial/buddypress/groups/create.php:182
+msgid "All group members"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/send-invites.php:54
+msgid "All of your friends already belong to this group."
+msgstr ""
+
+#. Text in function
+#: besocial/templates/authorpage-template.php:4
+#: besocial/templates/authorpage-template.php:18
+msgid "All posts by"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Allow only featured members"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/blogs/index.php:102
+#: besocial/buddypress/groups/index.php:99
+#: besocial/buddypress/members/index.php:99
+#: besocial/buddypress/members/single/friends.php:26
+#: besocial/buddypress/members/single/groups.php:27
+#: besocial/buddypress/members/single/blogs.php:23
+msgid "Alphabetical"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "An additional bottom margin in pixels."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "An additional top margin in pixels."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Android"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Animated Gif"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:45
+#: besocial/buddypress/groups/create.php:123
+msgid "Any site member can join this group."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Apple"
+msgstr ""
+
+#. Text in echo
+#: besocial/woocommerce/cart/cart.php:142
+msgid "Apply coupon"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Archive and search page layout"
+msgstr ""
+
+#. Text in echo
+#: besocial/includes/social-icons.php:39
+msgid "Are you sure you want to delete all icons?"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Audio url"
+msgstr ""
+
+#. Text in function
+#: besocial/woocommerce/cart/cart.php:121
+msgid "Available on backorder"
+msgstr ""
+
+#. Text in function
+#: besocial/woocommerce/single-product/product-image.php:46
+msgid "Awaiting product image"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:769
+msgid "BP Profile Search"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/create.php:460
+msgid "Back to Previous Step"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Background Image"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "BbPress Forums Icon"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:769
+msgid "Besocial Features"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:769
+msgid "Besocial Rating System"
+msgstr ""
+
+#. Text in echo
+#: besocial/index.php:92
+#: besocial/includes/bp-functions.php:1
+#: besocial/includes/theme-settings.php:1392
+#: besocial/includes/icon-menu-settings.php:49
+#: besocial/buddypress/members/single/plugins.php:30
+msgid "Blog"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Blog (After)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Blog (Before)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/bp-functions.php:1
+msgid "Blog <span class=\"%s\">%s</span>"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:272
+msgid "Blog Details"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Blog Menu Title"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Blog Subtitle"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:278
+msgid "Blog URL"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Breakpoint"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:769
+#: besocial/includes/theme-settings.php:1392
+msgid "BuddyPress"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "BuddyPress Activity Icon"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "BuddyPress Blog Icon"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "BuddyPress Friends Icon"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:769
+msgid "BuddyPress Global Search"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "BuddyPress Groups Icon"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "BuddyPress Messages Icon"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "BuddyPress Mobile Menu Icon"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "BuddyPress Notifications Icon"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "BuddyPress Profile Icon"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "BuddyPress Settings Icon"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "BuddyPress default group cover image (1320x340px)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "BuddyPress default profile cover image (1320x340px)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "By default WordPress checks notifications once every 60 seconds."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:769
+msgid "CMB2"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/forums/index.php:215
+#: besocial/buddypress/activity/entry.php:159
+msgid "Cancel"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/assets/_attachments/avatars/camera.php:24
+msgid "Capture"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Card Width"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/profile/edit.php:60
+msgid "Change"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/profile/change-cover-image.php:11
+#: besocial/templates/iconmenu/profile-menu.php:18
+msgid "Change Cover Image"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/profile/change-avatar.php:11
+#: besocial/templates/iconmenu/profile-menu.php:16
+msgid "Change Profile Photo"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:106
+msgid "Choose a Password"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Click to view Font Awesome icon list"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:202
+#: besocial/buddypress/members/single/profile/edit.php:71
+msgid "Close"
+msgstr ""
+
+#. Text in echo
+#: besocial/mutual-buddies/friends-loop-dialog.php:34
+msgid "Close (Esc)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Color 1"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Color 2"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Color 3"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Color 4"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Color 5"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Color 6"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Color 7"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Color 8"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Color Scheme"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/activity/entry.php:153
+msgid "Comment"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/activity/entry.php:98
+msgid "Comment %s"
+msgstr ""
+
+#. Text in echo
+#: besocial/comments.php:6
+msgid "Comments"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/request-membership.php:25
+msgid "Comments (optional)"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:354
+msgid "Complete Sign Up"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/messages-menu.php:19
+msgid "Compose"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/compose.php:10
+msgid "Compose Message"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:118
+msgid "Confirm Password"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:769
+msgid "Contact Form 7"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/forums/index.php:181
+#: besocial/buddypress/groups/single/forum.php:108
+msgid "Content:"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/members/single/messages/single.php:38
+msgid "Conversation between %s and you."
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/members/single/messages/single.php:34
+msgid "Conversation between %s recipients."
+msgstr ""
+
+#. Text in echo
+#: besocial/woocommerce/cart/cart.php:139
+msgid "Coupon code"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-cover-image.php:11
+#: besocial/buddypress/groups/create.php:348
+msgid "Cover Image"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Cover Images"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/create.php:474
+msgid "Create Group and Continue"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/form-topic.php:39
+msgid "Create New Topic"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/forums/index.php:168
+msgid "Create New Topic:"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/groups-menu.php:22
+msgid "Create a Group"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/groups/single/cover-image-header.php:34
+#: besocial/buddypress/groups/single/group-header.php:32
+msgid "Created"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/create.php:277
+msgid "Crop Group Profile Photo"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-avatar.php:57
+#: besocial/buddypress/groups/create.php:285
+#: besocial/buddypress/members/single/profile/change-avatar.php:60
+#: besocial/buddypress/assets/_attachments/avatars/crop.php:23
+msgid "Crop Image"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-avatar.php:49
+msgid "Crop Profile Photo"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/profile/change-avatar.php:52
+msgid "Crop Your New Profile Photo"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/settings/general.php:16
+msgid "Current Password <span>(required to update email or change current password)</span>"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Custom CSS"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Custom Page Loading Image"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Custom icon:"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Dark"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Data Order by"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/notifications/notifications-loop.php:20
+msgid "Date Received"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Default"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Default Shop Subtitle"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Default color code is #2c3d55"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Default color code is #324661"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Default color code is #3e6990"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Default color code is #427aa1"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Default color code is #6b717e"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Default color code is #bfbdc1"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Default color code is #f1f1f1"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Default color code is #ffffff"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/activity/comment.php:44
+#: besocial/buddypress/members/single/messages/messages-loop.php:147
+#: besocial/buddypress/members/single/messages/single.php:44
+msgid "Delete"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/settings/delete-account.php:43
+msgid "Delete Account"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/single.php:44
+msgid "Delete Conversation"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/delete-group.php:11
+#: besocial/buddypress/groups/single/admin/delete-group.php:38
+msgid "Delete Group"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/assets/_attachments/cover-images/index.php:30
+msgid "Delete Group Cover Image"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/groups/single/admin/group-avatar.php:31
+#: besocial/buddypress/assets/_attachments/avatars/index.php:41
+msgid "Delete Group Profile Photo"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/notices-loop.php:61
+msgid "Delete Message"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/assets/_attachments/cover-images/index.php:27
+msgid "Delete My Cover Image"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/profile/change-avatar.php:45
+#: besocial/buddypress/assets/_attachments/avatars/index.php:38
+msgid "Delete My Profile Photo"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/settings/delete-account.php:20
+msgid "Deleting this account will delete all of the content it has created. It will be completely irrecoverable."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/settings/delete-account.php:16
+msgid "Deleting your account will delete all of the content you have created. It will be completely irrecoverable."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/manage-members.php:78
+#: besocial/buddypress/groups/single/admin/manage-members.php:175
+msgid "Demote to Member"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Destination Url (Required)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Destination url"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Disable"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Disable All Members Activity"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Disable BuddyPress Icon Menu"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Disable FAQ Search"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Disable Fixed Header"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Disable Lightbox"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Disable Sticky Sidebar Plugin"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Disable group cover image"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Disable profile cover image"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/cmb2-field-sorter.php:1
+msgid "Disabled"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Display Featured Image on All Standard Posts"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Display an image carousel on masonry grid pages"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Display animated gif on the single post page"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Display featured image on the single post page"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Display in masonry grid"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Dribbble"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/assets/_attachments/uploader.php:23
+msgid "Drop your file here"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Dropdown Menu Width"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Dropdown Menu Width (em)"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/profile-menu.php:15
+msgid "Edit Profile"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:95
+msgid "Email Address"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/settings-menu.php:14
+msgid "Email Notifications"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/content-statistics.php:29
+msgid "Empty Topic Tags"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Enable Media Upload"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Enable Page Loading Animation"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:27
+#: besocial/buddypress/groups/create.php:201
+msgid "Enable discussion forum"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Enable live notifications"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Enable media upload"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Enable thumbnail carousel"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Enable user blog"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/cmb2-field-sorter.php:1
+msgid "Enabled"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Enter a Spotify or Soundcloud URL."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Enter a Youtube, Vimeo, Dailymotion, Vine, VideoPress or WordPress.tv URL."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Example; http://www.themeforest.net"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Extended Profile Field ID"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Facebook"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Facebook APP ID (REQUIRED)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Facebook Comments"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/activity/entry.php:106
+msgid "Favorite"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/forums-menu.php:15
+#: besocial/templates/iconmenu/activity-menu.php:15
+msgid "Favorites"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/create.php:481
+msgid "Finish"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Flickr"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Font-Family"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Fonts"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:175
+msgid "Footer"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:1
+msgid "Footer Icons"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Footer text"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "For more information, please read the help documentation."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Format: Audio"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Format: Gallery"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Format: Image"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Format: Link"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Format: Video"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/forum.php:38
+msgid "Forum Directory"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/form-topic.php:114
+msgid "Forum:"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+#: besocial/buddypress/members/single/forums.php:11
+#: besocial/bbpress/content-statistics.php:19
+#: besocial/templates/iconmenu/forums-menu.php:9
+msgid "Forums"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Forums (After)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Forums (Before)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Forums Menu Title"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/forums/index.php:58
+msgid "Forums directory main navigation"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/forums/index.php:80
+msgid "Forums secondary navigation"
+msgstr ""
+
+#. Text in echo
+#: besocial/includes/functions.php:148
+#: besocial/includes/functions.php:171
+#: besocial/includes/theme-settings.php:1392
+msgid "Four Columns"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/forums/forums-loop.php:54
+msgid "Freshness"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+#: besocial/buddypress/members/single/friends.php:11
+#: besocial/buddypress/members/single/friends.php:59
+#: besocial/templates/iconmenu/activity-menu.php:16
+#: besocial/templates/iconmenu/friends-menu.php:12
+#: besocial/mutual-buddies/friends-loop-dialog.php:24
+msgid "Friends"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Friends (After)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Friends (Before)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Friends Menu Title"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/friends-menu.php:16
+msgid "Friendships"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/messages-loop.php:63
+msgid "From"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/messages-loop.php:104
+msgid "From:"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+#: besocial/includes/theme-settings.php:1392
+msgid "Full"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+#: besocial/includes/theme-settings.php:1392
+msgid "Fullwidth"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+#: besocial/templates/iconmenu/settings-menu.php:13
+msgid "General"
+msgstr ""
+
+#. Text in echo
+#: besocial/templates/headers/relative-template.php:38
+#: besocial/templates/headers/fixed-template.php:38
+msgid "Go"
+msgstr ""
+
+#. Text in echo
+#: besocial/templates/footericons-template.php:27
+msgid "Go To Top"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Google"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Google Plus"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Google Web Fonts Code"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Google Web Fonts Code (For more information please read the HELP DOCUMENTION)"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/home.php:59
+msgid "Group Admins"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-avatar.php:11
+#: besocial/buddypress/groups/create.php:348
+msgid "Group Avatar"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/edit-details.php:25
+#: besocial/buddypress/groups/create.php:79
+msgid "Group Description (required)"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/create.php:348
+msgid "Group Details"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/create.php:194
+msgid "Group Forums"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:98
+#: besocial/buddypress/groups/create.php:176
+msgid "Group Invitations"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/create.php:348
+msgid "Group Invites"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/home.php:79
+msgid "Group Mods"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/edit-details.php:22
+#: besocial/buddypress/groups/create.php:74
+msgid "Group Name (required)"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/create.php:348
+msgid "Group Settings"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:74
+#: besocial/buddypress/groups/create.php:152
+msgid "Group Types"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:106
+#: besocial/buddypress/groups/create.php:184
+msgid "Group admins and mods only"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:108
+#: besocial/buddypress/groups/create.php:186
+msgid "Group admins only"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:47
+#: besocial/buddypress/groups/create.php:125
+msgid "Group content and activity will be visible to any site member."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:63
+#: besocial/buddypress/groups/create.php:141
+msgid "Group content and activity will only be visible to members of the group."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/send-invites.php:45
+msgid "Group invitations can only be extended to friends."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/home.php:39
+msgid "Group primary navigation"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/forum.php:24
+#: besocial/buddypress/groups/single/admin.php:10
+msgid "Group secondary navigation"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+#: besocial/buddypress/members/single/groups.php:11
+#: besocial/templates/iconmenu/groups-menu.php:16
+#: besocial/templates/iconmenu/activity-menu.php:17
+msgid "Groups"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Groups (After)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Groups (Before)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Groups Menu Title"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/index.php:111
+msgid "Groups directory"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/index.php:59
+msgid "Groups directory main navigation"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/index.php:79
+msgid "Groups directory secondary navigation"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "H1"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "H1 Font Size (px)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "H2"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "H2 Font Size (px)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "H3"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "H3 Font Size (px)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "H4"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "H4 Font Size (px)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "H5"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "H5 Font Size (px)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "H6"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "H6 Font Size (px)"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/content-statistics.php:41
+msgid "Hidden Replies"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/content-statistics.php:35
+msgid "Hidden Topics"
+msgstr ""
+
+#. Text in echo
+#: besocial/404.php:4
+#: besocial/search.php:151
+msgid "Home"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Horizontal/Vertical"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/delete-group.php:26
+msgid "I understand the consequences of deleting this group."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/settings/delete-account.php:39
+msgid "I understand the consequences."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+#: besocial/includes/icon-menu-settings.php:1
+msgid "Icon Menu"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Icon {#}"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "If screen width is less than breakpoint, the plugin will be disabled."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "If you dont need to add a copyright message to your website, leave this field blank."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/assets/_attachments/cover-images/index.php:26
+msgid "If you'd like to delete your current cover image but not upload a new one, please use the delete Cover Image button."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/profile/change-avatar.php:44
+#: besocial/buddypress/assets/_attachments/avatars/index.php:37
+msgid "If you'd like to delete your current profile photo but not upload a new one, please use the delete profile photo button."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/assets/_attachments/cover-images/index.php:29
+msgid "If you'd like to remove the existing group cover image but not upload a new one, please use the delete group cover image button."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-avatar.php:29
+#: besocial/buddypress/assets/_attachments/avatars/index.php:40
+msgid "If you'd like to remove the existing group profile photo but not upload a new one, please use the delete group profile photo button."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Image Position"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Images"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/messages-menu.php:16
+msgid "Inbox"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Instagram"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/groups-menu.php:21
+msgid "Invitations"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "It uses post tags to find related articles. Only posts with featured images will be displayed."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "It will be displayed on masonry pages instead of the featured image."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/profile/profile-wp.php:62
+msgid "Jabber"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/form-topic.php:184
+msgid "Keep a log of this edit:"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/manage-members.php:285
+msgid "Kick &amp; Ban"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+#: besocial/includes/theme-settings.php:1392
+msgid "Large"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/forums/index.php:98
+#: besocial/buddypress/blogs/index.php:100
+#: besocial/buddypress/groups/index.php:96
+#: besocial/buddypress/groups/single/forum.php:54
+#: besocial/buddypress/members/index.php:96
+#: besocial/buddypress/members/single/forums.php:23
+#: besocial/buddypress/members/single/friends.php:24
+#: besocial/buddypress/members/single/groups.php:24
+#: besocial/buddypress/members/single/blogs.php:21
+msgid "Last Active"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/groups/single/cover-image-header.php:35
+#: besocial/buddypress/groups/single/group-header.php:33
+msgid "Last activity was"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:721
+#: besocial/includes/functions.php:141
+#: besocial/includes/functions.php:166
+#: besocial/includes/custom-fields.php:1
+msgid "Layout"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Layout of the bbPress pages"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Light"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Link text (Required)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Link {#}"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Link:"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Linkedin"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Live Notifications"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/activity/activity-loop.php:35
+#: besocial/mutual-buddies/friends-loop-dialog.php:44
+msgid "Load More"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Loaders"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Logo"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/settings-menu.php:17
+msgid "Logout"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/settings/general.php:17
+msgid "Lost your password?"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:721
+msgid "Main Menu for Logged-in users"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:721
+msgid "Main Menu for Logged-out users"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:175
+msgid "Main Sidebar"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:175
+msgid "Main Sidebar Widget Field."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/edit-details.php:11
+msgid "Manage Group Details"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:11
+msgid "Manage Group Settings"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/manage-members.php:11
+msgid "Manage Members"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/membership-requests.php:11
+msgid "Manage Membership Requests"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Masonry Style"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Maximum excerpt length"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Maximum number of related posts"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Maximum number of the products"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Maximum number of thumbnails"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Maximum number of thumbnails you want to display on masonry grid pages."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Maximum number of user posts"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Maximum number of user posts (pagination)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Maximum number of words in user cards. To remove user bios and group descriptions from the cards, select zero."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Maximum title length"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+#: besocial/includes/theme-settings.php:1392
+msgid "Medium"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Member & Group Cards"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/home.php:47
+msgid "Member primary navigation"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/settings.php:13
+#: besocial/buddypress/members/single/plugins.php:34
+#: besocial/buddypress/members/single/forums.php:13
+#: besocial/buddypress/members/single/friends.php:13
+#: besocial/buddypress/members/single/notifications.php:13
+#: besocial/buddypress/members/single/activity.php:13
+#: besocial/buddypress/members/single/profile.php:13
+#: besocial/buddypress/members/single/groups.php:13
+#: besocial/buddypress/members/single/messages.php:13
+#: besocial/buddypress/members/single/blogs.php:11
+msgid "Member secondary navigation"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/bp-functions.php:373
+#: besocial/buddypress/members/single/member-header.php:34
+#: besocial/buddypress/members/single/cover-image-header.php:38
+msgid "Member since"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/manage-members.php:222
+msgid "Members"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/index.php:113
+msgid "Members directory"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/index.php:59
+msgid "Members directory main navigation"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/index.php:79
+msgid "Members directory secondary navigation"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/groups-menu.php:20
+msgid "Memberships"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/activity/index.php:129
+#: besocial/templates/iconmenu/activity-menu.php:14
+msgid "Mentions"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/home.php:49
+#: besocial/templates/iconmenu/tml-menu.php:14
+#: besocial/templates/iconmenu/tml-menu.php:28
+msgid "Menu"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/compose.php:41
+msgid "Message"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+#: besocial/buddypress/members/single/messages.php:11
+#: besocial/templates/iconmenu/messages-menu.php:12
+msgid "Messages"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Messages (After)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Messages (Before)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Messages Menu Title"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages.php:47
+msgid "Messages inbox"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/manage-members.php:125
+msgid "Moderators"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Modern"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "More Settings"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/index.php:97
+#: besocial/buddypress/members/single/groups.php:25
+msgid "Most Members"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/forums/index.php:99
+#: besocial/buddypress/groups/single/forum.php:55
+#: besocial/buddypress/members/single/forums.php:24
+msgid "Most Posts"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/plugins.php:26
+#: besocial/mutual-buddies/friends-loop-dialog.php:24
+msgid "Mutual Friends"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Mutual friends loader"
+msgstr ""
+
+#. Text in echo
+#: besocial/templates/iconmenu/woocommerce-menu.php:15
+msgid "My Account"
+msgstr ""
+
+#. Text in echo
+#: besocial/templates/iconmenu/blog-menu.php:13
+msgid "My Blog"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/activity/index.php:114
+msgid "My Favorites %s"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/activity/index.php:78
+#: besocial/buddypress/members/index.php:64
+msgid "My Friends %s"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/activity/index.php:97
+#: besocial/buddypress/groups/index.php:64
+msgid "My Groups %s"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/activity/post-form.php:61
+msgid "My Profile"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/profile-menu.php:21
+msgid "My Sites"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/blogs/index.php:66
+msgid "My Sites %s"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/forums/index.php:64
+msgid "My Topics %s"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/friends.php:59
+msgid "My friends"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/groups.php:61
+msgid "My groups"
+msgstr ""
+
+#. Text in function
+#: besocial/woocommerce/single-product/meta.php:32
+msgid "N/A"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/profile/profile-wp.php:35
+msgid "Name"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/settings/general.php:24
+msgid "New Password"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/forum.php:30
+msgid "New Topic"
+msgstr ""
+
+#. Text in function
+#: besocial/comments.php:20
+msgid "Newer comments"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+#: besocial/buddypress/blogs/index.php:101
+#: besocial/buddypress/members/single/blogs.php:22
+msgid "Newest"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/index.php:97
+#: besocial/buddypress/members/single/friends.php:25
+msgid "Newest Registered"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/index.php:98
+#: besocial/buddypress/members/single/groups.php:26
+msgid "Newly Created"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/create.php:467
+msgid "Next Step"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:317
+msgid "No"
+msgstr ""
+
+#. Text in echo
+#: besocial/search.php:150
+msgid "No Results Found"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "No breakpoint"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/manage-members.php:116
+msgid "No group administrators were found."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/manage-members.php:328
+msgid "No group members were found."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/manage-members.php:213
+msgid "No group moderators were found."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress-global-search/no-results-groups.php:2
+msgid "No groups found!"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/members.php:169
+msgid "No members were found."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "None"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/messages-menu.php:21
+msgid "Notices"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/notifications/notifications-loop.php:19
+msgid "Notification"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+#: besocial/buddypress/members/single/notifications.php:11
+#: besocial/buddypress/members/single/notifications/read.php:13
+#: besocial/templates/iconmenu/notifications-menu.php:11
+msgid "Notifications"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Notifications (After)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Notifications (Before)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Notifications Menu Title"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/edit-details.php:39
+msgid "Notify group members of these changes via email"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/form-topic.php:168
+msgid "Notify me of follow-up replies via email"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/form-topic.php:164
+msgid "Notify the author of follow-up replies via email"
+msgstr ""
+
+#. Text in function
+#: besocial/bbpress/form-topic.php:39
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Number of the comments"
+msgstr ""
+
+#. Text in function
+#: besocial/comments.php:17
+msgid "Older comments"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Oldest"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/create.php:415
+msgid "Once you have built up friend connections you will be able to invite others to your group."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/send-invites.php:46
+msgid "Once you've made some friendships, you'll be able to invite those members to this group."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "One Column + Sidebar"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:61
+#: besocial/buddypress/groups/create.php:139
+msgid "Only users who are invited can join the group."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:53
+#: besocial/buddypress/groups/create.php:131
+msgid "Only users who request membership and are accepted can join the group."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Open in a new tab"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Open link in a new tab"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Open links in a new tab"
+msgstr ""
+
+#. Text in function
+#: besocial/bbpress/form-topic.php:188
+msgid "Optional reason for editing:"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Page Loading Background Color"
+msgstr ""
+
+#. Text in echo
+#: besocial/404.php:3
+msgid "Page Not Found"
+msgstr ""
+
+#. Text in function
+#: besocial/pagewithsidebar.php:30
+#: besocial/templates/formats/content/content-gallery.php:86
+#: besocial/templates/formats/content/content.php:70
+#: besocial/templates/formats/content/content-audio.php:65
+#: besocial/templates/formats/content/content-video.php:65
+#: besocial/templates/formats/content/content-quote.php:61
+#: besocial/templates/formats/content/content-image.php:78
+#: besocial/page.php:24
+msgid "Pages:"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/settings/general.php:17
+msgid "Password Lost and Found"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/bp-functions.php:1
+#: besocial/templates/iconmenu/blog-menu.php:18
+msgid "Pending Posts"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/forums/forums-loop.php:74
+msgid "Permanent link to this post"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/activity-menu.php:13
+msgid "Personal"
+msgstr ""
+
+#. Text in function
+#: besocial/comments.php:26
+msgid "Pings&#47;Trackbacks"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Pinterest"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Placeholder Image"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/activate.php:51
+msgid "Please provide a valid activation key."
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/tml-menu.php:31
+msgid "Please upload and activate TML plugin to use this feature."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/activity/entry.php:159
+msgid "Post"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/forums/index.php:187
+msgid "Post In Group Forum:"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Post Layout"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/forums/index.php:214
+#: besocial/buddypress/groups/single/forum.php:124
+msgid "Post Topic"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/activity/post-form.php:85
+msgid "Post Update"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/forum.php:103
+msgid "Post a New Topic:"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/activity/post-form.php:52
+#: besocial/buddypress/activity/post-form.php:54
+msgid "Post in"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/forums/forums-loop.php:53
+msgid "Posts"
+msgstr ""
+
+#. Text in echo
+#: besocial/woocommerce/cart/cart.php:37
+#: besocial/woocommerce/cart/cart.php:97
+msgid "Price"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:38
+#: besocial/buddypress/groups/create.php:116
+msgid "Privacy Options"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:306
+msgid "Privacy: I would like my site to appear in search engines, and in public listings around this network."
+msgstr ""
+
+#. Text in echo
+#: besocial/woocommerce/cart/cart.php:36
+#: besocial/woocommerce/cart/cart.php:79
+msgid "Product"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Product Thumbnail Size"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Product layout"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+#: besocial/buddypress/members/single/profile.php:11
+#: besocial/templates/iconmenu/profile-menu.php:10
+msgid "Profile"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Profile (After)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Profile (Before)"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:164
+msgid "Profile Details"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Profile Menu Title"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/settings-menu.php:15
+msgid "Profile Visibility"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/profile/edit.php:27
+msgid "Profile field groups"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-avatar.php:54
+#: besocial/buddypress/groups/create.php:282
+#: besocial/buddypress/members/single/profile/change-avatar.php:57
+msgid "Profile photo preview"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-avatar.php:51
+#: besocial/buddypress/groups/create.php:279
+#: besocial/buddypress/members/single/profile/change-avatar.php:54
+msgid "Profile photo to crop"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/manage-members.php:174
+#: besocial/buddypress/groups/single/admin/manage-members.php:287
+msgid "Promote to Admin"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/manage-members.php:286
+msgid "Promote to Mod"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/bp-functions.php:1
+#: besocial/templates/iconmenu/blog-menu.php:17
+msgid "Published Posts"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Pulse"
+msgstr ""
+
+#. Text in echo
+#: besocial/woocommerce/cart/cart.php:38
+#: besocial/woocommerce/cart/cart.php:103
+msgid "Quantity"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/activity/index.php:148
+#: besocial/buddypress/groups/single/activity.php:29
+msgid "RSS Feed"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/messages-loop.php:142
+msgid "Read"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Recommended image size is 2000x1000 px"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:721
+msgid "Rectangle Thumbnail"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/content-statistics.php:17
+msgid "Registered Users"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Regular Font Size"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Regular Font Size (px)"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/groups/single/requests-loop.php:59
+#: besocial/buddypress/members/single/groups/invites.php:81
+#: besocial/buddypress/members/single/friends/requests.php:96
+msgid "Reject"
+msgstr ""
+
+#. Text in echo
+#: besocial/woocommerce/single-product/related.php:27
+msgid "Related products"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Remove Author Box"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Remove Author Links"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/manage-members.php:281
+msgid "Remove Ban"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/activity/entry.php:110
+msgid "Remove Favorite"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Remove Icon"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/invites-loop.php:81
+#: besocial/buddypress/groups/create.php:397
+msgid "Remove Invite"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Remove Link"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Remove Related Products"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Remove Search Box"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Remove Sidebar"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Remove Social Sharing Buttons"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Remove Thumbnail"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/manage-members.php:291
+msgid "Remove from group"
+msgstr ""
+
+#. Text in function
+#: besocial/woocommerce/cart/cart.php:121
+msgid "Remove this item"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/settings/general.php:27
+msgid "Repeat New Password"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/content-statistics.php:23
+msgid "Replies"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/forums-menu.php:14
+msgid "Replies Created"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/activity/comment.php:38
+msgid "Reply"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/single.php:122
+msgid "Reply to Message"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/request-membership.php:17
+msgid "Request form"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/friends-menu.php:17
+msgid "Requests"
+msgstr ""
+
+#. Text in echo
+#: besocial/includes/social-icons.php:39
+#: besocial/includes/icon-menu-settings.php:38
+msgid "Reset"
+msgstr ""
+
+#. Text in function
+#: besocial/search.php:111
+msgid "Result Found"
+msgstr ""
+
+#. Text in function
+#: besocial/search.php:111
+msgid "Results Found"
+msgstr ""
+
+#. Text in echo
+#: besocial/woocommerce/single-product/meta.php:32
+msgid "SKU:"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/woo/large-woo.php:16
+#: besocial/templates/woo/small-woo.php:16
+msgid "Sale!"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/settings/capabilities.php:29
+#: besocial/buddypress/assets/_attachments/avatars/camera.php:25
+msgid "Save"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/edit-details.php:52
+#: besocial/buddypress/groups/single/admin/group-settings.php:123
+#: besocial/buddypress/members/single/settings/notifications.php:34
+#: besocial/buddypress/members/single/settings/general.php:41
+#: besocial/buddypress/members/single/profile/edit.php:104
+msgid "Save Changes"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/settings/profile.php:62
+msgid "Save Settings"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/common/search/dir-search-form.php:14
+msgid "Search"
+msgstr ""
+
+#. Text in function
+#: besocial/search.php:125
+msgid "Search Results for:"
+msgstr ""
+
+#. Text in echo
+#: besocial/templates/headers/relative-template.php:37
+#: besocial/templates/headers/fixed-template.php:37
+#: besocial/searchform.php:2
+msgid "Search..."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Select Icon:"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Select a FontAwesome icon"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Select a menu"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/messages-loop.php:59
+#: besocial/buddypress/members/single/notifications/notifications-loop.php:15
+msgid "Select all"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Select an icon or add a Font Awesome icon name to the following custom icon field"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-avatar.php:18
+#: besocial/buddypress/groups/create.php:253
+#: besocial/buddypress/members/single/profile/change-avatar.php:34
+msgid "Select an image"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/invites-loop.php:116
+msgid "Select friends to invite."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Select menu (Required)"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/create.php:379
+msgid "Select people to invite from your friends list."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:76
+#: besocial/buddypress/groups/create.php:154
+msgid "Select the types this group should be a part of."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/messages-loop.php:95
+msgid "Select this message"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/notifications/notifications-loop.php:31
+msgid "Select this notification"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/assets/_attachments/uploader.php:25
+#: besocial/buddypress/assets/_attachments/uploader.php:28
+msgid "Select your File"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/send-invites.php:30
+msgid "Send Invites"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/compose.php:56
+msgid "Send Message"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/single.php:138
+msgid "Send Reply"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/request-membership.php:37
+msgid "Send Request"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/compose.php:26
+msgid "Send To (Username or Friend's Name)"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/single.php:101
+msgid "Send a Reply"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/settings/notifications.php:13
+msgid "Send an email notice when:"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/send-invites.php:20
+msgid "Send invites"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/messages-menu.php:18
+msgid "Sent"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages.php:47
+msgid "Sent Messages"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+#: besocial/buddypress/members/single/settings.php:11
+#: besocial/templates/iconmenu/settings-menu.php:9
+msgid "Settings"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Settings (After)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Settings (Before)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Settings Menu Title"
+msgstr ""
+
+#. Text in echo
+#: besocial/templates/share-template.php:12
+msgid "Share This Post"
+msgstr ""
+
+#. Text in echo
+#: besocial/templates/share-template.php:9
+msgid "Share This Product"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Shop Subtitle"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Shop page show at most"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/woocommerce-menu.php:8
+msgid "Shopping Cart"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/create.php:198
+msgid "Should this group have a forum?"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Sidebar"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Sidebar behavior"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:175
+msgid "Single Group"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:175
+msgid "Single Group (Mobile View)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Single Post Image"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Single Product Image Column Size"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Single Product Image Size"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:294
+msgid "Site Title"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/blogs/create.php:40
+msgid "Site registration is currently disabled"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:769
+msgid "SiteOrigin Widgets Bundle"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:769
+msgid "Siteorigin Panels"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/blogs/index.php:115
+msgid "Sites directory"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/blogs/index.php:60
+msgid "Sites directory main navigation"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/blogs/index.php:82
+msgid "Sites directory secondary navigation"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages.php:87
+msgid "Sitewide Notices"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/activity/index.php:47
+msgid "Sitewide activities navigation"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Small Font Size"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Small Font Size (px)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Snapchat"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Social"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress-global-search/no-results.php:2
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/members-loop.php:164
+msgid "Sorry, no members were found."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/messages-loop.php:194
+msgid "Sorry, no messages were found."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/notices-loop.php:88
+msgid "Sorry, no notices were found."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/activity/activity-loop.php:49
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/forums/forums-loop.php:163
+msgid "Sorry, there were no forum topics found."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/blogs/blogs-loop.php:119
+msgid "Sorry, there were no sites found."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Spinner Color"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Standard"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/messages-loop.php:79
+msgid "Star"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/messages-menu.php:17
+msgid "Starred"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/messages-loop.php:18
+msgid "Starred messages"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/forums/forums-loop.php:81
+msgid "Started by %1$s"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Stick to bottom"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Stick to top"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Sticky Sidebar"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/messages-loop.php:64
+#: besocial/buddypress/members/single/messages/compose.php:38
+msgid "Subject"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/form-topic.php:203
+msgid "Submit"
+msgstr ""
+
+#. Text in function
+#: besocial/comments.php:12
+msgid "Subscribe"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/forums-menu.php:16
+msgid "Subscriptions"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Subtitle"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Subtitle (Optional)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Subtitle of your archive pages (Optional)."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "TML Menu Icon"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "TML Menu Title"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "TML User Links"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/forums/index.php:184
+#: besocial/buddypress/groups/single/forum.php:111
+msgid "Tags (comma separated):"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-cover-image.php:22
+#: besocial/buddypress/groups/create.php:328
+msgid "The Cover Image will be used to customize the header of your group."
+msgstr ""
+
+#. Text in function
+#: besocial/bbpress/form-topic.php:226
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "The id of the profile field which will displayed in user cards. For more information,please look at the help documentation."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "The number of comments to show by default."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "The order to use when displaying comments."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/assets/_attachments/uploader.php:16
+msgid "The web browser on your device cannot be used to upload files."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "The width of the image container in percents."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:769
+msgid "Theme My Login"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Theme Settings"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:948
+msgid "Theme settings reset"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:943
+msgid "Theme settings saved."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/requests-loop.php:95
+msgid "There are no pending membership requests."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "There are social sharing buttons at the bottom of the single post pages. To remove them, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "There are social sharing buttons at the bottom of the single product pages. To remove them, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "There is an author box at the bottom of the single post pages. To remove it, switch on."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/groups-loop.php:155
+msgid "There were no groups found."
+msgstr ""
+
+#. Text in echo
+#: besocial/includes/bp-functions.php:350
+msgid "There were no posts found."
+msgstr ""
+
+#. Text in echo
+#: besocial/includes/social-icons.php:35
+msgid "These icons will be displayed in the footer."
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/members/register.php:207
+#: besocial/buddypress/members/single/profile/edit.php:75
+msgid "This field can be seen by: %s"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/form-topic.php:53
+msgid "This forum is marked as closed to new topics, however your posting capabilities still allow you to do so."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:54
+#: besocial/buddypress/groups/create.php:132
+msgid "This group will be listed in the groups directory and in search results."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:62
+#: besocial/buddypress/groups/create.php:140
+msgid "This group will not be listed in the groups directory or search results."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:58
+#: besocial/buddypress/groups/create.php:136
+msgid "This is a hidden group"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/compose.php:35
+msgid "This is a notice to all users."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:50
+#: besocial/buddypress/groups/create.php:128
+msgid "This is a private group"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:42
+#: besocial/buddypress/groups/create.php:120
+msgid "This is a public group"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/notifications/feedback-no-notifications.php:32
+msgid "This member has no notifications."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/notifications/feedback-no-notifications.php:20
+msgid "This member has no unread notifications."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "This post will be redirected to this url."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/settings/capabilities.php:25
+msgid "This user is a spammer."
+msgstr ""
+
+#. Text in echo
+#: besocial/includes/functions.php:147
+#: besocial/includes/functions.php:170
+#: besocial/includes/theme-settings.php:1392
+msgid "Three Columns"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Thumbnail size"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Title"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/forums/index.php:178
+#: besocial/buddypress/groups/single/forum.php:105
+msgid "Title:"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To activate Facebook comments on posts, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To allow only featured members to create blog posts, switch on (\"Enable user blog\" option must be enabled)."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To allow your members the ability to upload media files to their posts, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To allow your members the ability to upload media files to their replies, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To change the order of the menu items or enable/disable them, click here..."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To disable FAQ live search, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To disable all members activity tab on activity pages, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To disable fixed header, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To disable group cover image, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To disable icon menu, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To disable lightbox plugin, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To disable profile cover image, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To disable sticky sidebar plugin, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To disable user/group cards, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To display featured image on all standard posts, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To enable live notifications, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To enable page loading animation, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To enable visual editor for topic replies, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To give your members the ability to create blog posts, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To hide thumbnail in the cards, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To remove author links on the posts, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To remove related products from single product pages, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To remove sidebar from Woocommerce pages, switch on."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "To remove the search box in the top bar, switch on."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/create.php:262
+msgid "To skip the group profile photo upload process, hit the \"Next Step\" button."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/messages-loop.php:111
+msgid "To:"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/forums/forums-loop.php:52
+msgid "Topic"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/form-topic.php:145
+msgid "Topic Status:"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/content-statistics.php:25
+msgid "Topic Tags"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/form-topic.php:101
+msgid "Topic Tags:"
+msgstr ""
+
+#. Text in function
+#: besocial/bbpress/form-topic.php:75
+msgid "Topic Title (Maximum Length: %d):"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/form-topic.php:133
+msgid "Topic Type:"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/content-statistics.php:21
+msgid "Topics"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/iconmenu/forums-menu.php:13
+msgid "Topics Started"
+msgstr ""
+
+#. Text in echo
+#: besocial/woocommerce/cart/cart.php:39
+#: besocial/woocommerce/cart/cart.php:120
+msgid "Total"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Twitter"
+msgstr ""
+
+#. Text in echo
+#: besocial/includes/functions.php:146
+#: besocial/includes/functions.php:169
+#: besocial/includes/theme-settings.php:1392
+msgid "Two Columns"
+msgstr ""
+
+#. Text in echo
+#: besocial/includes/functions.php:145
+#: besocial/includes/functions.php:168
+#: besocial/includes/theme-settings.php:1392
+msgid "Two Columns + Sidebar"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/manage-members.php:281
+msgid "Unban this member"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/messages-loop.php:144
+msgid "Unread"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/notifications/unread.php:13
+msgid "Unread notifications"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/forums/index.php:100
+#: besocial/buddypress/groups/single/forum.php:56
+#: besocial/buddypress/members/single/forums.php:25
+msgid "Unreplied"
+msgstr ""
+
+#. Text in echo
+#: besocial/woocommerce/cart/cart.php:148
+msgid "Update cart"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-avatar.php:23
+#: besocial/buddypress/groups/create.php:258
+#: besocial/buddypress/members/single/profile/change-avatar.php:39
+msgid "Upload Image"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/assets/_attachments/uploader.php:18
+msgid "Upload Limit Exceeded"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-avatar.php:15
+#: besocial/buddypress/groups/create.php:250
+msgid "Upload an image to use as a profile photo for this group. The image will be shown on the main group page, and in search results."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "User Bio & Group Desc Length"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "User Blog"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:175
+msgid "User Profile"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:175
+msgid "User Profile (Mobile View)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:175
+msgid "User Profile Sidebar Widget Field"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:45
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:84
+msgid "Username"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "VK"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Value:"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "Video url"
+msgstr ""
+
+#. Text in echo
+#: besocial/includes/bp-functions.php:275
+#: besocial/templates/iconmenu/notifications-menu.php:18
+msgid "View All"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/activity/entry.php:92
+#: besocial/buddypress-global-search/loop/message.php:18
+msgid "View Conversation"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/messages-loop.php:118
+msgid "View Message"
+msgstr ""
+
+#. Text in echo
+#: besocial/templates/authorbox-template.php:16
+#: besocial/templates/iconmenu/profile-menu.php:14
+#: besocial/templates/authorpage-template.php:6
+msgid "View Profile"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:943
+msgid "View Site"
+msgstr ""
+
+#. Text in echo
+#: besocial/templates/authorbox-template.php:20
+msgid "View all posts by"
+msgstr ""
+
+#. Text in echo
+#: besocial/includes/woo-functions.php:121
+msgid "View your shopping cart &rarr;"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "Vimeo"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/settings/profile.php:28
+msgid "Visibility"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Visual Editor"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/delete-group.php:23
+msgid "WARNING: Deleting this group will completely remove ALL content associated with it. There is no way back, please be careful with this option."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/profile/profile-wp.php:53
+msgid "Website"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/activity/post-form.php:28
+msgid "What's new in %s, %s?"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/activity/post-form.php:28
+msgid "What's new, %s?"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/admin/group-settings.php:100
+#: besocial/buddypress/groups/create.php:178
+msgid "Which members of this group are allowed to invite others?"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:197
+#: besocial/buddypress/members/single/profile/edit.php:66
+msgid "Who can see this field?"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Width of the card."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Woocommerce"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Woocommerce (After)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Woocommerce Menu Icon"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "Woocommerce Menu Title"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:175
+msgid "Woocommerce Sidebar"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:175
+msgid "Woocommerce Sidebar Widget Field."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "Woocommmerce (Before)"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "X-Small Font Size"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "X-Small Font Size (px)"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/profile/profile-wp.php:80
+msgid "Yahoo Messenger"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:316
+msgid "Yes"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/social-icons.php:50
+msgid "You Tube"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/messages/single.php:30
+msgid "You are alone in this conversation."
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/forums/index.php:226
+msgid "You are not a member of any groups so you don't have any group forums you can post in. To start posting, first find a group that matches the topic subject you'd like to start. If this group does not exist, why not <a href='%s'>create a new group</a>? Once you have joined or created the group you can post your topic in that group's forum."
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/groups/single/request-membership.php:22
+msgid "You are requesting to become a member of the group '%s'."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "You can add additional links to the icon menu items"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/icon-menu-settings.php:49
+msgid "You can drag&drop the icon menu items to change their order and you can enable or disable any of them"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "You can limit the excerpt length."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "You can limit the title length."
+msgstr ""
+
+#. Text in echo
+#: besocial/404.php:4
+#: besocial/search.php:151
+msgid "You can return"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:175
+msgid "You can use SiteOrigin Layout Builder Widget to create columns for your widgets."
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/form-topic.php:234
+msgid "You cannot create new topics."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/notifications/feedback-no-notifications.php:28
+msgid "You have no notifications."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/groups/invites.php:102
+msgid "You have no outstanding group invites."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/friends/requests.php:140
+msgid "You have no pending friendship requests."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/notifications/feedback-no-notifications.php:16
+msgid "You have no unread notifications."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:393
+msgid "You have successfully created your account! Please log in using the username and password you have just created."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/register.php:391
+msgid "You have successfully created your account! To begin using this site you will need to activate your account via the email we have just sent to your address."
+msgstr ""
+
+#. Text in echo
+#: besocial/woocommerce/single-product/up-sells.php:28
+msgid "You may also like&hellip;"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/form-topic.php:90
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes:"
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/form-topic.php:234
+msgid "You must be logged in to create new topics."
+msgstr ""
+
+#. Text in echo
+#: besocial/includes/bp-functions.php:371
+msgid "You should be a featured member to use this feature..."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/forum.php:99
+msgid "You will auto join this group when you start a new topic."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/single/profile/change-cover-image.php:22
+msgid "Your Cover Image will be used to customize the header of your profile."
+msgstr ""
+
+#. Text in echo
+#: besocial/bbpress/form-topic.php:61
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/members/activate.php:46
+msgid "Your account was activated successfully! You can now <a href=\"%s\">log in</a> with the username and password you provided when you signed up."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/members/activate.php:44
+msgid "Your account was activated successfully! Your account details have been sent to you in a separate email."
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/assets/_attachments/avatars/camera.php:17
+msgid "Your browser does not support this feature."
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/groups/groups-loop.php:94
+#: besocial/buddypress/groups/single/cover-image-header.php:35
+#: besocial/buddypress/groups/single/group-header.php:33
+#: besocial/buddypress-global-search/loop/group.php:38
+msgid "active %s"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/formats/content/content-gallery.php:66
+#: besocial/templates/formats/content/content.php:50
+#: besocial/templates/formats/content/content-audio.php:45
+#: besocial/templates/formats/content/content-video.php:45
+#: besocial/templates/formats/content/content-quote.php:41
+#: besocial/templates/formats/content/content-image.php:58
+#: besocial/templates/formats/excerpt/masonry/post.php:28
+#: besocial/templates/formats/excerpt/masonry/post-quote.php:29
+#: besocial/templates/formats/excerpt/masonry/post-gallery.php:49
+#: besocial/templates/formats/excerpt/masonry/post-video.php:41
+#: besocial/templates/formats/excerpt/masonry/post-audio.php:28
+#: besocial/templates/formats/excerpt/masonry/post-image.php:61
+msgid "add comment"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress-global-search/loop/message.php:3
+msgid "and you."
+msgstr ""
+
+#. Text in function
+#: besocial/includes/functions.php:769
+#: besocial/includes/theme-settings.php:1392
+msgid "bbPress"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/theme-settings.php:1392
+msgid "bbPress layout"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "center bottom"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "center center"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "center top"
+msgstr ""
+
+#. Text in echo
+#: besocial/templates/share-template.php:21
+msgid "email"
+msgstr ""
+
+#. Text in echo
+#: besocial/templates/share-template.php:30
+msgid "facebook"
+msgstr ""
+
+#. Text in echo
+#: besocial/buddypress/groups/single/members.php:83
+#: besocial/buddypress/members/members-loop.php:85
+#: besocial/buddypress-global-search/loop/member.php:33
+msgid "friends"
+msgstr ""
+
+#. Text in echo
+#: besocial/templates/share-template.php:47
+msgid "google+"
+msgstr ""
+
+#. Text in echo
+#: besocial/404.php:4
+#: besocial/search.php:151
+msgid "home"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/forums/forums-loop.php:87
+msgid "in %1$s"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "left bottom"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "left center"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "left top"
+msgstr ""
+
+#. Text in echo
+#: besocial/templates/share-template.php:56
+msgid "linkedin"
+msgstr ""
+
+#. Text in function
+#: besocial/templates/formats/content/content-gallery.php:72
+#: besocial/templates/formats/content/content.php:56
+#: besocial/templates/formats/content/content-audio.php:51
+#: besocial/templates/formats/content/content-video.php:51
+#: besocial/templates/formats/content/content-quote.php:47
+#: besocial/templates/formats/content/content-image.php:64
+#: besocial/templates/formats/excerpt/masonry/post.php:34
+#: besocial/templates/formats/excerpt/masonry/post-quote.php:35
+#: besocial/templates/formats/excerpt/masonry/post-gallery.php:55
+#: besocial/templates/formats/excerpt/masonry/post-video.php:47
+#: besocial/templates/formats/excerpt/masonry/post-audio.php:34
+#: besocial/templates/formats/excerpt/masonry/post-image.php:67
+msgid "no comments"
+msgstr ""
+
+#. Text in echo
+#: besocial/404.php:4
+#: besocial/search.php:151
+msgid "or search for the page you were looking for;"
+msgstr ""
+
+#. Text in echo
+#: besocial/templates/share-template.php:66
+msgid "pinterest"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "right bottom"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "right center"
+msgstr ""
+
+#. Text in function
+#: besocial/includes/custom-fields.php:1
+msgid "right top"
+msgstr ""
+
+#. Text in echo
+#: besocial/templates/share-template.php:39
+msgid "twitter"
+msgstr ""
+
+#. Text in echo
+#: besocial/templates/share-template.php:75
+msgid "vk.com"
+msgstr ""
+
+#. Text in function
+#: besocial/buddypress/members/single/member-header.php:35
+#: besocial/buddypress/members/single/cover-image-header.php:39
+msgid "was active"
+msgstr ""

@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: besocial-rating-system/rating_system_admin.php:1
+msgid "Besocial Rating System"
+msgstr ""
+
+#. Text in function
+#: besocial-rating-system/rating_system_admin.php:35
+msgid "Buttons style"
+msgstr ""
+
+#. Text in function
+#: besocial-rating-system/rating_system_admin.php:35
+msgid "Enable BuddyPress support"
+msgstr ""
+
+#. Text in function
+#: besocial-rating-system/rating_system_admin.php:35
+msgid "Enable bbPress support"
+msgstr ""
+
+#. Text in function
+#: besocial-rating-system/rating_system_admin.php:35
+msgid "Off"
+msgstr ""
+
+#. Text in function
+#: besocial-rating-system/rating_system_admin.php:35
+msgid "On"
+msgstr ""
+
+#. Text in function
+#: besocial-rating-system/metabox.php:1
+#: besocial-rating-system/rating_system_admin.php:1
+msgid "Rating System"
+msgstr ""
+
+#. Text in function
+#: besocial-rating-system/rating_system_admin.php:35
+msgid "Turn on like or dislike for comments"
+msgstr ""
+
+#. Text in function
+#: besocial-rating-system/rating_system_admin.php:35
+msgid "Turn on like or dislike for posts"
+msgstr ""
+
+#. Text in function
+#: besocial-rating-system/rating_system_admin.php:35
+msgid "Turn on or off dislike button"
+msgstr ""
+
+#. Text in function
+#: besocial-rating-system/comments.php:1
+#: besocial-rating-system/posts-pages.php:1
+msgid "You must be logged in to vote."
+msgstr ""

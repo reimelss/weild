@@ -1,0 +1,78 @@
+#besocial_icon_menu_order {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+#besocial_icon_menu_order_enabled,
+#besocial_icon_menu_order_disabled {
+    display: table-cell;
+    vertical-align: top;
+    min-height: 50px;
+    padding: 20px;
+    border: 1px solid #eee;
+}
+
+#besocial_icon_menu_order_enabled {
+    width: 60%;
+}
+
+#besocial_icon_menu_order_enabled li {
+    background: #16a085;
+}
+
+#besocial_icon_menu_order_disabled {
+    width: 40%;
+    background:#eee;
+}
+
+#besocial_icon_menu_order_disabled li {
+    background: #c0392b;
+}
+
+.tb-sorter-container ul li {
+    cursor: move;
+    font-weight: bold;
+    margin-bottom: 5px !important;
+    padding: 0 10px;
+    height: 50px;
+    line-height: 50px !important;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+.tb-sorter-container h3 {
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.tb-sorter-container ul li.placeholder {
+    height: 40px !important;
+    line-height: 40px !important;
+    background: none !important;
+    border: 5px dashed #ddd;
+    color: #333;
+}
+
+.tb-sorter-container ul li.placeholder:before {
+    content: "Drop Here"
+}
+
+@media only screen and (max-width: 480px) {
+    #besocial_icon_menu_order,#besocial_icon_menu_order_enabled,
+#besocial_icon_menu_order_disabled {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    border: none;
+}
+    #besocial_icon_menu_order_enabled,
+#besocial_icon_menu_order_disabled {
+    margin-bottom: 20px;
+    }
+}

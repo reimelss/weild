@@ -1,0 +1,554 @@
+/*
+Theme  Name       : BeSocial Child
+Theme  URI        : https        :         //themeforest.net/user/egemenerd/portfolio?ref=egemenerd
+       Template   : besocial
+       Author     : Egemenerd
+Author URI        : http         :         //themeforest.net/user/egemenerd?ref=egemenerd
+       Description: BeSocial Child Theme
+       Version    : 1.0.1551285272
+       Updated    : 2019-02-27 16: 34: 32
+
+*/
+.field_2156 .label, .field_1452 .label, .field_2157 .label, .field_3203 .label {
+    display:none;
+}
+.bps-checkbox input {
+    margin-left: -20px;
+    height     : 16px;
+}
+
+.bps-checkbox label {
+    margin-left   : 20px;
+    line-height   : 1.1em;
+    padding-bottom: 8px;
+}
+.bps-checkbox .bps-label {
+    padding-left: 0;
+}
+
+
+
+#field_70 label, #field_77 label, 
+#field_79 label, #field_204 label, 
+#field_208 label, #field_215 label, 
+#field_231 label, #field_245 label, 
+#field_253 label, #field_261 label, 
+#field_270 label, #field_279 label, 
+#field_286 label, #field_293 label, 
+#field_298 > label,
+/*#field_79 > label:nth-child(7), */
+#field_79 > label:nth-child(8), 
+#field_79 > label:nth-child(9), 
+#field_79 > label:nth-child(10)
+ {
+    padding-left: 20px;
+}
+#field_70 label:first-child, 
+#field_77 label:first-child, 
+#field_79 label:first-child, 
+#field_204 label:first-child, 
+#field_208 label:first-child, 
+#field_215 label:first-child, 
+#field_231 label:first-child, 
+#field_245 label:first-child, 
+#field_253 label:first-child, 
+#field_261 label:first-child, 
+#field_270 label:first-child, 
+#field_279 label:first-child, 
+#field_286 label:first-child, 
+#field_293 label:first-child, 
+#field_298 > label:nth-child(1), 
+#field_298 > label:nth-child(4),
+#field_298 > label:nth-child(10), 
+#field_298 > label:nth-child(25), 
+#field_298 > label:nth-child(38), 
+#field_298 > label:nth-child(45), 
+#field_298 > label:nth-child(52), 
+#field_298 > label:nth-child(60), 
+#field_298 > label:nth-child(68), 
+#field_298 > label:nth-child(74), 
+#field_298 > label:nth-child(80), 
+#field_79 label:last-child,
+#field_79 > label:nth-child(25),
+/* #field_79 > label:nth-child(5), */
+#field_79 > label:nth-child(6),
+#field_79 > label:nth-child(7),
+#field_79 > label:nth-child(34),
+#field_79 > label:nth-child(35),
+#field_79 > label:nth-child(36),
+#field_79 > label:nth-child(37),
+#field_79 > label:nth-child(38),
+#field_79 > label:nth-child(39),
+#field_79 > label:nth-child(40),
+#field_79 > label:nth-child(41),
+#field_79 > label:nth-child(45)
+/*#field_79 > label:nth-child(22)*/
+
+ {
+    padding-left: 0;
+}
+#field_77 > label:nth-child(4), 
+#field_77 > label:nth-child(5), 
+#field_77 > label:nth-child(6), 
+#field_77 > label:nth-child(7), 
+#field_77 > label:nth-child(8), 
+#field_77 > label:nth-child(9), 
+#field_79 > label:nth-child(2),
+#field_79 > label:nth-child(3),
+#field_79 > label:nth-child(4),
+#field_79 > label:nth-child(5),
+#field_79 > label:nth-child(8),
+#field_79 > label:nth-child(9),
+#field_79 > label:nth-child(15),
+#field_79 > label:nth-child(19),
+/*#field_79 > label:nth-child(10), 
+#field_79 > label:nth-child(11), 
+#field_79 > label:nth-child(12), 
+#field_79 > label:nth-child(13), 
+#field_79 > label:nth-child(14),*/
+
+/*#field_79 > label:nth-child(24), */
+/*#field_79 > label:nth-child(25), */
+#field_79 > label:nth-child(26), 
+#field_79 > label:nth-child(34),
+#field_79 > label:nth-child(35), 
+#field_79 > label:nth-child(44),
+#field_79 > label:nth-child(46),
+
+#field_2347_15
+ {
+    padding-left: 40px;
+}
+
+.field_204 legend, .field_208 legend, .field_215 legend, .field_231 legend, .field_245 legend, .field_253 legend, .field_261 legend, .field_270 legend, .field_279 legend, .field_286 legend, .field_293 legend {
+    display: none !important;
+}
+.field_59 .label {
+    display: none !important;
+}
+
+/* 
+** Forth Level Product Expertise_Follow-on
+*/
+#field_79 > label:nth-child(10),
+#field_79 > label:nth-child(11),
+#field_79 > label:nth-child(12),
+#field_79 > label:nth-child(13),
+#field_79 > label:nth-child(14),
+#field_79 > label:nth-child(16), 
+#field_79 > label:nth-child(17), 
+#field_79 > label:nth-child(18),
+#field_79 > label:nth-child(20),
+#field_79 > label:nth-child(21),
+#field_79 > label:nth-child(22),
+#field_79 > label:nth-child(23),
+#field_79 > label:nth-child(24),
+#field_79 > label:nth-child(27),
+#field_79 > label:nth-child(28),
+#field_79 > label:nth-child(29),
+#field_79 > label:nth-child(30),
+#field_79 > label:nth-child(34), 
+#field_79 > label:nth-child(36), 
+#field_79 > label:nth-child(37), 
+#field_79 > label:nth-child(38), 
+#field_79 > label:nth-child(39), 
+#field_79 > label:nth-child(40), 
+#field_79 > label:nth-child(41), 
+#field_79 > label:nth-child(42), 
+#field_79 > label:nth-child(43),
+#field_79 > label:nth-child(44),
+#field_79 > label:nth-child(45)
+{
+	margin-left: 60px !important;
+}
+
+
+#field_79 > label:nth-child(31),
+#field_79 > label:nth-child(32),
+#field_79 > label:nth-child(33)
+/*#field_79 > label:nth-child(34)*/
+{
+    margin-left: 80px !important;
+}
+
+
+
+/* Search Form Checkbox remove */
+.page-template-default .bps-form label, 
+.page-template-default #field_298_match_any_wrap > label.bps-label, 
+.page-template-default #field_298_match_any_wrap > label:nth-child(2), 
+.page-template-default #field_298_match_any_wrap > label:nth-child(5), 
+.page-template-default #field_298_match_any_wrap > label:nth-child(11), 
+.page-template-default #field_298_match_any_wrap > label:nth-child(26), 
+.page-template-default #field_298_match_any_wrap > label:nth-child(39), 
+.page-template-default #field_298_match_any_wrap > label:nth-child(46), 
+.page-template-default #field_298_match_any_wrap > label:nth-child(74), 
+.page-template-default #field_298_match_any_wrap > label:nth-child(61), 
+.page-template-default #field_298_match_any_wrap > label:nth-child(69), 
+.page-template-default #field_298_match_any_wrap > label:nth-child(80), 
+.page-template-default #field_298_match_any_wrap > label:nth-child(84), 
+.page-template-default #field_79_match_any_wrap > label.bps-label, 
+.page-template-default #field_79_match_any_wrap > label:nth-child(2), 
+.page-template-default #field_79_match_any_wrap > label:nth-child(6), 
+.page-template-default #field_79_match_any_wrap > label:nth-child(7), 
+.page-template-default #field_79_match_any_wrap > label:nth-child(8), 
+.page-template-default #field_79_match_any_wrap > label:nth-child(26), 
+/*.page-template-default #field_79_match_any_wrap > label:nth-child(41), */
+.page-template-default #field_79_match_any_wrap > label:nth-child(44), 
+.page-template-default #field_298_match_any_wrap > label:nth-child(53)
+
+{
+	display: block;
+}
+
+#field_298_match_any_wrap > label, 
+#field_79_match_any_wrap > label
+ 
+{
+	display: none;
+}
+
+.field_2157 .data a {
+    margin-left: 0px;
+    font-size: 16px;
+}
+
+.field_298 .data a, .field_184 .data a, .field_59 .data a, .field_41 .data a, .field_79 .data a, .field_1452 .data a, .field_2156 .data a, .field_3203 .data a, .field_2157 .data a {
+    display        : list-item;
+    font-size      : 16px;
+    list-style-type: disc;
+    margin-left    : 40px;
+}
+
+.field_298 .data p, .field_184 .data p, .field_59 .data p, .field_41 .data p, .field_79 .data p, .field_1452 .data p, .field_2156 .data p, .field_2157 .data p, .field_3203 .data p ,.field_2157 .data p{
+    color    : #fff;
+    font-size: 0px;
+}
+#buddypress .besocial-member-avatar {
+	vertical-align: top;
+	padding       : 10px;
+}
+
+
+.sub-info {
+    padding      : 20px;
+    width        : 100%;
+    margin-bottom: 1px;
+}
+.member-cheader {
+    background-color  : #f1f1f1;
+    position          : relative;
+    overflow          : hidden;
+    margin            : 0px 0px 1px 0px;
+    padding           : 20px;
+    cursor            : pointer;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition   : color 0.2s ease-in-out;
+    -o-transition     : color 0.2s ease-in-out;
+    -ms-transition    : color 0.2s ease-in-out;
+    transition        : color 0.2s ease-in-out;
+}
+.member-cheader strong {
+    display: block;
+}
+
+#member-info > div > div > div > strong:after, #member-info > div > div > div > strong:before {
+    font-family: 'FontAwesome';
+    speak      : none;
+    text-indent: 0em;
+    text-align : center;
+    content    : "\f078";
+    position   : absolute;
+    top        : 0;
+    width      : 24px;
+    height     : 24px;
+    line-height: 24px;
+    z-index    : 1;
+    display    : inline-block;
+    margin     : 0px;
+    left       : 97%;
+}
+
+.besocial-member #member-info > div > .sub-info:after {
+    font-family: 'FontAwesome';
+    speak      : none;
+    text-indent: 0em;
+    text-align : center;
+    content    : "\f078";
+    position   : absolute;
+    top        : 10px;
+    left       : 90px;
+    width      : 24px;
+    height     : 24px;
+    line-height: 24px;
+    z-index    : 1;
+    display    : inline-block;
+    margin     : 0px;
+}
+
+.member-cheader strong:before {
+    font-family: 'FontAwesome';
+    speak      : none;
+    text-indent: 0em;
+    text-align : center;
+    content    : "\f078";
+    position   : absolute;
+    top        : 10px;
+    width      : 24px;
+    height     : 24px;
+    line-height: 24px;
+    z-index    : 1;
+    display    : inline-block;
+    margin     : 0px;
+    left       : 90px;
+    z-index    : 99999;
+}
+.right_info {
+    display     : inline-block;
+    float       : right;
+    margin-top  : 10px;
+    margin-right: 10px;
+}
+.besocial-member-title {
+    display: inline-block;
+}
+span.wo_email, span.wo_phone {
+    font-size: 24px;
+    padding  : 0 10px;
+}
+.field_type_checkbox input {
+    margin-right: 6px;
+    position    : relative;
+    top         : -2px;
+}
+.besclwp-post-content ul li, .besclwp-post-content ol li {
+    text-align: left;
+}
+.field-visibility-settings-notoggle {
+    display: none;
+}
+p.besocial-member-since, body .activity {
+    display: none !important;
+}
+.besocial-member-meta {
+    display: none;
+}
+
+.wo_profile_info .wo_email a, .wo_phone a {
+    color: #fff;
+}
+.directory.members .wo_phone a {
+	color: #636363;
+}
+li#change-cover-image-personal-li {
+    display: none;
+}
+#buddypress div#item-header .wo_profile_info ul li {
+    float: none;
+}
+#buddypress div#item-header .wo_profile_info ul ul {
+    margin-left  : 0;
+    margin-bottom: 0;
+}
+#buddypress div#item-header .wo_profile_info ul.menu li {
+    float  : none;
+    display: inline-block;
+    padding: 0 15px;
+}
+#buddypress div#item-header .wo_profile_info ul.menu ul li {
+    display: block;
+    padding: 0;
+}
+.menu > li > a {
+    background   : #f1f1f1;
+    color        : #000;
+    padding      : 7px 10px;
+    border-radius: 3px;
+}
+.right_side {
+    float: right;
+}
+.right_side .member-cheader strong:before {
+    content: "";
+}
+
+
+.dropbtn {
+    background-color: #3498DB;
+    color           : white;
+    padding         : 6px 10px;
+    font-size       : 16px;
+    border          : none;
+    cursor          : pointer;
+    border-radius   : 4px;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display : inline-block;
+  }
+  
+  .dropdown-content {
+    display         : none;
+    position        : absolute;
+    background-color: #f1f1f1;
+    min-width       : 240px;
+    overflow        : auto;
+    box-shadow      : 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index         : 1;
+    right           : 0;
+  }
+  
+  .dropdown-content a {
+    color          : black;
+    padding        : 5px 16px;
+    text-decoration: none;
+    display        : block;
+  }
+  
+  .dropdown a: hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  .besocial-member .member-cheader .sub-info .member-cheader strong {
+      display: inline-block;
+  }
+  #bps_accordion_form_369 em.bps-description {
+    display: none;
+}
+/* #user-blog-personal-li, #xprofile-personal-li {
+    display: none;
+} */
+
+.settings #buddypress div#item-nav, 
+
+.setttings #item-body > h3
+{
+    display: none;
+}
+#field_298_match_any_wrap > label.bps-label, 
+#field_41_match_any_wrap > label.bps-label, 
+#field_59_match_any_wrap > label.bps-label, 
+#field_184_match_any_wrap > label.bps-label, 
+#field_79_match_any_wrap > label.bps-label
+ {
+    margin-left: 0;
+}
+
+#notifications-personal-li,
+#profile-personal-li,
+#data-personal-li,
+#delete-account-personal-li
+{
+    display: none;
+}
+
+#field_79_match_any_wrap > label:nth-child(6) {
+    display: none !important;
+}
+
+
+/*This is a hack, that will put the fields inside the edit page, simulating nesting categories; https://www.weildco.tech/affiliates/nmd-dev-admin/profile/edit/group/6/ */
+label[for=field_2347_15],
+label[for=field_2348_16],
+label[for=field_2352_20],
+label[for=field_2351_19],
+label[for=field_2349_17],
+label[for=field_2353_21],
+label[for=field_2354_22],
+label[for=field_2358_26]
+
+
+
+
+
+{
+    padding-left: 40px!important;
+    
+}
+/*label[for=field_2353_21],*/
+/*label[for=field_2348_16],*/
+/*label[for=field_2352_20],*/
+/*label[for=field_2351_19],*/
+label[for=field_2356_24]
+
+
+{
+    padding-left: 20px!important;
+    
+}
+
+label[for=field_3076_44] {
+    display:none!important;
+}
+.page-template-default #field_79_match_any_wrap > label:last-child {
+    display:block!important;
+}
+
+
+
+label[for=field_3121_0],
+label[for=field_3124_3],
+label[for=field_3130_9],
+label[for=field_3145_24],
+label[for=field_3158_37],
+label[for=field_3165_44],
+label[for=field_3172_51],
+label[for=field_3180_59],
+label[for=field_3188_67],
+label[for=field_3194_73],
+label[for=field_3200_79],
+label[for=field_3279_0],
+label[for=field_3282_3],
+label[for=field_3288_9],
+label[for=field_3303_24],
+label[for=field_3316_37],
+label[for=field_3323_44],
+label[for=field_3330_51],
+label[for=field_3338_59],
+label[for=field_3346_67],
+label[for=field_3352_73],
+label[for=field_3358_79],
+#field_79 > label:nth-child(42),
+#field_79 > label:nth-child(43),
+#field_79 > label:nth-child(44)
+{
+    padding-left: 0px!important;
+    
+}
+
+.field_3203 .data {
+    padding-top:0!important;
+}
+.hide-on-desktop {
+    display:none;
+}
+
+@media only screen and (max-width: 768px) {
+    #item-buttons {
+        margin-bottom: 72px!important;
+    }
+    .user-nicename {
+        margin-top: -105px!important;
+    }
+    .hide-on-mobile {
+        display:none;
+    }
+    .hide-on-desktop {
+        display:block;
+    }
+    .right_side {
+        float: right;
+        width: 100%;
+        padding: 0 103px;
+    }
+    .xprofile .dropdown-content  {
+        left:1px;
+    }
+
+}
+

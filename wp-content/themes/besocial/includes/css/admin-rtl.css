@@ -1,0 +1,128 @@
+/* ================= GENERAL ================== */
+
+#egemenerd-message {
+    margin-right: 20px;
+    margin-left:40px;
+}
+
+#egemenerd-panel-wrapper {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+/* ================= HEADER ================== */
+
+.egemenerd_options_header_left {
+    float: right;
+}
+
+.egemenerd_options_header_right {
+    float: left;
+}
+
+.egemenerd_options_header ul li {
+    margin-right: 0px;
+    margin-left:5px;
+    float: left;
+}
+/* ================= ACCORDION ================== */
+
+.egemenerd_option_input label {
+    float: right;
+    padding-right:0px;
+    padding-left:20px;
+}
+
+.egemenerd_input_title h3 {
+    float: right;
+}
+
+.egemenerd_input_title span.submit {
+    float: left;
+    right: inherit;
+    left:8px;
+}
+
+form > p.submit {
+    float: left;
+}
+
+.egemenerd-option-left {
+    float: right;
+}
+
+.egemenerd-option-center {
+    float: right;
+}
+
+.egemenerd-option-right {
+    float: right;
+}
+
+.egemenerd-option-double {
+    float: right;
+}
+
+/* ================= ELEMENTS ================== */
+.egemenerd_info_box {
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.egemenerd-button.uploadbutton {
+    float: left;
+    border-left: none;
+    border-right: 3px solid #fff;
+}
+
+.egemenerd_option_input small {
+    padding-right: 20px;
+    padding-left: 0px;
+}
+
+.egemenerd-thumb-close {
+    right:inherit;
+    left:-13px;
+}
+.egemenerd-toggle {
+    float:right !important;
+}
+/* ================= FOOTER ================== */
+
+.egemenerd-footer-left {
+    float: right;
+}
+
+.egemenerd-footer-right {
+    float: left;
+    padding-left: 10px;
+}
+
+/* ================= MEDIA ================== */
+@media screen and (max-width: 1024px) {
+    .egemenerd_options_header_left {
+        float: right;
+    }
+    .egemenerd_options_header_right {
+        float: right;
+        padding: 0px 20px 25px 0px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .egemenerd-button.uploadbutton {
+        float: right;
+    }
+    .egemenerd_option_input small {
+        padding-right: 0px;
+    }
+    .egemenerd_option_input label {
+        padding-left:0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .egemenerd_options_header ul li {
+        float: right;
+    }
+}

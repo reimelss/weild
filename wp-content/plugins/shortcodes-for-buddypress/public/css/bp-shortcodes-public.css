@@ -1,0 +1,12 @@
+.bpsh-buddypress #page a {
+    box-shadow: none;
+    text-decoration: none !important;
+}
+#buddypress div.item-list-tabs .bpsh-dropdown select, #buddypress div.item-list-tabs .bpsh-dropdown label, #buddypress div.item-list-tabs .bpsh-dropdown option {
+    font-style: italic;
+    font-size: 0.875rem;
+}    
+#buddypress div.item-list-tabs .bpsh-dropdown{
+    float: right;
+    margin: 7px 0 0;
+}

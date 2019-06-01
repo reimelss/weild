@@ -1,0 +1,22 @@
+.bpsh-admin-content {
+    max-width: 70%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 45px;
+}
+.bpsh-admin-screen h3 {
+    text-align: center;
+}
+.bpsh-admin-content .bpsh-admin-shortcode {
+    text-align: center;
+    margin-top: 2%;
+}
+.bpsh-admin-shortcode-title {
+    margin-top: 1%;
+    font-weight: bold;
+}
+.bpsh-admin-shortcode-content ul li {
+    line-height: 1.2;
+    border: 1px solid;
+    padding: 10px;
+}
