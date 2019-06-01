@@ -254,4 +254,5 @@ function teste($value) {
 
 
 
-
+//include custon function file
+require get_stylesheet_directory() . '/custom-functions.php';
