@@ -10,15 +10,15 @@ if ( in_array( 'administrator', (array) $user->roles ) ) {
     echo "Your user Role is Administrator"; 
     global $wpdb;
     $wpdb->query(
-        $wpdb->prepare( 
+        
         "UPDATE wp_usermeta
     	SET meta_value = ''
     	WHERE meta_key LIKE 'terms_conditions'"
-    	)
+    	
     );
     if (!$wpdb->last_error) {
-        echo "<br><br>Success! Redirecting to home page. Or click <a href='https://www.weildco.tech'>here to go back</a> ";
-        header( "refresh:5;url=https://www.weildco.tech" );
+        echo "<br><br>Success! Redirecting to home page. Or click <a href='". site_url() . "'>here to go back</a> ";
+        header( "refresh:5;url=". site_url() . "" );
     }else {
         echo "Due to a system error or scheduled maintenance, we couldn't process your request. Please try again later or contact the system admin";
     }

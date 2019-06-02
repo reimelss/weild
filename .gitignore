@@ -17,3 +17,4 @@ wp-config.php
 /readme.html
 /sitemap.xml
 /sitemap.xml.gz
+.htpasswd

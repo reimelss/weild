@@ -93,7 +93,7 @@ do_action( 'bp_before_profile_loop_content' ); ?>
         						              //  var_dump($url);
         
                                                 $url = substr($url, 0, 10);
-        						                $url = "https://www.weildco.tech/affiliates/?members_search=" . $url;
+        						                $url = site_url("/affiliates/?members_search=" . $url);
         							            echo "<a href='" . $url . "' class='normalmouse n$i $size'>" . $lang . "</a>";
 						                    }
 							                
@@ -111,7 +111,7 @@ do_action( 'bp_before_profile_loop_content' ); ?>
 						              //  var_dump($url);
 
                                         $url = substr($url, 0, 10);
-						                $url = "https://www.weildco.tech/affiliates/?members_search=" . $url;
+						                $url = site_url("/affiliates/?members_search=" . $url);
 							            echo "<a href='" . $url . "' class='normalmouse n$i $size'>" . $name . "</a>";
 							            $i++;
 							                

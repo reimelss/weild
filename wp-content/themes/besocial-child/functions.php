@@ -220,7 +220,7 @@ function custom_button_example($wp_admin_bar){
 $args = array(
 'id' => 'custom-button',
 'title' => 'Reset User Agreement',
-'href' => 'https://www.weildco.tech/user-agreement-reactivate/',
+'href' => site_url('/user-agreement-reactivate/'),
 'meta' => array(
 'class' => 'custom-button-class'
 )
