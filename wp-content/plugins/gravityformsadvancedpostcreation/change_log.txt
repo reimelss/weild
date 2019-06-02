@@ -1,0 +1,10 @@
+# 1.0-beta-2 | 2019-03-20
+   - Added support for {post_id} and {post_edit_url} merge tags.
+   - Added support for setting post author when user is registered with User Registration Add-On.
+   - Fixed an issue getting the default merge tags for the title, content, and excerpt settings when creating a new feed.
+   - Fixed an issue where files could fail to be added to the media library on servers where allow_url_fopen is disabled.
+   - Updated feed processing to store the uploaded media IDs in the entry meta along with the post and feed IDs.
+
+
+# 1.0-beta-1 | 2019-01-10
+   - It's all new!
