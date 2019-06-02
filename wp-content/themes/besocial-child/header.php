@@ -88,7 +88,7 @@ if ($abc[0] != "yes" && is_user_logged_in()) {
 
 	if($('#acf-field_5ca333ec2680f-yes[type=checkbox]').attr('checked')) {
 	   // location.reload(true); 
-	   window.location.href = "https://www.weildco.tech/affiliates/me/";
+	   window.location.href = "<?=site_url("/affiliates/me/")?>";
 	}
 })(jQuery);
 		
