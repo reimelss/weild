@@ -41,3 +41,25 @@ function weild_deal_init() {
 
   register_post_type( 'deal', $args );
 }
+//create forum after creating new deal
+function weild_deal_forum( $post_id ) {
+    // Only do it for "custom_post" post type
+    if( get_post_type($post_id) != 'deal' ){
+        return;
+    }  
+    // Only do it on the front end
+    if( is_admin() ){
+        return;
+    }
+    $post_title = get_the_title($post_id);
+    $forum_id = wp_insert_post( array(
+                    'post_status' => 'publish',
+                    'post_type' => 'forum',
+                    'post_title' => 'Forum '.$post_title,
+                    'post_content' => $post_title
+                ) );
+    update_post_meta($forum_id,'deal_id',$post_id);
+}
+
+// run after ACF saves the $_POST['acf'] data
+add_action('acf/save_post', 'weild_deal_forum', 99);
