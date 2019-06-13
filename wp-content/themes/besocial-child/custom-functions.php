@@ -58,7 +58,7 @@ function weild_deal_forum( $post_id ) {
                     'post_title' => 'Forum '.$post_title,
                     'post_content' => $post_title
                 ) );
-    update_post_meta($forum_id,'deal_id',$post_id);
+    update_post_meta($post_id,'forumn_id',$forum_id);
 }
 
 // run after ACF saves the $_POST['acf'] data
