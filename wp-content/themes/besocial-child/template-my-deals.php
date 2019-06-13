@@ -86,8 +86,7 @@ echo "</pre>";
                         <div class="besocial-member-avatar">
                             <a href="<?=$post->guid?>"><img
                                     src="<?=$meta["logo"]?>"
-                                    class="avatar user-39-avatar avatar-100 photo" width="100" height="100"
-                                    alt="Profile picture of David"></a>
+                                    class="avatar photo" width="100" height="100" ></a>
                         </div>
                         <div class="besocial-member">
                             <div class="besocial-member-title">

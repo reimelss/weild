@@ -78,22 +78,20 @@ echo "</pre>";
                 // echo "<pre>";
                 // var_dump($meta);
                 // echo "</pre>";
-                if ($meta["confidential_deal"]) {
+                if ($meta["confidential_deal"] && $meta["deal_status"] != "Canceled") {
 
                 ?>
                 <div id="besocial-members-list" aria-live="assertive" aria-relevant="all">
                     <div class="besocial-member-outer besclwp-not-featured">
                         <div class="besocial-member-inner">
                             <div class="besocial-member-avatar">
-                                <a href="<?=$post->guid?>"><img
-                                        src="<?=$meta["logo"]?>"
-                                        class="avatar user-39-avatar avatar-100 photo" width="100" height="100"
-                                        alt="Profile picture of David"></a>
+                                <a href="<?=$post->guid?>">Confidential Deal <br> </a>
                             </div>
                             <div class="besocial-member">
-                                <div class="besocial-member-title">
-                                    <a href="<?=$post->guid?>"><?=$meta["deal_name"]?></a>
-                                </div>
+                                    <!-- <div class="besocial-member-title">
+                                    
+                                        <a href="<?=$post->guid?>"><?=$meta["deal_name"]?></a>
+                                    </div> -->
                                 <div class="right_side hide-on-mobile">
                                     <div class="member-cheader"><strong class="dropbtn">Contact</strong>
                                         <!-- <div class="sub-info" style="display: none;">
@@ -109,15 +107,6 @@ echo "</pre>";
                                     </div>
                                 </div>
                                 <div class="weild_title">
-                                <strong>Confidential Deal: </strong><?php if ($meta["confidential_deal"]) echo "Yes"; else echo "no";?> <br>
-                                <?php
-                                if($meta["confidential_deal"]) {
-                                    ?>
-                                    <strong>Confidential Description: </strong><?=$meta["confidential_description"]?> <br>
-                                
-                                <?php 
-                                } 
-                                ?>
                                     <strong>Code Name: </strong><?=$meta["code_name"]?> <br>
                                     <strong>Document: </strong><a target="_blank" href="<?=$meta["document_uploads"]?>">Click here</a> <br>
                                     <strong>Deal Size: </strong><?=$meta["deal_size"]?> <br>
@@ -138,7 +127,7 @@ echo "</pre>";
                                     </div>
                                 </div>
                                 <div class="bio">
-                                    <?=$meta["brief_description_of_company"]?>
+                                    <?=$meta["confidential_description"]?>
                                 </div>
                                 <div id="member-info">
                                     <div class="member-cheader"><strong>View Details </strong>
@@ -243,7 +232,7 @@ echo "</pre>";
                 </div><!-- #members-dir-list -->
                 <?php 
                 }
-                if(!$meta["confidential_deal"]) {
+                if(!$meta["confidential_deal"] && $meta["deal_status"] != "Canceled") {
                     ?>
 
                     <div id="besocial-members-list" aria-live="assertive" aria-relevant="all">
@@ -274,16 +263,7 @@ echo "</pre>";
                                         </div>
                                     </div>
                                     <div class="weild_title">
-                                    <strong>Confidential Deal: </strong><?php if ($meta["confidential_deal"]) echo "Yes"; else echo "no";?> <br>
-                                    <?php
-                                    if($meta["confidential_deal"]) {
-                                        ?>
-                                        <strong>Confidential Description: </strong><?=$meta["confidential_description"]?> <br>
-                                    
-                                    <?php 
-                                    } 
-                                    ?>
-                                        <strong>Code Name: </strong><?=$meta["code_name"]?> <br>
+                                   
                                         <strong>Document: </strong><a target="_blank" href="<?=$meta["document_uploads"]?>">Click here</a> <br>
                                         <strong>Deal Size: </strong><?=$meta["deal_size"]?> <br>
                                         <strong>Deal Status: </strong><?=$meta["deal_status"]?>
