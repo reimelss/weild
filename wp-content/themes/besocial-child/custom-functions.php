@@ -36,7 +36,7 @@ function weild_deal_init() {
     'has_archive'        => true,
     'hierarchical'       => false,
     'menu_position'      => null,
-    'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
+    'supports'           => array( 'title', 'author', 'thumbnail', 'excerpt', 'comments' )
   );
 
   register_post_type( 'deal', $args );
