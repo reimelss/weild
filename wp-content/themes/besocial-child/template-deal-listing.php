@@ -109,13 +109,12 @@ if(!$_POST['filter']) {
                         <div class="besocial-member-outer besclwp-not-featured">
                             <div class="besocial-member-inner">
                                 <div class="besocial-member-avatar">
-                                    <a href="<?=$post->guid?>">Confidential Deal <br> </a>
+                                    <a href="#
+                                    <?php // $post->guid 
+                                    ?>">Confidential Deal <br> </a>
                                 </div>
                                 <div class="besocial-member">
-                                        <!-- <div class="besocial-member-title">
-                                        
-                                            <a href="<?=$post->guid?>"><?=$meta["deal_name"]?></a>
-                                        </div> -->
+
                                     <div class="right_side hide-on-mobile">
                                     <?php 
 
@@ -142,8 +141,14 @@ if(!$_POST['filter']) {
                                         </div>
                                     </div>
                                     <div class="weild_title">
-                                        <strong>Code Name: </strong><?=$meta["code_name"]?> <br>
+                                        <strong>Code Name: </strong><?=$meta["code_name"]?> <br>]
+                                        <?php if($meta["document_uploads"]) {
+                                            ?> 
+
                                         <strong>Document: </strong><a target="_blank" href="<?=$meta["document_uploads"]?>">Click here</a> <br>
+                                            <?php
+                                        }
+                                        ?>
                                         <strong>Deal Size: </strong><?=$meta["deal_size"]?> <br>
                                         <strong>Deal Status: </strong><?=$meta["deal_status"]?>
                                     </div>
@@ -284,14 +289,18 @@ if(!$_POST['filter']) {
                         <div class="besocial-member-outer besclwp-not-featured">
                             <div class="besocial-member-inner">
                                 <div class="besocial-member-avatar">
-                                    <a href="<?=$post->guid?>"><img
+                                    <a href="#
+                                    <?php //$post->guid?>
+                                    "><img
                                             src="<?=$meta["logo"]?>"
                                             class="avatar user-39-avatar avatar-100 photo" width="100" height="100"
                                             alt="Profile picture of David"></a>
                                 </div>
                                 <div class="besocial-member">
                                     <div class="besocial-member-title">
-                                        <a href="<?=$post->guid?>"><?=$meta["deal_name"]?></a>
+                                        <a href="#<?php
+                                        //$post->guid
+                                        ?>"><?=$meta["deal_name"]?></a>
                                     </div>
                                     <div class="right_side hide-on-mobile">
                                         <?php 
@@ -320,7 +329,13 @@ if(!$_POST['filter']) {
                                     </div>
                                     <div class="weild_title">
                                    
+                                    <?php if($meta["document_uploads"]) {
+                                            ?> 
+
                                         <strong>Document: </strong><a target="_blank" href="<?=$meta["document_uploads"]?>">Click here</a> <br>
+                                            <?php
+                                        }
+                                        ?>
                                         <strong>Deal Size: </strong><?=$meta["deal_size"]?> <br>
                                         <strong>Deal Status: </strong><?=$meta["deal_status"]?>
                                     </div>
