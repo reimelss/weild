@@ -119,7 +119,7 @@ if(!$_POST['filter']) {
                                     <div class="right_side hide-on-mobile">
                                     <?php 
 
-                                        echo $form_id = get_post_meta($post->ID,'forumn_id',true);
+                                        $form_id = get_post_meta($post->ID,'forumn_id',true);
                                     ?>
                                         
                                         <div class="member-cheader">
