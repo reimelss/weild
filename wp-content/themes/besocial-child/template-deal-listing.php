@@ -141,7 +141,7 @@ if(!$_POST['filter']) {
                                         </div>
                                     </div>
                                     <div class="weild_title">
-                                        <strong>Code Name: </strong><?=$meta["code_name"]?> <br>]
+                                        <strong>Code Name: </strong><?=$meta["code_name"]?> <br>
                                         <?php if($meta["document_uploads"]) {
                                             ?> 
 
