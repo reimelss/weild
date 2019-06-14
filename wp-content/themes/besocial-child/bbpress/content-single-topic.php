@@ -19,7 +19,7 @@
 		$forum_id =  bbp_get_forum_id();
 	?>
 	<div class="bbp-parent_forum">
-		<span class="bbp-admin-links"><a href="<?php echo get_permalink($forum_id); ?>" class="bbp-parent-forum-link"><?php echo get_the_title($forum_id); ?></a></span>
+		<span class="bbp-admin-links"><a href="<?php echo get_permalink($forum_id); ?>" class="bbp-parent-forum-link">Back</a></span>
 	</div>
 	<?php //bbp_breadcrumb(); ?>
 
