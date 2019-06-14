@@ -3,7 +3,10 @@
 Template Name: Create a Deal
 */
 ?>
-<?php get_header(); ?>
+<?php
+acf_form_head();
+
+get_header(); ?>
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 <?php if(get_the_title()) { ?>
@@ -19,7 +22,6 @@ Template Name: Create a Deal
 
 <?php 
 
-acf_form_head();
 
 get_header();
 
@@ -30,12 +32,12 @@ get_header();
 	
 	acf_form(array(
 		'post_id'		=> 'new_post',
-		'post_title'	=> true,
+		'post_title'	=> false,
 		'post_content'	=> false,
 		'new_post'		=> array(
 			'post_type'		=> 'deal',
-			'post_status'	=> 'publish'
-		)
+		),
+		'return' 		=> site_url("/my-deals/")
 	));
 	
 	?>

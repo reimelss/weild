@@ -8,7 +8,7 @@ wp_reset_query();
 $user_id = get_current_user_id();
 
 $args = array(
-	// 'posts_per_page'   => 5,
+	'posts_per_page'   => -1,
 	// 'offset'           => 0,
 	// 'cat'         => '',
 	// 'category_name'    => '',
@@ -45,8 +45,32 @@ echo "</pre>";
 </div>
 <?php } ?>
 
+<?php 
+// var_dump($_POST);
+if(!$_POST['filter']) {
+    $filter = "Active";
+}else{ 
+    $filter = $_POST['filter'];
+}
+?>
 
 <div class="besclwp-post-content buddypress">
+<div class="container">
+    <div class="row">
+        <div class="col-md-10">
+            <form method="post">
+                <select name='filter' onchange='if(this.value != 0) { this.form.submit(); }'>
+                    <option value='Pre-Engagement' <?php if($filter == 'Pre-Engagement') echo "selected" ?>>Pre-Engagement</option>
+                    <option value='Pre-Market' <?php if($filter == 'Pre-Market') echo "selected" ?>>Pre-Market</option>
+                    <option value='Active' <?php if($filter == 'Active') echo "selected" ?>>Active</option>
+                    <option value='Closed' <?php if($filter == 'Closed') echo "selected" ?>>Closed</option>
+                </select>
+            </form>
+        </div>
+        <div class="col-md-2">
+        </div>
+    </div>
+</div>
 
     <script>
     jQuery(function($) {
@@ -78,161 +102,161 @@ echo "</pre>";
                 // echo "<pre>";
                 // var_dump($meta);
                 // echo "</pre>";
-                if ($meta["confidential_deal"] && $meta["deal_status"] != "Canceled") {
+                if ($meta["confidential_deal"] && $meta["deal_status"] != "Canceled"  && $meta["deal_status"] == $filter ) {
 
-                ?>
-                <div id="besocial-members-list" aria-live="assertive" aria-relevant="all">
-                    <div class="besocial-member-outer besclwp-not-featured">
-                        <div class="besocial-member-inner">
-                            <div class="besocial-member-avatar">
-                                <a href="<?=$post->guid?>">Confidential Deal <br> </a>
-                            </div>
-                            <div class="besocial-member">
-                                    <!-- <div class="besocial-member-title">
-                                    
-                                        <a href="<?=$post->guid?>"><?=$meta["deal_name"]?></a>
-                                    </div> -->
-                                <div class="right_side hide-on-mobile">
-                                    <div class="member-cheader"><strong class="dropbtn">Contact</strong>
-                                        <!-- <div class="sub-info" style="display: none;">
-                                            <div class="member-cheader"> 
-                                                <a href="tel:303-895-4475">
-                                                    <b>
-                                                        <i class="fa fa-mobile"></i>
-                                                    </b>
-                                                    <strong>Mobile:</strong> 303-895-4475
-                                                </a>
-                                            </div>
+                    ?>
+                    <div id="besocial-members-list" aria-live="assertive" aria-relevant="all">
+                        <div class="besocial-member-outer besclwp-not-featured">
+                            <div class="besocial-member-inner">
+                                <div class="besocial-member-avatar">
+                                    <a href="<?=$post->guid?>">Confidential Deal <br> </a>
+                                </div>
+                                <div class="besocial-member">
+                                        <!-- <div class="besocial-member-title">
+                                        
+                                            <a href="<?=$post->guid?>"><?=$meta["deal_name"]?></a>
                                         </div> -->
+                                    <div class="right_side hide-on-mobile">
+                                        <div class="member-cheader"><strong class="dropbtn">Contact</strong>
+                                            <!-- <div class="sub-info" style="display: none;">
+                                                <div class="member-cheader"> 
+                                                    <a href="tel:303-895-4475">
+                                                        <b>
+                                                            <i class="fa fa-mobile"></i>
+                                                        </b>
+                                                        <strong>Mobile:</strong> 303-895-4475
+                                                    </a>
+                                                </div>
+                                            </div> -->
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="weild_title">
-                                    <strong>Code Name: </strong><?=$meta["code_name"]?> <br>
-                                    <strong>Document: </strong><a target="_blank" href="<?=$meta["document_uploads"]?>">Click here</a> <br>
-                                    <strong>Deal Size: </strong><?=$meta["deal_size"]?> <br>
-                                    <strong>Deal Status: </strong><?=$meta["deal_status"]?>
-                                </div>
-                                <div class="right_side hide-on-desktop">
-                                    <div class="member-cheader"><strong class="dropbtn">Contact</strong>
-                                        <!-- <div class="sub-info" style="display: none;">
-                                            <div class="member-cheader"> 
-                                                <a href="tel:303-895-4475">
-                                                    <b>
-                                                        <i class="fa fa-mobile"></i>
-                                                    </b>
-                                                    <strong>Mobile:</strong> 303-895-4475
-                                                </a>
-                                            </div>
-                                        </div> -->
+                                    <div class="weild_title">
+                                        <strong>Code Name: </strong><?=$meta["code_name"]?> <br>
+                                        <strong>Document: </strong><a target="_blank" href="<?=$meta["document_uploads"]?>">Click here</a> <br>
+                                        <strong>Deal Size: </strong><?=$meta["deal_size"]?> <br>
+                                        <strong>Deal Status: </strong><?=$meta["deal_status"]?>
                                     </div>
+                                    <div class="right_side hide-on-desktop">
+                                        <div class="member-cheader"><strong class="dropbtn">Contact</strong>
+                                            <!-- <div class="sub-info" style="display: none;">
+                                                <div class="member-cheader"> 
+                                                    <a href="tel:303-895-4475">
+                                                        <b>
+                                                            <i class="fa fa-mobile"></i>
+                                                        </b>
+                                                        <strong>Mobile:</strong> 303-895-4475
+                                                    </a>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="bio">
+                                        <?=$meta["confidential_description"]?>
+                                    </div>
+                                    <div id="member-info">
+                                        <div class="member-cheader"><strong>View Details </strong>
+                                            <div class="sub-info" style="display: none;">
+
+                                                <div class="member-cheader"><strong>Manager </strong>
+                                                    <div class="sub-info" style="display: none;">
+                                                        <ul class="product-expertise">
+                                                            <li class="unlicensed"
+                                                                style="margin-left: 20px; font-weight: 400; font-size: 17px;">
+                                                                <?=$meta["manager"]?></li>
+                                                            <ul> </ul>
+                                                        </ul>
+                                                    </div> <!-- sub-info -->
+                                                </div> <!-- member-cheader -->
+                                                
+                                                <div class="member-cheader"><strong>Type of Transaction </strong>
+                                                    <div class="sub-info" style="display: none;">
+                                                        <ul class="product-expertise">
+                                                            <li class="unlicensed"
+                                                                style="margin-left: 20px; font-weight: 400; font-size: 17px;">
+                                                                <?=$meta["type_of_transaction"]?></li>
+                                                            <ul> </ul>
+                                                        </ul>
+                                                    </div> <!-- sub-info -->
+                                                </div> <!-- member-cheader -->
+
+                                                <div class="member-cheader"><strong>Industry Sector </strong>
+                                                    <div class="sub-info" style="display: none;">
+                                                        <ul class="product-expertise">
+                                                            <li class="unlicensed"
+                                                                style="margin-left: 20px; font-weight: 400; font-size: 17px;">
+                                                                <?=$meta["industry_sector"]?></li>
+                                                            <ul> </ul>
+                                                        </ul>
+                                                    </div> <!-- sub-info -->
+                                                </div> <!-- member-cheader -->
+
+                                                <div class="member-cheader"><strong>Location </strong>
+                                                    <div class="sub-info" style="display: none;">
+                                                        <ul class="product-expertise">
+                                                            <li class="unlicensed"
+                                                                style="margin-left: 20px; font-weight: 400; font-size: 17px;">
+                                                                <?=$meta["location"]?></li>
+                                                            <ul> </ul>
+                                                        </ul>
+                                                    </div> <!-- sub-info -->
+                                                </div> <!-- member-cheader -->
+
+                                                <div class="member-cheader"><strong>Target Investor Type </strong>
+                                                    <div class="sub-info" style="display: none;">
+                                                        <ul class="product-expertise">
+
+                                                        <?php foreach($meta['target_investor_type'] as $single) {
+
+                                                        ?>
+                                                            <li class="unlicensed"
+                                                                style="margin-left: 20px; font-weight: 400; font-size: 17px;">
+                                                                <?=$single?></li>
+                                                                <?php 
+                                                        }
+                                                        ?>
+                                                            <ul> </ul>
+                                                        </ul>
+                                                    </div> <!-- sub-info -->
+                                                </div> <!-- member-cheader -->
+
+                                                <div class="member-cheader"><strong>What are you seeking assistance with </strong>
+                                                    <div class="sub-info" style="display: none;">
+                                                        <ul class="product-expertise">
+
+                                                        <?php foreach($meta['what_are_you_seeking_assistance_with'] as $single) {
+
+                                                        ?>
+                                                            <li class="unlicensed"
+                                                                style="margin-left: 20px; font-weight: 400; font-size: 17px;">
+                                                                <?=$single?></li>
+                                                                <?php 
+                                                        }
+                                                        ?>
+                                                            <ul> </ul>
+                                                        </ul>
+                                                    </div> <!-- sub-info -->
+                                                </div> <!-- member-cheader -->
+
+                                            </div> <!-- sub-info -->
+                                        </div> <!-- member-cheader -->
+                                    </div> <!-- member-info -->
                                 </div>
-                                <div class="bio">
-                                    <?=$meta["confidential_description"]?>
-                                </div>
-                                <div id="member-info">
-                                    <div class="member-cheader"><strong>View Details </strong>
-                                        <div class="sub-info" style="display: none;">
-
-                                            <div class="member-cheader"><strong>Manager </strong>
-                                                <div class="sub-info" style="display: none;">
-                                                    <ul class="product-expertise">
-                                                        <li class="unlicensed"
-                                                            style="margin-left: 20px; font-weight: 400; font-size: 17px;">
-                                                            <?=$meta["manager"]?></li>
-                                                        <ul> </ul>
-                                                    </ul>
-                                                </div> <!-- sub-info -->
-                                            </div> <!-- member-cheader -->
-                                            
-                                            <div class="member-cheader"><strong>Type of Transaction </strong>
-                                                <div class="sub-info" style="display: none;">
-                                                    <ul class="product-expertise">
-                                                        <li class="unlicensed"
-                                                            style="margin-left: 20px; font-weight: 400; font-size: 17px;">
-                                                            <?=$meta["type_of_transaction"]?></li>
-                                                        <ul> </ul>
-                                                    </ul>
-                                                </div> <!-- sub-info -->
-                                            </div> <!-- member-cheader -->
-
-                                            <div class="member-cheader"><strong>Industry Sector </strong>
-                                                <div class="sub-info" style="display: none;">
-                                                    <ul class="product-expertise">
-                                                        <li class="unlicensed"
-                                                            style="margin-left: 20px; font-weight: 400; font-size: 17px;">
-                                                            <?=$meta["industry_sector"]?></li>
-                                                        <ul> </ul>
-                                                    </ul>
-                                                </div> <!-- sub-info -->
-                                            </div> <!-- member-cheader -->
-
-                                            <div class="member-cheader"><strong>Location </strong>
-                                                <div class="sub-info" style="display: none;">
-                                                    <ul class="product-expertise">
-                                                        <li class="unlicensed"
-                                                            style="margin-left: 20px; font-weight: 400; font-size: 17px;">
-                                                            <?=$meta["location"]?></li>
-                                                        <ul> </ul>
-                                                    </ul>
-                                                </div> <!-- sub-info -->
-                                            </div> <!-- member-cheader -->
-
-                                            <div class="member-cheader"><strong>Target Investor Type </strong>
-                                                <div class="sub-info" style="display: none;">
-                                                    <ul class="product-expertise">
-
-                                                    <?php foreach($meta['target_investor_type'] as $single) {
-
-                                                    ?>
-                                                        <li class="unlicensed"
-                                                            style="margin-left: 20px; font-weight: 400; font-size: 17px;">
-                                                            <?=$single?></li>
-                                                            <?php 
-                                                    }
-                                                    ?>
-                                                        <ul> </ul>
-                                                    </ul>
-                                                </div> <!-- sub-info -->
-                                            </div> <!-- member-cheader -->
-
-                                            <div class="member-cheader"><strong>What are you seeking assistance with </strong>
-                                                <div class="sub-info" style="display: none;">
-                                                    <ul class="product-expertise">
-
-                                                    <?php foreach($meta['what_are_you_seeking_assistance_with'] as $single) {
-
-                                                    ?>
-                                                        <li class="unlicensed"
-                                                            style="margin-left: 20px; font-weight: 400; font-size: 17px;">
-                                                            <?=$single?></li>
-                                                            <?php 
-                                                    }
-                                                    ?>
-                                                        <ul> </ul>
-                                                    </ul>
-                                                </div> <!-- sub-info -->
-                                            </div> <!-- member-cheader -->
-
-                                        </div> <!-- sub-info -->
-                                    </div> <!-- member-cheader -->
-                                </div> <!-- member-info -->
                             </div>
                         </div>
-                    </div>
-                    <!-- <div id="pag-bottom" class="pagination">
-                        <div class="pag-count" id="member-dir-count-bottom">
-                            Viewing 1 - 20 of 38 active affiliates
-                        </div>
-                        <div class="pagination-links" id="member-dir-pag-bottom">
-                            <span aria-current="page" class="page-numbers current">1</span>
-                            <a class="page-numbers" href="?upage=2">2</a>
-                            <a class="next page-numbers" href="?upage=2">→</a>
-                        </div>
-                    </div> -->
-                </div><!-- #members-dir-list -->
+                        <!-- <div id="pag-bottom" class="pagination">
+                            <div class="pag-count" id="member-dir-count-bottom">
+                                Viewing 1 - 20 of 38 active affiliates
+                            </div>
+                            <div class="pagination-links" id="member-dir-pag-bottom">
+                                <span aria-current="page" class="page-numbers current">1</span>
+                                <a class="page-numbers" href="?upage=2">2</a>
+                                <a class="next page-numbers" href="?upage=2">→</a>
+                            </div>
+                        </div> -->
+                    </div><!-- #members-dir-list -->
                 <?php 
                 }
-                if(!$meta["confidential_deal"] && $meta["deal_status"] != "Canceled") {
+                if(!$meta["confidential_deal"] && $meta["deal_status"] != "Canceled"  && $meta["deal_status"] == $filter ) {
                     ?>
 
                     <div id="besocial-members-list" aria-live="assertive" aria-relevant="all">
