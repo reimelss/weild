@@ -9,7 +9,7 @@
 
 ?>
 <style type="text/css">
-	@media (max-width :768px){
+	@media (min-width :768px){
 		.bbp-parent_forum {width: 50%;text-align: right;float: right;}
 		.bbp-pagination {width: 50%;}
 	}
