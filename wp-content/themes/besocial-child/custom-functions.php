@@ -110,10 +110,10 @@ function my_admin_menu() {
 function myplguin_admin_page(){
 
   if( $_POST["Pre-Engagement"] ){ 
-    echo "<pre>";
-    var_dump($_POST);
-    echo "<br>";
-    echo "<br>";
+    // echo "<pre>";
+    // var_dump($_POST);
+    // echo "<br>";
+    // echo "<br>";
   
     $new_options = array(
       'Pre-Engagement' => $_POST["Pre-Engagement"],
@@ -151,21 +151,21 @@ function myplguin_admin_page(){
     }
     $option_get_data = get_option("display_order");
 
-    var_dump($new_options);
+    // var_dump($new_options);
 
-    echo "<Br>";
+    // echo "<Br>";
     $posts = get_posts([
       'post_type' => 'deal',
       'post_status' => 'publish',
       'numberposts' => -1
       // 'order'    => 'ASC'
       ]);
-    echo "<Br>";
+    // echo "<Br>";
     foreach($posts as $post) {
 
 
       $fields = get_fields($post->ID); 
-      var_dump($fields); 
+      // var_dump($fields); 
       $score = 0;
       if (in_array("Pre-Engagement", $fields)) $score = $score + $option_get_data["Pre-Engagement"];
       if (in_array("Pre-Market", $fields)) $score = $score + $option_get_data["Pre-Market"];
@@ -216,7 +216,7 @@ function myplguin_admin_page(){
   }
 
   $option_get_data = get_option("display_order");
-  var_dump($option_get_data);
+  // var_dump($option_get_data);
 	?>
 	<div class="wrap">
 		<h2>Point value to Deal attributes</h2>
