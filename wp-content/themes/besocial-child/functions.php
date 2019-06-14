@@ -256,3 +256,50 @@ function teste($value) {
 
 //include custon function file
 require get_stylesheet_directory() . '/custom-functions.php';
+
+
+add_action( 'admin_menu', 'my_admin_menu' );
+
+function my_admin_menu() {
+	add_menu_page( 'Set value to display orders', 'Deals Order', 'manage_options', 'myplugin/myplugin-admin-page.php', 'myplguin_admin_page', 'dashicons-tickets', 6  );
+}
+
+
+function myplguin_admin_page(){
+	?>
+	<div class="wrap">
+		<h2>Point value to Deal attributes</h2>
+		<p>The total of those points would determine the sort order</p>
+    <form method="post">
+    <label for="Status">Status</label> <br>
+    <input type="number" name="Status" min="0" max="10" > 
+
+    <br>
+    <label for="Status">Seeking assistance fields</label> <br>
+    <input type="number" name="Seeking_assistance_fields" min="0" max="10" >
+
+    <br>
+    <label for="Status">Size</label> <br>
+    <input type="number" name="Size" min="0" max="10" >
+    
+    <br>
+    <label for="Status">Target Investor Type</label> <br>
+    <input type="number" name="Target_Investor_Type" min="0" max="10" >
+
+    <br>
+    <label for="Status">Discussion</label> <br>
+    <input type="number" name="discussion" min="0" max="10" >
+
+    <br>
+    <label for="Status">Note to df</label> <br>
+    <input type="number" name="note_to_df" min="0" max="10" >
+    
+    <br>
+    <br>
+    <input type="submit">
+
+
+    </form>
+	</div>
+	<?php
+}

@@ -1,0 +1,592 @@
+0000.000 (0) Opened log file at time: Wed, 12 Jun 2019 19:06:10 +0000 on http://localhost/weild
+0000.030 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.8 WP: 5.2.1 PHP: 7.2.14 (apache2handler, Darwin Brunos-iMac.local 18.6.0 Darwin Kernel Version 18.6.0: Thu Apr 25 23:16:27 PDT 2019; root:xnu-4903.261.4~2/RELEASE_X86_64 x86_64) MySQL: 5.7.25 WPLANG: en_US Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.14 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 83.9M | 42.5M) multisite: N openssl: OpenSSL 1.0.2o  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.032 (0) Free space on disk containing Updraft's temporary directory: 129333.6 MB
+0000.034 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.035 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.074 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1559501025, seconds_ago=865345)
+0000.095 (0) Set semaphore last lock (fd) time to 2019-06-12 19:06:11
+0000.095 (0) Semaphore lock (fd) complete
+0000.098 (0) Backup run: resumption=0, nonce=555e72fdf838, file_nonce=555e72fdf838 begun at=1560366370 (1s ago), job type=backup
+0000.099 (0) Scheduling a resumption (1) after 300 seconds (1560366671) in case this run gets aborted
+0000.130 (0) Checking if we have a zip executable available
+0000.131 (0) Testing: /usr/bin/zip
+0000.187 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.189 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.189 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.190 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.190 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.220 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.222 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.272 (0) Working binary zip found: /usr/bin/zip
+0000.274 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.274 (0) Creation of backups of directories: beginning
+0000.277 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.889 (0) Total entities for the zip file: 1750 directories, 10084 files (0 skipped as non-modified), 276.5 MB
+0000.894 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.898 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.903 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.906 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.910 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.911 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.5 MB, 10084 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.130 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: size is now: 3.90 MB
+0002.136 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 600 files added (on-disk size: 4028.6 KB)
+0002.141 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 700 files added (on-disk size: 4028.6 KB)
+0002.145 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 800 files added (on-disk size: 4028.6 KB)
+0002.150 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 900 files added (on-disk size: 4028.6 KB)
+0002.154 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 1000 files added (on-disk size: 4028.6 KB)
+0002.156 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.4 MB, 10084 files batched, 501 (1002) added so far); re-opening (prior size: 4028.6 KB)
+0002.682 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: size is now: 5.20 MB
+0002.688 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 1100 files added (on-disk size: 5316.6 KB)
+0002.691 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 1200 files added (on-disk size: 5316.6 KB)
+0002.695 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 1300 files added (on-disk size: 5316.6 KB)
+0002.698 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 1400 files added (on-disk size: 5316.6 KB)
+0002.702 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 1500 files added (on-disk size: 5316.6 KB)
+0002.703 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.1 MB, 10084 files batched, 501 (1503) added so far); re-opening (prior size: 5316.6 KB)
+0004.376 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: size is now: 6.70 MB
+0004.382 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 1600 files added (on-disk size: 6853.7 KB)
+0004.386 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 1700 files added (on-disk size: 6853.7 KB)
+0004.390 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 1800 files added (on-disk size: 6853.7 KB)
+0004.393 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 1900 files added (on-disk size: 6853.7 KB)
+0004.398 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 2000 files added (on-disk size: 6853.7 KB)
+0004.399 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.4 MB, 10084 files batched, 501 (2004) added so far); re-opening (prior size: 6853.7 KB)
+0005.397 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: size is now: 9.20 MB
+0005.402 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 2100 files added (on-disk size: 9376.5 KB)
+0005.406 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 2200 files added (on-disk size: 9376.5 KB)
+0005.409 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 2300 files added (on-disk size: 9376.5 KB)
+0005.413 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 2400 files added (on-disk size: 9376.5 KB)
+0005.416 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 2500 files added (on-disk size: 9376.5 KB)
+0005.417 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.8 MB, 10084 files batched, 501 (2505) added so far); re-opening (prior size: 9376.5 KB)
+0007.108 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: size is now: 14.00 MB
+0007.114 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 2600 files added (on-disk size: 14367.6 KB)
+0007.118 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 2700 files added (on-disk size: 14367.6 KB)
+0007.122 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 2800 files added (on-disk size: 14367.6 KB)
+0007.125 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 2900 files added (on-disk size: 14367.6 KB)
+0007.129 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 3000 files added (on-disk size: 14367.6 KB)
+0007.130 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.1 MB, 10084 files batched, 501 (3006) added so far); re-opening (prior size: 14367.6 KB)
+0008.101 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 3100 files added (on-disk size: 16317.9 KB)
+0008.105 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 3200 files added (on-disk size: 16317.9 KB)
+0008.109 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 3300 files added (on-disk size: 16317.9 KB)
+0008.112 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 3400 files added (on-disk size: 16317.9 KB)
+0008.116 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 3500 files added (on-disk size: 16317.9 KB)
+0008.117 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 10084 files batched, 501 (3507) added so far); re-opening (prior size: 16317.9 KB)
+0008.870 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 3600 files added (on-disk size: 18015.8 KB)
+0008.875 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 3700 files added (on-disk size: 18015.8 KB)
+0008.879 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 3800 files added (on-disk size: 18015.8 KB)
+0008.882 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 3900 files added (on-disk size: 18015.8 KB)
+0008.886 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 4000 files added (on-disk size: 18015.8 KB)
+0008.887 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.4 MB, 10084 files batched, 501 (4008) added so far); re-opening (prior size: 18015.8 KB)
+0009.775 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 4100 files added (on-disk size: 19185.5 KB)
+0009.782 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 4200 files added (on-disk size: 19185.5 KB)
+0009.787 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 4300 files added (on-disk size: 19185.5 KB)
+0009.792 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 4400 files added (on-disk size: 19185.5 KB)
+0009.797 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 4500 files added (on-disk size: 19185.5 KB)
+0009.798 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.1 MB, 10084 files batched, 501 (4509) added so far); re-opening (prior size: 19185.5 KB)
+0010.819 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 4600 files added (on-disk size: 21550.9 KB)
+0010.824 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 4700 files added (on-disk size: 21550.9 KB)
+0010.827 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 4800 files added (on-disk size: 21550.9 KB)
+0010.831 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 4900 files added (on-disk size: 21550.9 KB)
+0010.834 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 10084 files batched, 482 (4991) added so far); re-opening (prior size: 21550.9 KB)
+0012.979 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: size is now: 31.20 MB
+0012.981 (0) A useful amount of data was added after this amount of zip processing: 2.9 s (normalised: 2.9 s, rate: 8817.5 KB/s)
+0012.983 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.9054679870605, normalised_time=2.9033018959625, max_time=12.98149895668, data points known=1, old_max_bytes=26214400, new_max_bytes=70327279)
+0012.984 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 5000 files added (on-disk size: 31981.7 KB)
+0012.988 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 5100 files added (on-disk size: 31981.7 KB)
+0012.992 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 5200 files added (on-disk size: 31981.7 KB)
+0012.995 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 5300 files added (on-disk size: 31981.7 KB)
+0012.999 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 5400 files added (on-disk size: 31981.7 KB)
+0013.002 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 10084 files batched, 501 (5492) added so far); re-opening (prior size: 31981.7 KB)
+0013.795 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 5500 files added (on-disk size: 32582.9 KB)
+0013.800 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 5600 files added (on-disk size: 32582.9 KB)
+0013.804 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 5700 files added (on-disk size: 32582.9 KB)
+0013.808 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 5800 files added (on-disk size: 32582.9 KB)
+0013.812 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 5900 files added (on-disk size: 32582.9 KB)
+0013.816 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 10084 files batched, 501 (5993) added so far); re-opening (prior size: 32582.9 KB)
+0015.481 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 6000 files added (on-disk size: 33556.1 KB)
+0015.486 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 6100 files added (on-disk size: 33556.1 KB)
+0015.489 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 6200 files added (on-disk size: 33556.1 KB)
+0015.493 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 6300 files added (on-disk size: 33556.1 KB)
+0015.497 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 6400 files added (on-disk size: 33556.1 KB)
+0015.501 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 10084 files batched, 501 (6494) added so far); re-opening (prior size: 33556.1 KB)
+0016.926 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 6500 files added (on-disk size: 34693.6 KB)
+0016.931 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 6600 files added (on-disk size: 34693.6 KB)
+0016.936 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 6700 files added (on-disk size: 34693.6 KB)
+0016.937 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 67.1 MB added on this batch (67.3 MB, 10084 files batched, 223 (6717) added so far); re-opening (prior size: 34693.6 KB)
+0023.196 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: size is now: 49.60 MB
+0023.199 (0) A useful amount of data was added after this amount of zip processing: 7.1 s (normalised: 7.1 s, rate: 9676.4 KB/s)
+0023.204 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 6800 files added (on-disk size: 50747.6 KB)
+0023.209 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 6900 files added (on-disk size: 50747.6 KB)
+0023.213 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 7000 files added (on-disk size: 50747.6 KB)
+0023.218 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 7100 files added (on-disk size: 50747.6 KB)
+0023.222 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 7200 files added (on-disk size: 50747.6 KB)
+0023.224 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (37.1 MB, 10084 files batched, 501 (7218) added so far); re-opening (prior size: 50747.6 KB)
+0026.621 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 7300 files added (on-disk size: 59808.3 KB)
+0026.625 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 7400 files added (on-disk size: 59808.3 KB)
+0026.628 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 7500 files added (on-disk size: 59808.3 KB)
+0026.632 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 7600 files added (on-disk size: 59808.3 KB)
+0026.636 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 7700 files added (on-disk size: 59808.3 KB)
+0026.637 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (25.6 MB, 10084 files batched, 501 (7719) added so far); re-opening (prior size: 59808.3 KB)
+0029.785 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 7800 files added (on-disk size: 66952.1 KB)
+0029.789 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 7900 files added (on-disk size: 66952.1 KB)
+0029.793 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 8000 files added (on-disk size: 66952.1 KB)
+0029.797 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 8100 files added (on-disk size: 66952.1 KB)
+0029.801 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 8200 files added (on-disk size: 66952.1 KB)
+0029.802 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16 MB, 10084 files batched, 501 (8220) added so far); re-opening (prior size: 66952.1 KB)
+0034.916 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 8300 files added (on-disk size: 71365.9 KB)
+0034.920 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 8400 files added (on-disk size: 71365.9 KB)
+0034.924 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 8500 files added (on-disk size: 71365.9 KB)
+0034.928 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 8600 files added (on-disk size: 71365.9 KB)
+0034.933 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 8700 files added (on-disk size: 71365.9 KB)
+0034.934 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.3 MB, 10084 files batched, 501 (8721) added so far); re-opening (prior size: 71365.9 KB)
+0040.859 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 8800 files added (on-disk size: 75040.2 KB)
+0040.864 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 8900 files added (on-disk size: 75040.2 KB)
+0040.868 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 9000 files added (on-disk size: 75040.2 KB)
+0040.872 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 9100 files added (on-disk size: 75040.2 KB)
+0040.876 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 9200 files added (on-disk size: 75040.2 KB)
+0040.877 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.1 MB, 10084 files batched, 501 (9222) added so far); re-opening (prior size: 75040.2 KB)
+0046.515 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 9300 files added (on-disk size: 75500.3 KB)
+0046.520 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 9400 files added (on-disk size: 75500.3 KB)
+0046.523 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 9500 files added (on-disk size: 75500.3 KB)
+0046.527 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 9600 files added (on-disk size: 75500.3 KB)
+0046.532 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 9700 files added (on-disk size: 75500.3 KB)
+0046.534 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.7 MB, 10084 files batched, 501 (9723) added so far); re-opening (prior size: 75500.3 KB)
+0053.143 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 9800 files added (on-disk size: 81248.6 KB)
+0053.147 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 9900 files added (on-disk size: 81248.6 KB)
+0053.150 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip.tmp: 10000 files added (on-disk size: 81248.6 KB)
+0058.676 (0) Created plugins zip (0) - 81883 KB in 58.4 s (1402.2 KB/s) (sha1: f251a27178d6008846d70a37c9ac1fb5e5e772ee, sha256: a4efe74c3f58ebc15fed6338bf937818cff0de96fb45cc7936112471ad6352dd)
+0058.678 (0) Beginning creation of dump of themes (split every: 400 MB)
+0058.718 (0) Total entities for the zip file: 149 directories, 699 files (0 skipped as non-modified), 10.5 MB
+0058.722 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0058.727 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0058.731 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0058.735 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0058.739 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0058.740 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.8 MB, 699 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0063.278 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-themes.zip.tmp: size is now: 6.50 MB
+0063.284 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-themes.zip.tmp: 600 files added (on-disk size: 6604.8 KB)
+0063.919 (0) Created themes zip (0) - 6984.7 KB in 5.2 s (1333 KB/s) (sha1: 02d708c15e0ab8f4da26e683805c7fde4e821446, sha256: 0326f0a233c07a9e72e6f6d406e77cafd3758e49f83e321c7b958865fcb39baa)
+0063.922 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0063.923 (0) Looking for candidates to backup in: /Users/brunomoreira/git/weild/wp-content/uploads
+0063.924 (0) finding files: Jeremy.vcf: adding to list (1)
+0063.925 (0) finding files: ralph.vcf: adding to list (2)
+0063.926 (0) finding files: allegralevy.vcf: adding to list (3)
+0063.927 (0) finding files: David Fetter.vcf: adding to list (4)
+0063.927 (0) finding files: Joe.vcf: adding to list (5)
+0063.928 (0) finding files: thomas.vcf: adding to list (6)
+0063.929 (0) finding files: justin.vcf: adding to list (7)
+0063.930 (0) finding files: chynna.vcf: adding to list (8)
+0063.931 (0) finding files: CindySanders.vcf: adding to list (9)
+0063.932 (0) finding files: picabo.vcf: adding to list (10)
+0063.932 (0) finding files: monta.vcf: adding to list (11)
+0063.933 (0) finding files: admin.vcf: adding to list (12)
+0063.934 (0) finding files: imorshed.vcf: adding to list (13)
+0063.934 (0) finding files: cecelia.vcf: adding to list (14)
+0063.935 (0) finding files: wp-sync-db: adding to list (15)
+0063.936 (0) finding files: Rachel.vcf: adding to list (16)
+0063.936 (0) finding files: siteorigin-widgets: adding to list (17)
+0063.937 (0) finding files: Laura.vcf: adding to list (18)
+0063.938 (0) finding files: keir.vcf: adding to list (19)
+0063.938 (0) finding files: wynonna.vcf: adding to list (20)
+0063.939 (0) finding files: developer.vcf: adding to list (21)
+0063.940 (0) finding files: michellie.vcf: adding to list (22)
+0063.941 (0) finding files: matraca.vcf: adding to list (23)
+0063.942 (0) finding files: Elmore Leonard.vcf: adding to list (24)
+0063.942 (0) finding files: 2017: adding to list (25)
+0063.943 (0) finding files: nmd.admin.vcf: adding to list (26)
+0063.944 (0) finding files: group-avatars: adding to list (27)
+0063.944 (0) finding files: Paul.vcf: adding to list (28)
+0063.945 (0) finding files: buddypress: adding to list (29)
+0063.945 (0) finding files: 2019: adding to list (30)
+0063.946 (0) finding files: ron.vcf: adding to list (31)
+0063.947 (0) finding files: mamah.vcf: adding to list (32)
+0063.948 (0) finding files: jason.vcf: adding to list (33)
+0063.948 (0) finding files: shan.vcf: adding to list (34)
+0063.949 (0) finding files: nmd.dev.admin.vcf: adding to list (35)
+0063.950 (0) finding files: test2019.vcf: adding to list (36)
+0063.951 (0) finding files: 2016: adding to list (37)
+0063.951 (0) finding files: Zoe.vcf: adding to list (38)
+0063.952 (0) finding files: test2020.vcf: adding to list (39)
+0063.953 (0) finding files: seamus.vcf: adding to list (40)
+0063.954 (0) finding files: kiki.vcf: adding to list (41)
+0063.954 (0) finding files: FrankOscar.vcf: adding to list (42)
+0063.955 (0) finding files: Tom.vcf: adding to list (43)
+0063.956 (0) finding files: siobhan.vcf: adding to list (44)
+0063.956 (0) finding files: .vcf: adding to list (45)
+0063.957 (0) finding files: stephen.vcf: adding to list (46)
+0063.958 (0) finding files: Peter.vcf: adding to list (47)
+0063.959 (0) finding files: Test Agreement.vcf: adding to list (48)
+0063.959 (0) finding files: GeoLite2-Country.mmdb: adding to list (49)
+0063.960 (0) finding files: Demo User.vcf: adding to list (50)
+0063.961 (0) finding files: john.vcf: adding to list (51)
+0063.961 (0) finding files: wc-logs: adding to list (52)
+0063.961 (0) finding files: vernon.vcf: adding to list (53)
+0063.961 (0) finding files: avatars: adding to list (54)
+0063.961 (0) finding files: antawn.vcf: adding to list (55)
+0063.961 (0) finding files: dan.vcf: adding to list (56)
+0063.961 (0) finding files: andre.vcf: adding to list (57)
+0063.961 (0) finding files: malivai.vcf: adding to list (58)
+0063.961 (0) finding files: woocommerce_uploads: adding to list (59)
+0063.961 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0064.003 (0) Total entities for the zip file: 33 directories, 700 files (0 skipped as non-modified), 31.2 MB
+0064.007 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0064.012 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0064.016 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0064.019 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0064.024 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0064.025 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (22.5 MB, 700 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0066.986 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-uploads.zip.tmp: size is now: 22.60 MB
+0066.994 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-uploads.zip.tmp: 600 files added (on-disk size: 23115.3 KB)
+0066.999 (0) Zip: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-uploads.zip.tmp: 700 files added (on-disk size: 23115.3 KB)
+0068.075 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-uploads.zip.tmp: size is now: 29.60 MB
+0068.687 (0) Created uploads zip (0) - 30290 KB in 4.7 s (6410.3 KB/s) (sha1: 327437f9ece37abccd04b3ceb431320f7d3d9d71, sha256: d74b050d55a2a185dcb8cef113b157932aad7cbcd027ae44d6ebdb240d9bb653)
+0068.691 (0) Beginning backup of other directories found in the content directory (index: 0)
+0068.691 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0068.692 (0) Looking for candidates to backup in: /Users/brunomoreira/git/weild/wp-content
+0068.693 (0) finding files: upgrade: skipping: excluded by options
+0068.694 (0) finding files: .DS_Store: adding to list (1)
+0068.695 (0) finding files: index.php: adding to list (2)
+0068.696 (0) finding files: test-button-log.txt: adding to list (3)
+0068.696 (0) finding files: plugins: skipping: this is the plugins directory
+0068.697 (0) finding files: uploads: skipping: this is the uploads directory
+0068.698 (0) finding files: updraft: skipping: this is the updraft directory
+0068.699 (0) finding files: languages: adding to list (4)
+0068.700 (0) finding files: themes: skipping: this is the themes directory
+0068.704 (0) Total entities for the zip file: 2 directories, 5 files (0 skipped as non-modified), 0 MB
+0068.774 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-others.zip.tmp: size is now: 0.00 MB
+0068.779 (0) Created others zip (0) - 4.8 KB in 0.1 s (62.5 KB/s) (sha1: 11db0e33d4b444b2a6c05fdf6b1586b28eb8c5f7, sha256: 2cf14ffd7d798fae72057c73c736f809672f93a0c6fe869a9225a8810ca233b1)
+0068.784 (0) Saving backup status to database (elements: 8)
+0068.786 (0) Beginning creation of database dump (WordPress DB)
+0069.086 (0) Table wp_options: Total expected rows (approximate): 737
+0069.160 (0) Table wp_options: Total rows added: 733 in 0.07 seconds
+0069.162 (0) Table wp_options: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_options.table.gz - 91.1 KB)
+0069.165 (0) Table wp_users: Total expected rows (approximate): 47
+0069.168 (0) Table wp_users: Total rows added: 47 in 0.00 seconds
+0069.169 (0) Table wp_users: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_users.table.gz - 3.5 KB)
+0069.172 (0) Table wp_usermeta: Total expected rows (approximate): 1240
+0069.186 (0) Table wp_usermeta: Total rows added: 1240 in 0.01 seconds
+0069.188 (0) Table wp_usermeta: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_usermeta.table.gz - 13.2 KB)
+0069.192 (0) Table wp_commentmeta: Total expected rows (approximate): 2
+0069.194 (0) Table wp_commentmeta: Total rows added: 2 in 0.00 seconds
+0069.195 (0) Table wp_commentmeta: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0069.199 (0) Table wp_comments: Total expected rows (approximate): 7
+0069.201 (0) Table wp_comments: Total rows added: 7 in 0.00 seconds
+0069.202 (0) Table wp_comments: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_comments.table.gz - 1.4 KB)
+0069.208 (0) Table wp_links: Total expected rows (approximate): 0
+0069.209 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0069.210 (0) Table wp_links: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_links.table.gz - 0.4 KB)
+0069.213 (0) Table wp_postmeta: Total expected rows (approximate): 1171
+0069.240 (0) Table wp_postmeta: Total rows added: 1171 in 0.03 seconds
+0069.241 (0) Table wp_postmeta: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_postmeta.table.gz - 35.9 KB)
+0069.246 (0) Table wp_posts: Total expected rows (approximate): 305
+0069.278 (0) Table wp_posts: Total rows added: 305 in 0.03 seconds
+0069.280 (0) Table wp_posts: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_posts.table.gz - 44.5 KB)
+0069.287 (0) Table wp_signups: Total expected rows (approximate): 0
+0069.288 (0) Table wp_signups: Total rows added: 0 in 0.00 seconds
+0069.289 (0) Table wp_signups: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_signups.table.gz - 0.5 KB)
+0069.294 (0) Table wp_term_relationships: Total expected rows (approximate): 163
+0069.297 (0) Table wp_term_relationships: Total rows added: 163 in 0.00 seconds
+0069.298 (0) Table wp_term_relationships: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_term_relationships.table.gz - 0.9 KB)
+0069.303 (0) Table wp_term_taxonomy: Total expected rows (approximate): 80
+0069.306 (0) Table wp_term_taxonomy: Total rows added: 80 in 0.00 seconds
+0069.307 (0) Table wp_term_taxonomy: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_term_taxonomy.table.gz - 1.4 KB)
+0069.311 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0069.312 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0069.313 (0) Table wp_termmeta: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_termmeta.table.gz - 0.4 KB)
+0069.318 (0) Table wp_terms: Total expected rows (approximate): 80
+0069.320 (0) Table wp_terms: Total rows added: 80 in 0.00 seconds
+0069.321 (0) Table wp_terms: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_terms.table.gz - 1.5 KB)
+0069.328 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0069.329 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0069.330 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0069.337 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0069.338 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0069.339 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0069.344 (0) Table wp_bp_activity: Total expected rows (approximate): 629
+0069.386 (0) Table wp_bp_activity: Total rows added: 629 in 0.04 seconds
+0069.388 (0) Table wp_bp_activity: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_activity.table.gz - 18.2 KB)
+0069.392 (0) Table wp_bp_activity_meta: Total expected rows (approximate): 6
+0069.394 (0) Table wp_bp_activity_meta: Total rows added: 6 in 0.00 seconds
+0069.395 (0) Table wp_bp_activity_meta: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_activity_meta.table.gz - 1.2 KB)
+0069.401 (0) Table wp_bp_friends: Total expected rows (approximate): 82
+0069.404 (0) Table wp_bp_friends: Total rows added: 82 in 0.00 seconds
+0069.405 (0) Table wp_bp_friends: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_friends.table.gz - 1.4 KB)
+0069.408 (0) Table wp_bp_groups: Total expected rows (approximate): 46
+0069.411 (0) Table wp_bp_groups: Total rows added: 46 in 0.00 seconds
+0069.412 (0) Table wp_bp_groups: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_groups.table.gz - 5.4 KB)
+0069.417 (0) Table wp_bp_groups_groupmeta: Total expected rows (approximate): 93
+0069.419 (0) Table wp_bp_groups_groupmeta: Total rows added: 93 in 0.00 seconds
+0069.420 (0) Table wp_bp_groups_groupmeta: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_groups_groupmeta.table.gz - 1 KB)
+0069.424 (0) Table wp_bp_groups_members: Total expected rows (approximate): 401
+0069.432 (0) Table wp_bp_groups_members: Total rows added: 401 in 0.01 seconds
+0069.433 (0) Table wp_bp_groups_members: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_groups_members.table.gz - 3.1 KB)
+0069.439 (0) Table wp_bp_messages_messages: Total expected rows (approximate): 100
+0069.444 (0) Table wp_bp_messages_messages: Total rows added: 100 in 0.00 seconds
+0069.446 (0) Table wp_bp_messages_messages: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_messages_messages.table.gz - 4.6 KB)
+0069.450 (0) Table wp_bp_messages_meta: Total expected rows (approximate): 0
+0069.451 (0) Table wp_bp_messages_meta: Total rows added: 0 in 0.00 seconds
+0069.452 (0) Table wp_bp_messages_meta: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_messages_meta.table.gz - 0.4 KB)
+0069.456 (0) Table wp_bp_messages_notices: Total expected rows (approximate): 0
+0069.457 (0) Table wp_bp_messages_notices: Total rows added: 0 in 0.00 seconds
+0069.458 (0) Table wp_bp_messages_notices: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_messages_notices.table.gz - 0.4 KB)
+0069.462 (0) Table wp_bp_messages_recipients: Total expected rows (approximate): 293
+0069.466 (0) Table wp_bp_messages_recipients: Total rows added: 293 in 0.00 seconds
+0069.467 (0) Table wp_bp_messages_recipients: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_messages_recipients.table.gz - 1.9 KB)
+0069.471 (0) Table wp_bp_notifications: Total expected rows (approximate): 281
+0069.477 (0) Table wp_bp_notifications: Total rows added: 281 in 0.00 seconds
+0069.478 (0) Table wp_bp_notifications: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_notifications.table.gz - 3 KB)
+0069.483 (0) Table wp_bp_notifications_meta: Total expected rows (approximate): 0
+0069.484 (0) Table wp_bp_notifications_meta: Total rows added: 0 in 0.00 seconds
+0069.485 (0) Table wp_bp_notifications_meta: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_notifications_meta.table.gz - 0.4 KB)
+0069.489 (0) Table wp_bp_xprofile_data: Total expected rows (approximate): 531
+0069.498 (0) Table wp_bp_xprofile_data: Total rows added: 531 in 0.01 seconds
+0069.500 (0) Table wp_bp_xprofile_data: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_xprofile_data.table.gz - 15.4 KB)
+0069.506 (0) Table wp_bp_xprofile_fields: Total expected rows (approximate): 205
+0069.511 (0) Table wp_bp_xprofile_fields: Total rows added: 205 in 0.00 seconds
+0069.512 (0) Table wp_bp_xprofile_fields: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_xprofile_fields.table.gz - 3.9 KB)
+0069.517 (0) Table wp_bp_xprofile_groups: Total expected rows (approximate): 8
+0069.519 (0) Table wp_bp_xprofile_groups: Total rows added: 8 in 0.00 seconds
+0069.520 (0) Table wp_bp_xprofile_groups: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_xprofile_groups.table.gz - 0.6 KB)
+0069.536 (0) Table wp_bp_xprofile_meta: Total expected rows (approximate): 113
+0069.539 (0) Table wp_bp_xprofile_meta: Total rows added: 113 in 0.00 seconds
+0069.540 (0) Table wp_bp_xprofile_meta: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_xprofile_meta.table.gz - 1.2 KB)
+0069.545 (0) Table wp_gf_addon_feed: Total expected rows (approximate): 0
+0069.546 (0) Table wp_gf_addon_feed: Total rows added: 0 in 0.00 seconds
+0069.547 (0) Table wp_gf_addon_feed: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_gf_addon_feed.table.gz - 0.4 KB)
+0069.551 (0) Table wp_gf_draft_submissions: Total expected rows (approximate): 0
+0069.554 (0) Table wp_gf_draft_submissions: Total rows added: 0 in 0.00 seconds
+0069.554 (0) Table wp_gf_draft_submissions: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_gf_draft_submissions.table.gz - 0.4 KB)
+0069.558 (0) Table wp_gf_entry: Total expected rows (approximate): 0
+0069.560 (0) Table wp_gf_entry: Total rows added: 0 in 0.00 seconds
+0069.561 (0) Table wp_gf_entry: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_gf_entry.table.gz - 0.5 KB)
+0069.565 (0) Table wp_gf_entry_meta: Total expected rows (approximate): 0
+0069.566 (0) Table wp_gf_entry_meta: Total rows added: 0 in 0.00 seconds
+0069.567 (0) Table wp_gf_entry_meta: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_gf_entry_meta.table.gz - 0.4 KB)
+0069.570 (0) Table wp_gf_entry_notes: Total expected rows (approximate): 0
+0069.571 (0) Table wp_gf_entry_notes: Total rows added: 0 in 0.00 seconds
+0069.572 (0) Table wp_gf_entry_notes: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_gf_entry_notes.table.gz - 0.4 KB)
+0069.577 (0) Table wp_gf_form: Total expected rows (approximate): 0
+0069.578 (0) Table wp_gf_form: Total rows added: 0 in 0.00 seconds
+0069.579 (0) Table wp_gf_form: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_gf_form.table.gz - 0.4 KB)
+0069.584 (0) Table wp_gf_form_meta: Total expected rows (approximate): 0
+0069.602 (0) Table wp_gf_form_meta: Total rows added: 0 in 0.02 seconds
+0069.603 (0) Table wp_gf_form_meta: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_gf_form_meta.table.gz - 0.3 KB)
+0069.608 (0) Table wp_gf_form_revisions: Total expected rows (approximate): 0
+0069.609 (0) Table wp_gf_form_revisions: Total rows added: 0 in 0.00 seconds
+0069.610 (0) Table wp_gf_form_revisions: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_gf_form_revisions.table.gz - 0.4 KB)
+0069.615 (0) Table wp_gf_form_view: Total expected rows (approximate): 0
+0069.616 (0) Table wp_gf_form_view: Total rows added: 0 in 0.00 seconds
+0069.617 (0) Table wp_gf_form_view: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_gf_form_view.table.gz - 0.4 KB)
+0069.621 (0) Table wp_moove_activity_log: Total expected rows (approximate): 0
+0069.633 (0) Table wp_moove_activity_log: Total rows added: 0 in 0.01 seconds
+0069.634 (0) Table wp_moove_activity_log: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_moove_activity_log.table.gz - 0.4 KB)
+0069.638 (0) Table wp_sm_sessions: Total expected rows (approximate): 0
+0069.639 (0) Table wp_sm_sessions: Total rows added: 0 in 0.00 seconds
+0069.640 (0) Table wp_sm_sessions: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_sm_sessions.table.gz - 0.3 KB)
+0069.644 (0) Table wp_stream: Total expected rows (approximate): 72
+0069.679 (0) Table wp_stream: Total rows added: 72 in 0.03 seconds
+0069.681 (0) Table wp_stream: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_stream.table.gz - 2.1 KB)
+0069.685 (0) Table wp_stream_meta: Total expected rows (approximate): 574
+0069.918 (0) Table wp_stream_meta: Total rows added: 574 in 0.23 seconds
+0069.919 (0) Table wp_stream_meta: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_stream_meta.table.gz - 4.5 KB)
+0069.948 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0069.950 (0) Table wp_wc_download_log: Total rows added: 0 in 0.00 seconds
+0069.950 (0) Table wp_wc_download_log: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_wc_download_log.table.gz - 0.4 KB)
+0069.983 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0069.984 (0) Table wp_wc_webhooks: Total rows added: 0 in 0.00 seconds
+0069.985 (0) Table wp_wc_webhooks: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_wc_webhooks.table.gz - 0.5 KB)
+0069.999 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0070.001 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0070.002 (0) Table wp_woocommerce_api_keys: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0070.007 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0070.008 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0070.009 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0070.013 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0070.015 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0070.015 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0070.020 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0070.021 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0070.022 (0) Table wp_woocommerce_log: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0070.027 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 0
+0070.029 (0) Table wp_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0070.030 (0) Table wp_woocommerce_order_items: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_order_items.table.gz - 0.3 KB)
+0070.035 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0070.036 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0070.037 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0070.041 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 0
+0070.042 (0) Table wp_woocommerce_sessions: Total rows added: 0 in 0.00 seconds
+0070.043 (0) Table wp_woocommerce_sessions: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_sessions.table.gz - 0.4 KB)
+0070.046 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0070.048 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0070.049 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0070.052 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0070.054 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0070.055 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0070.058 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0070.059 (0) Table wp_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0070.060 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0070.065 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0070.066 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0070.067 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0070.072 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0070.074 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0070.075 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0070.080 (0) Table wp_wsluserscontacts: Total expected rows (approximate): 0
+0070.082 (0) Table wp_wsluserscontacts: Total rows added: 0 in 0.00 seconds
+0070.083 (0) Table wp_wsluserscontacts: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_wsluserscontacts.table.gz - 0.3 KB)
+0070.088 (0) Table wp_wslusersprofiles: Total expected rows (approximate): 0
+0070.090 (0) Table wp_wslusersprofiles: Total rows added: 0 in 0.00 seconds
+0070.090 (0) Table wp_wslusersprofiles: finishing file (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_wslusersprofiles.table.gz - 0.5 KB)
+0070.094 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_options.table.gz (1/60): adding to final database dump
+0070.124 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_users.table.gz (2/60): adding to final database dump
+0070.126 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_usermeta.table.gz (3/60): adding to final database dump
+0070.133 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_commentmeta.table.gz (4/60): adding to final database dump
+0070.134 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_comments.table.gz (5/60): adding to final database dump
+0070.135 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_links.table.gz (6/60): adding to final database dump
+0070.136 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_postmeta.table.gz (7/60): adding to final database dump
+0070.198 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_posts.table.gz (8/60): adding to final database dump
+0072.012 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_signups.table.gz (9/60): adding to final database dump
+0072.013 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_term_relationships.table.gz (10/60): adding to final database dump
+0072.014 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_term_taxonomy.table.gz (11/60): adding to final database dump
+0072.015 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_termmeta.table.gz (12/60): adding to final database dump
+0072.016 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_terms.table.gz (13/60): adding to final database dump
+0072.017 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_order_itemmeta.table.gz (14/60): adding to final database dump
+0072.018 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_payment_tokenmeta.table.gz (15/60): adding to final database dump
+0072.019 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_activity.table.gz (16/60): adding to final database dump
+0072.027 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_activity_meta.table.gz (17/60): adding to final database dump
+0072.029 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_friends.table.gz (18/60): adding to final database dump
+0072.030 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_groups.table.gz (19/60): adding to final database dump
+0072.033 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_groups_groupmeta.table.gz (20/60): adding to final database dump
+0072.034 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_groups_members.table.gz (21/60): adding to final database dump
+0072.038 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_messages_messages.table.gz (22/60): adding to final database dump
+0072.040 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_messages_meta.table.gz (23/60): adding to final database dump
+0072.040 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_messages_notices.table.gz (24/60): adding to final database dump
+0072.041 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_messages_recipients.table.gz (25/60): adding to final database dump
+0072.043 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_notifications.table.gz (26/60): adding to final database dump
+0072.045 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_notifications_meta.table.gz (27/60): adding to final database dump
+0072.046 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_xprofile_data.table.gz (28/60): adding to final database dump
+0072.053 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_xprofile_fields.table.gz (29/60): adding to final database dump
+0072.055 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_xprofile_groups.table.gz (30/60): adding to final database dump
+0072.056 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_bp_xprofile_meta.table.gz (31/60): adding to final database dump
+0072.057 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_gf_addon_feed.table.gz (32/60): adding to final database dump
+0072.058 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_gf_draft_submissions.table.gz (33/60): adding to final database dump
+0072.058 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_gf_entry.table.gz (34/60): adding to final database dump
+0072.059 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_gf_entry_meta.table.gz (35/60): adding to final database dump
+0072.059 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_gf_entry_notes.table.gz (36/60): adding to final database dump
+0072.060 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_gf_form.table.gz (37/60): adding to final database dump
+0072.061 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_gf_form_meta.table.gz (38/60): adding to final database dump
+0072.061 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_gf_form_revisions.table.gz (39/60): adding to final database dump
+0072.062 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_gf_form_view.table.gz (40/60): adding to final database dump
+0072.063 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_moove_activity_log.table.gz (41/60): adding to final database dump
+0072.063 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_sm_sessions.table.gz (42/60): adding to final database dump
+0072.064 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_stream.table.gz (43/60): adding to final database dump
+0072.065 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_stream_meta.table.gz (44/60): adding to final database dump
+0072.067 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_wc_download_log.table.gz (45/60): adding to final database dump
+0072.068 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_wc_webhooks.table.gz (46/60): adding to final database dump
+0072.069 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_api_keys.table.gz (47/60): adding to final database dump
+0072.070 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_attribute_taxonomies.table.gz (48/60): adding to final database dump
+0072.071 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (49/60): adding to final database dump
+0072.071 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_log.table.gz (50/60): adding to final database dump
+0072.072 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_order_items.table.gz (51/60): adding to final database dump
+0072.074 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_payment_tokens.table.gz (52/60): adding to final database dump
+0072.074 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_sessions.table.gz (53/60): adding to final database dump
+0072.075 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_shipping_zone_locations.table.gz (54/60): adding to final database dump
+0072.076 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_shipping_zone_methods.table.gz (55/60): adding to final database dump
+0072.076 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_shipping_zones.table.gz (56/60): adding to final database dump
+0072.077 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_tax_rate_locations.table.gz (57/60): adding to final database dump
+0072.078 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_woocommerce_tax_rates.table.gz (58/60): adding to final database dump
+0072.078 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_wsluserscontacts.table.gz (59/60): adding to final database dump
+0072.079 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db-table-wp_wslusersprofiles.table.gz (60/60): adding to final database dump
+0072.080 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db.gz: finished writing out complete database file (224 KB)
+0072.098 (0) Total database tables backed up: 60 (backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db.gz, size: 265181, sha256)
+0072.104 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0072.105 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0072.105 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0072.106 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-others.zip: others: This file has not yet been successfully uploaded: will queue
+0072.106 (0) backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db.gz: db: This file has not yet been successfully uploaded: will queue
+0072.107 (0) Saving backup history. Total backup size: 116.6 MB
+0072.110 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0072.113 (0) Cloud backup selection (1/1): s3 with instance (1/1) (last)
+0072.114 (0) Beginning dispatch of backup to remote (s3) (instance identifier s-bb2e5adc3364c26aeb69df96fc3a6c52)
+0073.138 (0) Amazon S3: upload (): backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip (chunks: 16) -> s3://newmedia-backups/weildco-tech/backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip
+0077.029 (0) Amazon S3: chunked upload: got multipart ID: jUYHVbuA.JUcahFgJ.PhfCuHBI7aM6ATSi8lD3GWe9j0ze_aRy1A5nU8bvE8FOTQGOV32Mja0G.ZiMLatqSD4QmahGt0Xm4xabekpVkhPDeC902lkFOcsWSH3azsKxvI
+0086.525 (0) S3 chunked upload: 6.3 % uploaded (1, "7220dfcfba9776c24886841b01979cf7")
+0088.531 (0) S3 chunked upload: 12.5 % uploaded (2, "8d099b1c7a67fc2ef1f6db6b237529ea")
+0089.903 (0) S3 chunked upload: 18.8 % uploaded (3, "8fab2c8c6501d7862ae61454f213b56c")
+0091.039 (0) S3 chunked upload: 25 % uploaded (4, "96a821b2730aeaf9edb1759d38f00385")
+0092.014 (0) S3 chunked upload: 31.3 % uploaded (5, "d048d377657c0921fef27c08a84fc285")
+0092.959 (0) S3 chunked upload: 37.5 % uploaded (6, "b78c8819d4a9ac1ccfeccce4564ffbad")
+0094.062 (0) S3 chunked upload: 43.8 % uploaded (7, "3d9222fef597959bf62be029c47e16ae")
+0096.124 (0) S3 chunked upload: 50 % uploaded (8, "d5b9a4c07ea9e264f6a4d009812bb6c0")
+0097.188 (0) S3 chunked upload: 56.3 % uploaded (9, "87bdba15b628ec6dcefd32ff6bdb6ba2")
+0098.170 (0) S3 chunked upload: 62.5 % uploaded (10, "2b5ade49662fb66b5055bd96ed5694b8")
+0099.124 (0) S3 chunked upload: 68.8 % uploaded (11, "027791b048b75de44e0fe420ed7d0013")
+0100.063 (0) S3 chunked upload: 75 % uploaded (12, "5e8a89e1158d9785c071cefc7d55c134")
+0101.007 (0) S3 chunked upload: 81.3 % uploaded (13, "d73d02aa0d78d02126214cdae40570b3")
+0101.937 (0) S3 chunked upload: 87.5 % uploaded (14, "8586d5e2bdeb22606dde6115ee4b1e9a")
+0102.887 (0) S3 chunked upload: 93.8 % uploaded (15, "465d072eadbd394a2d2f9f375c6bfd23")
+0103.819 (0) S3 chunked upload: 100 % uploaded (16, "27153f5e0eb8a228c57978b6c638c64f")
+0103.822 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0104.327 (0) Amazon S3: upload (plugins0): re-assembly succeeded
+0104.328 (0) Recording as successfully uploaded: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip
+0104.335 (0) Deleting local file: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-plugins.zip: OK
+0104.335 (0) Amazon S3: upload (): backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-themes.zip (chunks: 2) -> s3://newmedia-backups/weildco-tech/backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-themes.zip
+0104.479 (0) Amazon S3: chunked upload: got multipart ID: _3WzdA3yX89C9d38nC3_oYr85sez9cR0pt6IqJZ3f18tUjdgwjvI3NdKrkyzJvmHy.ivg91ZRhY8HPEIxcFfZJx6aRfwhRNy2TnMk_O5mzzXuZHTjym1v_QPCeiup9fY
+0105.494 (0) S3 chunked upload: 50 % uploaded (1, "f46deec0f782dd590a456229b21b9ab4")
+0106.054 (0) S3 chunked upload: 100 % uploaded (2, "5d9a7c930979ccf9ade876dca1b7f6b3")
+0106.057 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0106.279 (0) Amazon S3: upload (themes0): re-assembly succeeded
+0106.280 (0) Recording as successfully uploaded: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-themes.zip
+0106.282 (0) Deleting local file: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-themes.zip: OK
+0106.283 (0) Amazon S3: upload (): backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-uploads.zip (chunks: 6) -> s3://newmedia-backups/weildco-tech/backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-uploads.zip
+0106.423 (0) Amazon S3: chunked upload: got multipart ID: WPLZO4dp7_d1Ri5rHWHJVQWwp0yMw30kP6xZTufC4rqZyEK71Hm_dgiQrSZ8u_D023fTaloYkvimsYZohvTQ1qCDTGeJzdGLP6G5OBTJlxUq4NrFICpxSZMjiLRxg16W
+0107.327 (0) S3 chunked upload: 16.7 % uploaded (1, "727df65a5c0bc4b0daaf6f55634c49e1")
+0115.381 (0) S3 chunked upload: 33.3 % uploaded (2, "ff7036210b1c00af2fbcbc6981e5608d")
+0117.422 (0) S3 chunked upload: 50 % uploaded (3, "c589eb76e8491aa926bd6344522f7732")
+0118.427 (0) S3 chunked upload: 66.7 % uploaded (4, "c982590953bf4dcc0e813dcee8a5f167")
+0119.381 (0) S3 chunked upload: 83.3 % uploaded (5, "ae0b1e220b13cabef17e9df8b9faa2e0")
+0120.268 (0) S3 chunked upload: 100 % uploaded (6, "9934fa91437bca3322f40ff9a7d9b483")
+0120.271 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0120.504 (0) Amazon S3: upload (uploads0): re-assembly succeeded
+0120.504 (0) Recording as successfully uploaded: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-uploads.zip
+0120.510 (0) Deleting local file: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-uploads.zip: OK
+0120.512 (0) Amazon S3: upload (): backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-others.zip (chunks: 1) -> s3://newmedia-backups/weildco-tech/backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-others.zip
+0120.677 (0) Amazon S3: regular upload: success
+0120.678 (0) Recording as successfully uploaded: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-others.zip
+0120.680 (0) Deleting local file: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-others.zip: OK
+0120.681 (0) Amazon S3: upload (): backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db.gz (chunks: 1) -> s3://newmedia-backups/weildco-tech/backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db.gz
+0120.931 (0) Amazon S3: regular upload: success
+0120.932 (0) Recording as successfully uploaded: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db.gz
+0120.934 (0) Deleting local file: backup_2019-06-12-1906_Weild_amp_Co_555e72fdf838-db.gz: OK
+0120.936 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=14, retain_db=14
+0120.937 (0) Number of backup sets in history: 5; groups (db): 1
+0120.938 (0) Examining (for databases) backup set with group_id=0, nonce=555e72fdf838, datestamp=1560366370 (Jun 12 2019 19:06:10)
+0120.938 (0) This backup set is the backup set just made, so will not be deleted.
+0120.938 (0) Examining (for databases) backup set with group_id=0, nonce=20453a6753d9, datestamp=1559501025 (Jun 02 2019 18:43:45)
+0120.938 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0120.939 (0) Examining (for databases) backup set with group_id=0, nonce=1269c3a56462, datestamp=1552670871 (Mar 15 2019 17:27:51)
+0120.939 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0120.939 (0) Examining (for databases) backup set with group_id=0, nonce=cfa1cb23f0ae, datestamp=1552627493 (Mar 15 2019 05:24:53)
+0120.939 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0120.940 (0) Examining (for databases) backup set with group_id=0, nonce=dc1f8d10350a, datestamp=1550904744 (Feb 23 2019 06:52:24)
+0120.940 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0120.940 (0) Number of backup sets in history: 5; groups (files): 1
+0120.941 (0) Examining (for files) backup set with nonce=555e72fdf838, datestamp=1560366370 (Jun 12 2019 19:06:10)
+0120.941 (0) This backup set is the backup set just made, so will not be deleted.
+0120.941 (0) This backup set is the backup set just made, so will not be deleted.
+0120.941 (0) This backup set is the backup set just made, so will not be deleted.
+0120.941 (0) This backup set is the backup set just made, so will not be deleted.
+0120.941 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0120.942 (0) Examining (for files) backup set with nonce=20453a6753d9, datestamp=1559501025 (Jun 02 2019 18:43:45)
+0120.942 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0120.942 (0) Examining (for files) backup set with nonce=1269c3a56462, datestamp=1552670871 (Mar 15 2019 17:27:51)
+0120.942 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0120.942 (0) Examining (for files) backup set with nonce=cfa1cb23f0ae, datestamp=1552627493 (Mar 15 2019 05:24:53)
+0120.942 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0120.943 (0) Examining (for files) backup set with nonce=dc1f8d10350a, datestamp=1550904744 (Feb 23 2019 06:52:24)
+0120.943 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0120.943 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0120.966 (0) Resume backup (555e72fdf838, 0): finish run
+0120.975 (0) Decremented the semaphore (fd) by 1
+0120.977 (0) Semaphore (fd) unlocked
+0120.978 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0120.981 (0) No email will/can be sent - the user has not configured an email address.
+0120.981 (0) The backup apparently succeeded and is now complete

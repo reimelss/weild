@@ -552,3 +552,19 @@ label[for=field_3358_79],
 
 }
 
+
+.bps-form label {
+    display: inline;
+}
+
+.bps-form input {
+    display: inline;
+}
+
+.bps-form input[type=number] {
+    width: 5em;
+}
+
+.bps-form .bps-error {
+    color: red;
+}
