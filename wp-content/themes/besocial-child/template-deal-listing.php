@@ -117,7 +117,18 @@ if(!$_POST['filter']) {
                                             <a href="<?=$post->guid?>"><?=$meta["deal_name"]?></a>
                                         </div> -->
                                     <div class="right_side hide-on-mobile">
-                                        <div class="member-cheader"><strong class="dropbtn">Contact</strong>
+                                    <?php 
+
+                                        echo $form_id = get_post_meta($post->ID,'forumn_id',true);
+                                    ?>
+                                        
+                                        <div class="member-cheader">
+                                        
+                                        <a href="<?=get_permalink($form_id)?>">
+                                        <strong class="dropbtn">
+                                        Contact
+                                        </strong>
+                                        </a>
                                             <!-- <div class="sub-info" style="display: none;">
                                                 <div class="member-cheader"> 
                                                     <a href="tel:303-895-4475">
@@ -137,7 +148,17 @@ if(!$_POST['filter']) {
                                         <strong>Deal Status: </strong><?=$meta["deal_status"]?>
                                     </div>
                                     <div class="right_side hide-on-desktop">
-                                        <div class="member-cheader"><strong class="dropbtn">Contact</strong>
+                                    <?php 
+
+                                    $form_id = get_post_meta($post->ID,'forumn_id',true);
+                                    ?>
+                                        <div class="member-cheader">
+                                        
+                                        <a href="<?=get_permalink($form_id)?>">
+                                        <strong class="dropbtn">
+                                        Contact
+                                        </strong>
+                                        </a>
                                             <!-- <div class="sub-info" style="display: none;">
                                                 <div class="member-cheader"> 
                                                     <a href="tel:303-895-4475">
@@ -273,7 +294,18 @@ if(!$_POST['filter']) {
                                         <a href="<?=$post->guid?>"><?=$meta["deal_name"]?></a>
                                     </div>
                                     <div class="right_side hide-on-mobile">
-                                        <div class="member-cheader"><strong class="dropbtn">Contact</strong>
+                                        <?php 
+
+                                        $form_id = get_post_meta($post->ID,'forumn_id',true);
+                                        
+                                        ?>
+
+                                        <div class="member-cheader">
+                                        <a href="<?=get_permalink($form_id)?>">
+                                        <strong class="dropbtn">
+                                        Contact
+                                        </strong>
+                                        </a>    
                                             <!-- <div class="sub-info" style="display: none;">
                                                 <div class="member-cheader"> 
                                                     <a href="tel:303-895-4475">
@@ -293,7 +325,12 @@ if(!$_POST['filter']) {
                                         <strong>Deal Status: </strong><?=$meta["deal_status"]?>
                                     </div>
                                     <div class="right_side hide-on-desktop">
-                                        <div class="member-cheader"><strong class="dropbtn">Contact</strong>
+                                        <div class="member-cheader">
+                                        <a href="<?=get_permalink($form_id)?>">
+                                        <strong class="dropbtn">
+                                        Contact
+                                        </strong>
+                                        </a>    
                                             <!-- <div class="sub-info" style="display: none;">
                                                 <div class="member-cheader"> 
                                                     <a href="tel:303-895-4475">
