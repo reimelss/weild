@@ -28,9 +28,9 @@ $args = array(
 );
 $posts_array = get_posts( $args );
 
-echo "<pre>";
+// echo "<pre>";
 // var_dump($posts_array);
-echo "</pre>";
+// echo "</pre>";
 
 
 ?>
@@ -97,12 +97,15 @@ if(!$_POST['filter']) {
             <div class="clear"></div>
             <?php 
             foreach($posts_array as $post) {
+                // var_dump( $post);
                 $meta = get_fields( $post->ID);
-                // var_dump($meta["deal_name"]); 
                 // echo "<pre>";
-                // var_dump($meta);
+                // var_dump($meta); 
+                $deal_status = $meta["deal_status"];
+                // var_dump(  $filter,  $deal_status);
+                in_array ( $filter,  $deal_status);
                 // echo "</pre>";
-                if ($meta["confidential_deal"] && $meta["deal_status"] != "Canceled"  && $meta["deal_status"] == $filter ) {
+                if ($meta["confidential_deal"] && $meta["deal_status"] != "Canceled"  && in_array ( $filter,  $deal_status) ) {
 
                     ?>
                     <div id="besocial-members-list" aria-live="assertive" aria-relevant="all">
@@ -145,12 +148,37 @@ if(!$_POST['filter']) {
                                         <?php if($meta["document_uploads"]) {
                                             ?> 
 
-                                        <strong>Document: </strong><a target="_blank" href="<?=$meta["document_uploads"]?>">Click here</a> <br>
+                                            
+                                            <strong>Document: </strong><?php 
+                                            $count = 1; 
+                                          
+                                            foreach ($meta["document_uploads"] as $doc) {
+                                                if ($count == 1) {
+                                                    echo "<a href='" . $doc["document"] ."'>" .$doc["title"]. " </a>";
+                                                }else {
+                                                    echo ", <a href='" . $doc["document"] ."'>" .$doc["title"]. " </a>";
+                                                }
+                                                $count++;
+                                            }
+                                            
+                                            ?> <br>
+
                                             <?php
                                         }
                                         ?>
                                         <strong>Deal Size: </strong><?=$meta["deal_size"]?> <br>
-                                        <strong>Deal Status: </strong><?=$meta["deal_status"]?>
+                                        <strong>Deal Status: </strong>
+                                        
+                                        <strong>Deal Status: </strong>
+                                        <?php
+                                            $count = 0;
+                                            foreach($meta["deal_status"] as $status){
+                                                if($count >0 ) echo ", ";
+                                                echo $status;
+                                                $count++;
+                                            } 
+                                        ?>
+
                                     </div>
                                     <div class="right_side hide-on-desktop">
                                     <?php 
@@ -183,23 +211,22 @@ if(!$_POST['filter']) {
                                         <div class="member-cheader"><strong>View Details </strong>
                                             <div class="sub-info" style="display: none;">
 
-                                                <div class="member-cheader"><strong>Manager </strong>
-                                                    <div class="sub-info" style="display: none;">
-                                                        <ul class="product-expertise">
-                                                            <li class="unlicensed"
-                                                                style="margin-left: 20px; font-weight: 400; font-size: 17px;">
-                                                                <?=$meta["manager"]?></li>
-                                                            <ul> </ul>
-                                                        </ul>
-                                                    </div> <!-- sub-info -->
-                                                </div> <!-- member-cheader -->
                                                 
                                                 <div class="member-cheader"><strong>Type of Transaction </strong>
                                                     <div class="sub-info" style="display: none;">
                                                         <ul class="product-expertise">
+                                                        <?php 
+                                                            foreach($meta["type_of_transaction"] as $value ){
+
+                                                            
+                                                        ?>
                                                             <li class="unlicensed"
                                                                 style="margin-left: 20px; font-weight: 400; font-size: 17px;">
-                                                                <?=$meta["type_of_transaction"]?></li>
+                                                                <?=$value?>
+                                                                </li>
+                                                                <?php
+                                                            }
+                                                            ?>
                                                             <ul> </ul>
                                                         </ul>
                                                     </div> <!-- sub-info -->
@@ -208,10 +235,20 @@ if(!$_POST['filter']) {
                                                 <div class="member-cheader"><strong>Industry Sector </strong>
                                                     <div class="sub-info" style="display: none;">
                                                         <ul class="product-expertise">
+
+                                                            <?php 
+                                                                foreach($meta["industry_sector"] as $value ){
+
+                                                                
+                                                            ?>
                                                             <li class="unlicensed"
                                                                 style="margin-left: 20px; font-weight: 400; font-size: 17px;">
-                                                                <?=$meta["industry_sector"]?></li>
-                                                            <ul> </ul>
+                                                                <?=$value?>
+                                                                </li>
+                                                                <?php
+                                                            }
+                                                            ?>
+
                                                         </ul>
                                                     </div> <!-- sub-info -->
                                                 </div> <!-- member-cheader -->
@@ -219,13 +256,25 @@ if(!$_POST['filter']) {
                                                 <div class="member-cheader"><strong>Location </strong>
                                                     <div class="sub-info" style="display: none;">
                                                         <ul class="product-expertise">
+
+
+                                                            <?php 
+                                                                foreach($meta["location"] as $value ){
+
+                                                                
+                                                            ?>
                                                             <li class="unlicensed"
                                                                 style="margin-left: 20px; font-weight: 400; font-size: 17px;">
-                                                                <?=$meta["location"]?></li>
+                                                                <?=$value?>
+                                                                </li>
+                                                                <?php
+                                                            }
+                                                            ?>
                                                             <ul> </ul>
                                                         </ul>
                                                     </div> <!-- sub-info -->
                                                 </div> <!-- member-cheader -->
+
 
                                                 <div class="member-cheader"><strong>Target Investor Type </strong>
                                                     <div class="sub-info" style="display: none;">
@@ -282,7 +331,7 @@ if(!$_POST['filter']) {
                     </div><!-- #members-dir-list -->
                 <?php 
                 }
-                if(!$meta["confidential_deal"] && $meta["deal_status"] != "Canceled"  && $meta["deal_status"] == $filter ) {
+                if(!$meta["confidential_deal"] && $meta["deal_status"] != "Canceled"  && in_array ( $filter,  $deal_status) ) {
                     ?>
 
                     <div id="besocial-members-list" aria-live="assertive" aria-relevant="all">
@@ -330,14 +379,37 @@ if(!$_POST['filter']) {
                                     <div class="weild_title">
                                    
                                     <?php if($meta["document_uploads"]) {
+                                        // var_dump($meta["document_uploads"]);
                                             ?> 
 
-                                        <strong>Document: </strong><a target="_blank" href="<?=$meta["document_uploads"]?>">Click here</a> <br>
+                                            
+                                            <strong>Document: </strong><?php 
+                                            $count = 1; 
+                                            foreach ($meta["document_uploads"] as $doc) {
+                                                if ($count == 1) {
+                                                    echo "<a href='" . $doc["document"] ."'>" .$doc["title"]. " </a>";
+                                                }else {
+                                                    echo ", <a href='" . $doc["document"] ."'>" .$doc["title"]. " </a>";
+                                                }
+                                                $count++;
+                                            }
+                                                
+                                            ?> <br>
+
                                             <?php
                                         }
                                         ?>
+
                                         <strong>Deal Size: </strong><?=$meta["deal_size"]?> <br>
-                                        <strong>Deal Status: </strong><?=$meta["deal_status"]?>
+                                        <strong>Deal Status: </strong>
+                                        <?php
+                                            $count = 0;
+                                            foreach($meta["deal_status"] as $status){
+                                                if($count >0 ) echo ", ";
+                                                echo $status;
+                                                $count++;
+                                            } 
+                                        ?>
                                     </div>
                                     <div class="right_side hide-on-desktop">
                                         <div class="member-cheader">
@@ -370,7 +442,10 @@ if(!$_POST['filter']) {
                                                         <ul class="product-expertise">
                                                             <li class="unlicensed"
                                                                 style="margin-left: 20px; font-weight: 400; font-size: 17px;">
-                                                                <?=$meta["manager"]?></li>
+                                                                <?php echo xprofile_get_field_data('1', $meta["manager"]["ID"]).' '.xprofile_get_field_data('1384', $meta["manager"]["ID"]); ?>
+                                                                
+                                                                </li>
+                                                            </li>
                                                             <ul> </ul>
                                                         </ul>
                                                     </div> <!-- sub-info -->
@@ -379,9 +454,18 @@ if(!$_POST['filter']) {
                                                 <div class="member-cheader"><strong>Type of Transaction </strong>
                                                     <div class="sub-info" style="display: none;">
                                                         <ul class="product-expertise">
+                                                        <?php 
+                                                            foreach($meta["type_of_transaction"] as $value ){
+
+                                                            
+                                                        ?>
                                                             <li class="unlicensed"
                                                                 style="margin-left: 20px; font-weight: 400; font-size: 17px;">
-                                                                <?=$meta["type_of_transaction"]?></li>
+                                                                <?=$value?>
+                                                                </li>
+                                                                <?php
+                                                            }
+                                                            ?>
                                                             <ul> </ul>
                                                         </ul>
                                                     </div> <!-- sub-info -->
@@ -390,10 +474,20 @@ if(!$_POST['filter']) {
                                                 <div class="member-cheader"><strong>Industry Sector </strong>
                                                     <div class="sub-info" style="display: none;">
                                                         <ul class="product-expertise">
+
+                                                            <?php 
+                                                                foreach($meta["industry_sector"] as $value ){
+
+                                                                
+                                                            ?>
                                                             <li class="unlicensed"
                                                                 style="margin-left: 20px; font-weight: 400; font-size: 17px;">
-                                                                <?=$meta["industry_sector"]?></li>
-                                                            <ul> </ul>
+                                                                <?=$value?>
+                                                                </li>
+                                                                <?php
+                                                            }
+                                                            ?>
+
                                                         </ul>
                                                     </div> <!-- sub-info -->
                                                 </div> <!-- member-cheader -->
@@ -401,9 +495,20 @@ if(!$_POST['filter']) {
                                                 <div class="member-cheader"><strong>Location </strong>
                                                     <div class="sub-info" style="display: none;">
                                                         <ul class="product-expertise">
+
+
+                                                            <?php 
+                                                                foreach($meta["location"] as $value ){
+
+                                                                
+                                                            ?>
                                                             <li class="unlicensed"
                                                                 style="margin-left: 20px; font-weight: 400; font-size: 17px;">
-                                                                <?=$meta["location"]?></li>
+                                                                <?=$value?>
+                                                                </li>
+                                                                <?php
+                                                            }
+                                                            ?>
                                                             <ul> </ul>
                                                         </ul>
                                                     </div> <!-- sub-info -->

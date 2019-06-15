@@ -101,8 +101,8 @@ echo "</pre>";
                     $meta = get_fields( $post->ID);
                     // var_dump($meta["deal_name"]); 
                     // echo "<pre>";
-                    // var_dump($meta);
-                    // var_dump($post);
+                    // var_dump($meta["manager"]["ID"]);
+                    // // var_dump($post);
                     // echo "</pre>";
                     
                 ?>
@@ -148,7 +148,27 @@ echo "</pre>";
                                 } 
                                 ?>
                                     <strong>Code Name: </strong><?=$meta["code_name"]?> <br>
-                                    <strong>Document: </strong><a target="_blank" href="<?=$meta["document_uploads"]?>">Click here</a> <br>
+                                    <?php if($meta["document_uploads"]) {
+                                        ?> 
+
+                                        
+                                        <strong>Document: </strong><?php 
+                                        $count = 1; 
+                                        foreach ($meta["document_uploads"] as $doc) {
+                                            if ($count == 1) {
+                                                echo "<a href='" . $doc["document"] ."'>" .$doc["title"]. " </a>";
+                                            }else {
+                                                echo ", <a href='" . $doc["document"] ."'>" .$doc["title"]. " </a>";
+                                            }
+                                            $count++;
+                                        }
+                                        
+                                        ?> <br>
+
+                                        <?php
+                                    }
+                                    ?>
+
                                     <strong>Deal Size: </strong><?=$meta["deal_size"]?> <br>
                                     <strong>Deal Status: </strong><?=$meta["deal_status"]?>
                                 </div>
@@ -178,18 +198,27 @@ echo "</pre>";
                                                     <ul class="product-expertise">
                                                         <li class="unlicensed"
                                                             style="margin-left: 20px; font-weight: 400; font-size: 17px;">
-                                                            <?=$meta["manager"]?></li>
+                                                            <?php echo xprofile_get_field_data('1', $meta["manager"]["ID"]).' '.xprofile_get_field_data('1384', $meta["manager"]["ID"]); ?>
+                                                            </li>
                                                         <ul> </ul>
                                                     </ul>
                                                 </div> <!-- sub-info -->
                                             </div> <!-- member-cheader -->
-                                            
                                             <div class="member-cheader"><strong>Type of Transaction </strong>
                                                 <div class="sub-info" style="display: none;">
                                                     <ul class="product-expertise">
+                                                    <?php 
+                                                        foreach($meta["type_of_transaction"] as $value ){
+
+                                                        
+                                                    ?>
                                                         <li class="unlicensed"
                                                             style="margin-left: 20px; font-weight: 400; font-size: 17px;">
-                                                            <?=$meta["type_of_transaction"]?></li>
+                                                            <?=$value?>
+                                                            </li>
+                                                            <?php
+                                                        }
+                                                        ?>
                                                         <ul> </ul>
                                                     </ul>
                                                 </div> <!-- sub-info -->
@@ -198,10 +227,20 @@ echo "</pre>";
                                             <div class="member-cheader"><strong>Industry Sector </strong>
                                                 <div class="sub-info" style="display: none;">
                                                     <ul class="product-expertise">
+
+                                                        <?php 
+                                                            foreach($meta["industry_sector"] as $value ){
+
+                                                            
+                                                        ?>
                                                         <li class="unlicensed"
                                                             style="margin-left: 20px; font-weight: 400; font-size: 17px;">
-                                                            <?=$meta["industry_sector"]?></li>
-                                                        <ul> </ul>
+                                                            <?=$value?>
+                                                            </li>
+                                                            <?php
+                                                        }
+                                                        ?>
+
                                                     </ul>
                                                 </div> <!-- sub-info -->
                                             </div> <!-- member-cheader -->
@@ -209,14 +248,25 @@ echo "</pre>";
                                             <div class="member-cheader"><strong>Location </strong>
                                                 <div class="sub-info" style="display: none;">
                                                     <ul class="product-expertise">
+
+
+                                                        <?php 
+                                                            foreach($meta["location"] as $value ){
+
+                                                            
+                                                        ?>
                                                         <li class="unlicensed"
                                                             style="margin-left: 20px; font-weight: 400; font-size: 17px;">
-                                                            <?=$meta["location"]?></li>
+                                                            <?=$value?>
+                                                            </li>
+                                                            <?php
+                                                        }
+                                                        ?>
                                                         <ul> </ul>
                                                     </ul>
                                                 </div> <!-- sub-info -->
                                             </div> <!-- member-cheader -->
-
+                                            
                                             <div class="member-cheader"><strong>Target Investor Type </strong>
                                                 <div class="sub-info" style="display: none;">
                                                     <ul class="product-expertise">

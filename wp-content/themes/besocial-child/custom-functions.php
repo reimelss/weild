@@ -73,27 +73,38 @@ function my_pre_save_post($post_id) {
   // if (!is_numeric($post_id) || get_post_type($post_id) == 'deal') {
   //   return $post_id;
   // }
-
-  if(!$_POST["acf"]["field_5d032303d63f2"]) {
+  echo "<pre>";
+  $post = $_POST["acf"];
+  
+  
+  var_dump($post);
+  
+  
+  if(empty($_POST["acf"]["field_5d04504b50e01"])) {
+    $_POST["acf"]["field_5d04504b50e01"] = get_current_user_id();
+  }
+  echo "<br>". $_POST["acf"]["field_5d04504b50e01"] . "<br>";
+  // var_dump($post["field_5d04504b50e01"]);
+  // sleep(10);
+  // die();
+  if(!$post["field_5d032303d63f2"]) {
     $post = array(
       'ID' => $post_id,
       'post_status'  => 'draft' ,
-      'post_title'   => $_POST["acf"]["field_5cf2ee7943029"]
+      'post_title'   => $post["field_5cf2ee7943029"]
     );  
   }else {
       $post = array(
         'ID' => $post_id,
         'post_status'  => 'pending' ,
-        'post_title'   => $_POST["acf"]["field_5cf2ee7943029"]
+        'post_title'   => $post["field_5cf2ee7943029"]
       );  
   }
-  // echo "<pre>";
-  // var_dump($post); 
-  // die();
+
 
   // update the post
   wp_update_post($post);
-  
+  process_post();
   return $post_id;
 }
 
@@ -332,4 +343,65 @@ function myplguin_admin_page(){
     </form>
 	</div>
 	<?php
+}
+
+add_action( 'init', 'process_post' );
+function process_post() {
+  $posts = get_posts([
+    'post_type' => 'deal',
+    'post_status' => 'publish',
+    'numberposts' => -1
+    // 'order'    => 'ASC'
+    ]);
+  // echo "<Br>";
+  $option_get_data = get_option("display_order");
+  foreach($posts as $post) {
+
+
+    $fields = get_fields($post->ID); 
+    // var_dump($fields); 
+    $score = 0;
+    if (in_array("Pre-Engagement", $fields)) $score = $score + $option_get_data["Pre-Engagement"];
+    if (in_array("Pre-Market", $fields)) $score = $score + $option_get_data["Pre-Market"];
+    if (in_array("Active", $fields)) $score = $score + $option_get_data["Active"];
+    if (in_array("Closed", $fields)) $score = $score + $option_get_data["Closed"];
+    if (in_array("Pitching Issuer / Seller", $fields)) $score = $score + $option_get_data["Pitching_Issuer_/_Seller"];
+
+    if (in_array("Locating Investors / Buyers", $fields)) $score = $score + $option_get_data["Locating_Investors_/_Buyers"];
+    if (in_array("Industry_/_Sector_Expertise", $fields)) $score = $score + $option_get_data["Industry_/_Sector_Expertise"];
+    if (in_array("Deal Structure (product expertise)", $fields)) $score = $score + $option_get_data["Deal_Structure_(product_expertise)"];
+    
+    if (in_array("Diligence", $fields)) $score = $score + $option_get_data["Diligence"];
+    if (in_array("Deal Management", $fields)) $score = $score + $option_get_data["Deal_Management"];
+    if (in_array("Under $1 million", $fields)) $score = $score + $option_get_data["Under_1_million"];
+    
+    
+    if (in_array("$ 1-5 million", $fields)) $score = $score + $option_get_data["1-5_million"];
+    if (in_array("$ 5-15 million", $fields)) $score = $score + $option_get_data["5-15_million"];
+    if (in_array("$ 15-50 million", $fields)) $score = $score + $option_get_data["15-50_million"];
+    
+    
+    if (in_array("$ 50-100 million`", $fields)) $score = $score + $option_get_data["50-100_million"];
+    if (in_array("Over $100 million", $fields)) $score = $score + $option_get_data["Over_100_million"];
+    if (in_array("Retail - Public", $fields)) $score = $score + $option_get_data["Retail_-_Public"];
+    
+    
+    if (in_array("Retail - Accredited", $fields)) $score = $score + $option_get_data["Retail_-_Accredited"];
+    if (in_array("non-QIB Family Office", $fields)) $score = $score + $option_get_data["non-QIB_Family_Office"];
+    if (in_array("QIB - Family Office", $fields)) $score = $score + $option_get_data["QIB_-_Family_Office"];
+    
+    
+    if (in_array("QIB - Pension Fund", $fields)) $score = $score + $option_get_data["QIB_-_Pension_Fund"];
+    if (in_array("QIB - 13(f) filer", $fields)) $score = $score + $option_get_data["QIB_-_13(f)_filer"];
+    if (in_array("QIB - Insurance", $fields)) $score = $score + $option_get_data["QIB_-_Insurance"];
+    if (in_array("Corporate / Strategic", $fields)) $score = $score + $option_get_data["Corporate_/_Strategic"];
+    
+    
+    // var_dump($post);
+    if ( ! add_post_meta( $post->ID, 'post_score', $score, true ) ) { 
+      update_post_meta( $post->ID, 'post_score', $score );
+   }
+   
+
+  }
 }
