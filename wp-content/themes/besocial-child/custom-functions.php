@@ -110,6 +110,17 @@ function my_pre_save_post($post_id) {
 
 add_filter('acf/pre_save_post' , 'my_pre_save_post', 10, 1 );
 
+//chnage forum status
+add_action('transition_post_status','weild_change_forum_status',10,3);
+function weild_change_forum_status($new_status,$old_status,$post){
+  $post_id = $post->ID;
+  $forum_id = get_post_meta($post_id,'forumn_id',true);
+  $post_type = get_post_type( $post_id );
+  if( $post_type == 'deal' && $new_status == 'publish' ){
+    $post = array( 'ID' => $forum_id, 'post_status' => 'publish' );
+    wp_update_post($post);
+  }
+}
 
 add_action( 'admin_menu', 'my_admin_menu' );
 
