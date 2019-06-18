@@ -4,6 +4,10 @@ Template Name: My Deals
 */
 ?>
 <?php 
+
+if (!is_user_logged_in() ) {
+    wp_redirect( site_url('/login/'));
+}
 acf_form_head();
 get_header(); 
 wp_reset_query();

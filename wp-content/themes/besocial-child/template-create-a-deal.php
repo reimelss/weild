@@ -5,6 +5,10 @@ Template Name: Create a Deal
 wp_enqueue_script( 'myscript', get_stylesheet_directory_uri() . '/js/script_create_deal.js', array( 'jquery' ), '1.0.2', true);
 ?>
 <?php
+if (!is_user_logged_in() ) {
+    wp_redirect( site_url('/login/'));
+}
+
 acf_form_head();
 
 get_header(); ?>
