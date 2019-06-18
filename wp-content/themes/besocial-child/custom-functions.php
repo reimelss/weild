@@ -73,17 +73,17 @@ function my_pre_save_post($post_id) {
   // if (!is_numeric($post_id) || get_post_type($post_id) == 'deal') {
   //   return $post_id;
   // }
-  echo "<pre>";
-  $post = $_POST["acf"];
+  // echo "<pre>";
+  // $post = $_POST["acf"];
   
   
-  var_dump($post);
+  // var_dump($post);
   
   
   if(empty($_POST["acf"]["field_5d04504b50e01"])) {
     $_POST["acf"]["field_5d04504b50e01"] = get_current_user_id();
   }
-  echo "<br>". $_POST["acf"]["field_5d04504b50e01"] . "<br>";
+  // echo "<br>". $_POST["acf"]["field_5d04504b50e01"] . "<br>";
   // var_dump($post["field_5d04504b50e01"]);
   // sleep(10);
   // die();

@@ -212,7 +212,7 @@ if(!$_POST['filter']) {
                                             <div class="sub-info" style="display: none;">
 
                                                 
-                                                <div class="member-cheader"><strong>Type of Transaction </strong>
+                                                <div class="member-cheader type_of_transaction"><strong>Type of Transaction </strong>
                                                     <div class="sub-info" style="display: none;">
                                                         <ul class="product-expertise">
                                                         <?php 
@@ -220,7 +220,10 @@ if(!$_POST['filter']) {
 
                                                             
                                                         ?>
-                                                            <li class="unlicensed"
+                                                            <li class="unlicensed <?php 
+                                                            $name = preg_replace('~&([a-z]{1,2})(acute|cedil|circ|grave|lig|orn|ring|slash|th|tilde|uml);~i', '$1', htmlentities($value, ENT_QUOTES, 'UTF-8')); 
+                                                            echo str_replace([' ','(',')','.','&amp',';', '1', '2', '3', '4', '5', '6'], '_', $name);
+                                                            ?>"
                                                                 style="margin-left: 20px; font-weight: 400; font-size: 17px;">
                                                                 <?=$value?>
                                                                 </li>
@@ -232,7 +235,7 @@ if(!$_POST['filter']) {
                                                     </div> <!-- sub-info -->
                                                 </div> <!-- member-cheader -->
 
-                                                <div class="member-cheader"><strong>Industry Sector </strong>
+                                                <div class="member-cheader industry_sector"><strong>Industry Sector </strong>
                                                     <div class="sub-info" style="display: none;">
                                                         <ul class="product-expertise">
 
@@ -241,7 +244,10 @@ if(!$_POST['filter']) {
 
                                                                 
                                                             ?>
-                                                            <li class="unlicensed"
+                                                            <li class="unlicensed <?php 
+                                                            $name = preg_replace('~&([a-z]{1,2})(acute|cedil|circ|grave|lig|orn|ring|slash|th|tilde|uml);~i', '$1', htmlentities($value, ENT_QUOTES, 'UTF-8')); 
+                                                            echo str_replace([' ','(',')','.','&amp',';', '1', '2', '3', '4', '5', '6'], '_', $name)
+                                                            ?>"
                                                                 style="margin-left: 20px; font-weight: 400; font-size: 17px;">
                                                                 <?=$value?>
                                                                 </li>
@@ -451,7 +457,7 @@ if(!$_POST['filter']) {
                                                     </div> <!-- sub-info -->
                                                 </div> <!-- member-cheader -->
                                                 
-                                                <div class="member-cheader"><strong>Type of Transaction </strong>
+                                                <div class="member-cheader type_of_transaction"><strong>Type of Transaction </strong>
                                                     <div class="sub-info" style="display: none;">
                                                         <ul class="product-expertise">
                                                         <?php 
@@ -459,7 +465,10 @@ if(!$_POST['filter']) {
 
                                                             
                                                         ?>
-                                                            <li class="unlicensed"
+                                                            <li class="unlicensed <?php 
+                                                            $name = preg_replace('~&([a-z]{1,2})(acute|cedil|circ|grave|lig|orn|ring|slash|th|tilde|uml);~i', '$1', htmlentities($value, ENT_QUOTES, 'UTF-8')); 
+                                                            echo str_replace([' ','(',')','.','&amp',';', '1', '2', '3', '4', '5', '6'], '_', $name)
+                                                            ?>"
                                                                 style="margin-left: 20px; font-weight: 400; font-size: 17px;">
                                                                 <?=$value?>
                                                                 </li>
@@ -471,7 +480,7 @@ if(!$_POST['filter']) {
                                                     </div> <!-- sub-info -->
                                                 </div> <!-- member-cheader -->
 
-                                                <div class="member-cheader"><strong>Industry Sector </strong>
+                                                <div class="member-cheader industry_sector"><strong>Industry Sector </strong>
                                                     <div class="sub-info" style="display: none;">
                                                         <ul class="product-expertise">
 
@@ -480,7 +489,10 @@ if(!$_POST['filter']) {
 
                                                                 
                                                             ?>
-                                                            <li class="unlicensed"
+                                                            <li class="unlicensed <?php 
+                                                            $name = preg_replace('~&([a-z]{1,2})(acute|cedil|circ|grave|lig|orn|ring|slash|th|tilde|uml);~i', '$1', htmlentities($value, ENT_QUOTES, 'UTF-8')); 
+                                                            echo str_replace([' ','(',')','.','&amp',';', '1', '2', '3', '4', '5', '6'], '_', $name)
+                                                            ?>"
                                                                 style="margin-left: 20px; font-weight: 400; font-size: 17px;">
                                                                 <?=$value?>
                                                                 </li>
@@ -597,3 +609,94 @@ if(!$_POST['filter']) {
 
 
 <?php get_footer(); ?>
+
+<style>
+
+
+
+.Private_to_Public,
+.Public_to_Public,
+.Private_to_Private,
+.Public_to_Private__Going_Private_,
+.product-expertise
+ {
+    margin-left: 20px!important;
+}
+
+
+
+.Private_to_Public,
+.Public_to_Public,
+.Private_to_Private,
+.Public_to_Private_,
+.Public_to_Private__Going_Private_,
+.Lending_Facilities,
+.Debt,
+.Equity,
+.Funds,
+.ECM__Equity_Capital_Markets_
+ {
+    margin-left: 40px!important;
+}
+
+
+
+.Taxable,
+.Tax-Exempt,
+.Mortgage,
+.Mortgage_Backed,
+.Asset-Backed,
+.Stock_and_Sr,
+.Preferred,
+.Convertible_Securities,
+.PE_Funds,
+.Venture_Capital_Funds,
+.Hedge_Funds,
+.BDCs,
+.REITs,
+.Equity_Syndicate,
+.IPO,
+.Follow-on,
+.Stock_and_Sr_,
+.DCM__Debt_Capital_Markets_
+
+
+{
+	margin-left: 60px !important;
+}
+
+.PIPEs,
+.Registered_Directs,
+.Agented,
+.Underwritten,
+.Investment_Grade,
+.High_Yield,
+.Commercial_Paper,
+.Medium_Term_Notes,
+.Retail_Preferred,
+.Baby_Bonds,
+.Tax_Exempt,
+.Initial_Coin_Offerings___amp__Block_Chain___amp__Tokens
+
+{
+    margin-left: 80px !important;
+}
+
+._0_Energy,
+.___Materials,
+._0_Industrials,
+.___Consumer_Discretionary,
+._0_Consumer_Staples,
+.___Health_Care,
+._0_Financials,
+.___Information_Technology,
+._0_Communication_Services,
+.___Utilities,
+._0_Real_Estate
+
+{
+    margin-left: 0px!important;
+    
+}
+
+</style>
