@@ -95,7 +95,6 @@
                     in_array ( $filter,  $deal_status);
                     // echo "</pre>";
                     if ($meta["confidential_deal"] && $meta["deal_status"] != "Canceled"  && in_array ( $filter,  $deal_status) ) {
-                
                         ?>
             <div class="container-fluid">
                 <div class="row border mr-t-15">
@@ -106,10 +105,10 @@
                             </div>
                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 agency-name m-t-5">
                                 <h3 class="text-secondary font-weight-bold">
-                                    <?=$meta["deal_name"]?>
+                                    <?=$meta["code_name"]?>
                                 </h3>
                                 <p class="text-secondary">
-                                    <?=$meta["brief_description_of_company"]?>
+                                    <?=$meta["confidential_description"]?>
                                 </p>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-12 manager mt-3">
