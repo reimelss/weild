@@ -85,7 +85,7 @@
             </div>
             <div class="clear"></div>
             <?php 
-                foreach($posts_array as $post) {
+                foreach($posts_array as $dealKey => $post) {
                     // var_dump( $post);
                     $meta = get_fields($post->ID);
                     // echo "<pre>";
@@ -193,10 +193,10 @@
                                 href="<?=get_permalink(get_post_meta($post->ID,'forumn_id',true))?>">
                             Join Deal Discussion
                             </a>
-                            <button type="button" class="btn btn-primary btn-block font-weight-bold" data-toggle="collapse" data-target="#contact-deal-manager-list-1">
+                            <button type="button" class="btn btn-primary btn-block font-weight-bold" data-toggle="collapse" data-target="#contact-deal-manager-list-<?=$dealKey?>">
                             Contact Deal Manager
                             </button>
-                            <ul class="list-group collapse text-secondary" id="contact-deal-manager-list-1">
+                            <ul class="list-group collapse text-secondary" id="contact-deal-manager-list-<?=$dealKey?>">
                                 <li class="list-group-item">
                                     <span class="font-weight-bold">Office:</span>
                                     <?php echo xprofile_get_field_data('788', $meta["manager"]["ID"]); ?>
@@ -314,10 +314,10 @@
 				                                href="<?=get_permalink(get_post_meta($post->ID,'forumn_id',true))?>">
 				                            Join Deal Discussion
 				                            </a>
-				                            <button type="button" class="btn btn-primary btn-block font-weight-bold" data-toggle="collapse" data-target="#contact-deal-manager-list-1">
+				                            <button type="button" class="btn btn-primary btn-block font-weight-bold" data-toggle="collapse" data-target="#contact-deal-manager-list-<?=$dealKey?>">
 				                            Contact Deal Manager
 				                            </button>
-				                            <ul class="list-group collapse text-secondary" id="contact-deal-manager-list-1">
+				                            <ul class="list-group collapse text-secondary" id="contact-deal-manager-list-<?=$dealKey?>">
 				                                <li class="list-group-item">
 				                                    <span class="font-weight-bold">Office:</span>
 				                                    <?php echo xprofile_get_field_data('788', $meta["manager"]["ID"]); ?>
