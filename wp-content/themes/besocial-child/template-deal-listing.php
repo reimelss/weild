@@ -383,13 +383,22 @@
 	    background-repeat: no-repeat;
     }
     .bg-secondary {
-    		background-color: #484341 !important;
+    		background-color: #686262 !important;
     }
+		.bg-secondary .btn-primary.btn-block {
+			background: #3396E1 !important;
+    	border-color: #3396E1 !important;
+		}
+		.bg-secondary .btn-primary:focus {
+    	box-shadow: none;
+		}
     .seeking-assistance {
     		margin-bottom: 20px;
     }
     .seeking-assistance h5 {
     		color: #fff;
+				margin-top: 15px;
+				font-size: 27px;
     }
     .p-b-15{
     		padding-bottom: 15px;
