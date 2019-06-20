@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
 <?php
 // Allow only correct Google web font tags
 $besclwp_webfontcode = wp_kses(get_option('besclwp_webfontcode'), array('link' => array('href' => array(),'rel' => array(),'type' => array())));

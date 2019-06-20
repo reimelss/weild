@@ -48,5 +48,7 @@ if ((empty($besclwp_icon_menu)) || ($besclwp_icon_menu != 'true')) {
 }
 </style>
 <?php wp_footer(); ?>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
