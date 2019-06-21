@@ -347,4 +347,10 @@ wp_enqueue_script( 'myscript', get_stylesheet_directory_uri() . '/js/script_crea
 	    	background-position: center;
 	    }
     }
+    .acf-input-wrap, .acf-input-wrap input {
+      height: 40px;
+    }
+    .acf-checkbox-list acf-bl label {
+      font-size: 16px;
+    }
 </style>

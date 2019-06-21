@@ -243,7 +243,10 @@ get_header();
     margin-left: 0px!important!important;
     
 }
-
-
-
+.acf-input-wrap, .acf-input-wrap input {
+  height: 40px;
+}
+.acf-checkbox-list acf-bl label {
+  font-size: 16px;
+}
 </style>
