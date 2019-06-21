@@ -132,12 +132,12 @@
                                 </p>
                                 <p class="text-secondary font-weight-bold">Location:
                                     <span class="font-weight-normal">
-                                    <?=implode(', ', $meta["location"]);?>
+                                    <?=$meta["location"] ? implode(', ', $meta["location"]): '';?>
                                     </span>
                                 </p>
                                 <p class="text-secondary font-weight-bold">Deal Status:
                                     <span class="font-weight-normal">
-                                    <?=implode(', ', $meta["deal_status"]);?>
+                                    <?=$meta["deal_status"] ? implode(', ', $meta["deal_status"]) : '';?>
                                     </span>
                                 </p>
                                 <p class="text-secondary font-weight-bold">Deal Size:
@@ -154,7 +154,7 @@
                                     <div class="col-lg-8">
                                         <p>
                                             <span class="font-weight-normal">
-                                            <?=implode(', ', $meta["type_of_transaction"]);?>
+                                            <?=$meta["type_of_transaction"] ? implode(', ', $meta["type_of_transaction"]) : '';?>
                                             </span>
                                         </p>
                                     </div>
@@ -166,7 +166,7 @@
                                     <div class="col-lg-8">
                                         <p>
                                             <span class="font-weight-normal">
-                                            <?=implode(', ', $meta["industry_sector"]);?>
+                                            <?=$meta["industry_sector"] ? implode(', ', $meta["industry_sector"]) : '';?>
                                             </span>
                                         </p>
                                     </div>
@@ -178,11 +178,35 @@
                                     <div class="col-lg-8">
                                         <p>
                                             <span class="font-weight-normal">
-                                            <?=implode(', ', $meta["target_investor_type"]);?>
+                                            <?=$meta["target_investor_type"] ? implode(', ', $meta["target_investor_type"]) : '';?>
                                             </span>
                                         </p>
                                     </div>
                                 </div>
+                                <?php if($meta["document_uploads"]) { ?>
+                                <div class="row m-b-10">
+                                    <div class="col-lg-4">
+                                        <p class="text-secondary font-weight-bold">Documents:</p>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <p>
+                                            <span class="font-weight-normal">
+                                              <?php 
+                                              $count = 1; 
+                                              foreach ($meta["document_uploads"] as $doc) {
+                                                  if ($count == 1) {
+                                                      echo "<a href='" . $doc["document"] ."'>" .$doc["title"]. " </a>";
+                                                  }else {
+                                                      echo ", <a href='" . $doc["document"] ."'>" .$doc["title"]. " </a>";
+                                                  }
+                                                  $count++;
+                                              }
+                                              ?>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                              <?php }?>
                             </div>
                         </div>
                     </div>
@@ -253,12 +277,12 @@
 				                                </p>
 				                                <p class="text-secondary font-weight-bold">Location:
 				                                    <span class="font-weight-normal">
-				                                    <?=implode(', ', $meta["location"]);?>
+				                                    <?=$meta["location"] ? implode(', ', $meta["location"]) : '';?>
 				                                    </span>
 				                                </p>
 				                                <p class="text-secondary font-weight-bold">Deal Status:
 				                                    <span class="font-weight-normal">
-				                                    <?=implode(', ', $meta["deal_status"]);?>
+				                                    <?=$meta["deal_status"] ? implode(', ', $meta["deal_status"]) : '';?>
 				                                    </span>
 				                                </p>
 				                                <p class="text-secondary font-weight-bold">Deal Size:
@@ -275,7 +299,7 @@
 				                                    <div class="col-lg-8">
 				                                        <p>
 				                                            <span class="font-weight-normal">
-				                                            <?=implode(', ', $meta["type_of_transaction"]);?>
+				                                            <?=$meta["type_of_transaction"] ? implode(', ', $meta["type_of_transaction"]) : '';?>
 				                                            </span>
 				                                        </p>
 				                                    </div>
@@ -287,7 +311,7 @@
 				                                    <div class="col-lg-8">
 				                                        <p>
 				                                            <span class="font-weight-normal">
-				                                            <?=implode(', ', $meta["industry_sector"]);?>
+				                                            <?=$meta["industry_sector"] ? implode(', ', $meta["industry_sector"]) : '';?>
 				                                            </span>
 				                                        </p>
 				                                    </div>
@@ -299,11 +323,35 @@
 				                                    <div class="col-lg-8">
 				                                        <p>
 				                                            <span class="font-weight-normal">
-				                                            <?=implode(', ', $meta["target_investor_type"]);?>
+				                                            <?=$meta["target_investor_type"] ? implode(', ', $meta["target_investor_type"]) : '';?>
 				                                            </span>
 				                                        </p>
 				                                    </div>
 				                                </div>
+                                        <?php if($meta["document_uploads"]) { ?>
+                                        <div class="row m-b-10">
+                                            <div class="col-lg-4">
+                                                <p class="text-secondary font-weight-bold">Documents:</p>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <p>
+                                                    <span class="font-weight-normal">
+                                                      <?php 
+                                                      $count = 1; 
+                                                      foreach ($meta["document_uploads"] as $doc) {
+                                                          if ($count == 1) {
+                                                              echo "<a href='" . $doc["document"] ."'>" .$doc["title"]. " </a>";
+                                                          }else {
+                                                              echo ", <a href='" . $doc["document"] ."'>" .$doc["title"]. " </a>";
+                                                          }
+                                                          $count++;
+                                                      }
+                                                      ?>
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                      <?php }?>
 				                            </div>
 				                        </div>
 				                    </div>
