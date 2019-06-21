@@ -53,8 +53,8 @@
             <div class="col-md-12 post-content">
               <form method="post">
                 <ul class="checkbox">
+                  <input name="filter[]" type="hidden" value="">
                   <?php foreach($filters as $filter) {?>
-                    <input name="filter[]" type="hidden" value="">
                     <li class="post-checkbox">
                       <input name="filter[]" type="checkbox" value="<?=$filter?>"
                       onchange='if(this.value != 0) { this.form.submit(); }' <?=in_array($filter, $activeFilters) ? 'checked' : ''?> >
