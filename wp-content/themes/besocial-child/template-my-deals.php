@@ -31,12 +31,6 @@ $args = array(
 	'fields'           => '',
 );
 $posts_array = get_posts( $args );
-
-echo "<pre>";
-// var_dump($posts_array);
-echo "</pre>";
-
-
 ?>
 
 
@@ -346,11 +340,5 @@ wp_enqueue_script( 'myscript', get_stylesheet_directory_uri() . '/js/script_crea
 	    .logo-img {
 	    	background-position: center;
 	    }
-    }
-    .acf-input-wrap, .acf-input-wrap input {
-      height: 40px;
-    }
-    .acf-checkbox-list acf-bl label {
-      font-size: 16px;
     }
 </style>

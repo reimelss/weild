@@ -2885,7 +2885,6 @@ a[class^="tag"]:hover {
 
 #footer {
     position: relative;
-    margin: 40px -40px 0px -40px;
     width: auto;
     padding: 0px 40px;
 }
@@ -3825,4 +3824,17 @@ body.besocial .bb-global-search-ac .loading-msg span {
     .besclwp-pager ul li span {
         padding: 0px 5px;
     }
+}
+
+.acf-input-wrap, .acf-input-wrap input {
+  height: 40px !important;
+}
+.acf-checkbox-list acf-bl label {
+  font-size: 16px !important;
+}
+div[data-name="request_it_be_published"] .acf-label, 
+div[data-name="confidential_deal"] .acf-label{
+  position: absolute;
+   left: 30px;
+   top: 14px;
 }

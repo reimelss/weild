@@ -2,6 +2,7 @@
 $besclwp_footermessage = wp_kses(get_option('besclwp_footermessage'), array('a' => array('href' => array(),'target' => array()),'em' => array(),'strong' => array(),'i' => array('class' => array()),'span' => array()));
 ?>
 </div>
+</main>
 <div class="clear"></div>
 <footer id="footer">
 <?php if ( is_active_sidebar( 'besclwpfooterwidgets' ) ) { ?>
@@ -22,7 +23,6 @@ $besclwp_footermessage = wp_kses(get_option('besclwp_footermessage'), array('a' 
         </div>
     </div>
 </footer>
-</main>
 <?php 
 $besclwp_icon_menu = get_option('besclwp_icon_menu');
 $besclwp_mobile_icon = get_option('besclwp_mobile_icon');
