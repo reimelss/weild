@@ -1,12 +1,12 @@
-<?php	
+ <?php
     /*
     Template Name: Deal Listing
     */
     ?>
-<?php get_header(); 
+<?php get_header();
     wp_reset_query();
     $user_id = get_current_user_id();
-    
+
     $args = array(
     	'posts_per_page'   => -1,
     	// 'offset'           => 0,
@@ -27,12 +27,12 @@
     	'fields'           => '',
     );
     $posts_array = get_posts( $args );
-    
+
     // echo "<pre>";
     // var_dump($posts_array);
     // echo "</pre>";
-    
-    
+
+
     ?>
 <?php if(get_the_title()) { ?>
 <div class="besclwp-page-title">
@@ -42,28 +42,41 @@
     <?php } ?>
 </div>
 <?php } ?>
-<?php 
+<?php
     // var_dump($_POST);
     if(!$_POST['filter']) {
         $filter = "Active";
-    }else{ 
+    }else{
         $filter = $_POST['filter'];
     }
     ?>
 <div class="besclwp-post-content buddypress">
     <div class="container">
         <div class="row">
-            <div class="col-md-10">
-                <form method="post">
-                    <select name='filter' onchange='if(this.value != 0) { this.form.submit(); }'>
-                        <option value='Pre-Engagement' <?php if($filter == 'Pre-Engagement') echo "selected" ?>>Pre-Engagement</option>
-                        <option value='Pre-Market' <?php if($filter == 'Pre-Market') echo "selected" ?>>Pre-Market</option>
-                        <option value='Active' <?php if($filter == 'Active') echo "selected" ?>>Active</option>
-                        <option value='Closed' <?php if($filter == 'Closed') echo "selected" ?>>Closed</option>
-                    </select>
-                </form>
-            </div>
-            <div class="col-md-2">
+            <div class="col-md-12 post-content">
+
+                <ul class="checkbox">
+                    <li class="post-checkbox">
+                      <input type="checkbox">
+                      <span>Pre-Engagement</span>
+                    </li>
+
+                    <li class="post-checkbox">
+                      <input type="checkbox">
+                      <span>Pre-Market</span>
+                    </li>
+
+                    <li class="post-checkbox">
+                      <input type="checkbox">
+                      <span>Active</span>
+                    </li>
+
+                    <li class="post-checkbox">
+                      <input type="checkbox">
+                      <span>Closed</span>
+                    </li>
+                </ul>
+
             </div>
         </div>
     </div>
@@ -84,12 +97,12 @@
                 </div>
             </div>
             <div class="clear"></div>
-            <?php 
+            <?php
                 foreach($posts_array as $dealKey => $post) {
                     // var_dump( $post);
                     $meta = get_fields($post->ID);
                     // echo "<pre>";
-                    // var_dump($meta); 
+                    // var_dump($meta);
                     $deal_status = $meta["deal_status"];
                     // var_dump(  $filter,  $deal_status);
                     in_array ( $filter,  $deal_status);
@@ -114,7 +127,7 @@
                             <div class="col-lg-4 col-md-4 col-sm-12 manager mt-3">
                                 <p class="text-secondary font-weight-bold">Manager:
                                     <span class="font-weight-normal">
-                                    <?php echo xprofile_get_field_data('1', $meta["manager"]["ID"]).' '.xprofile_get_field_data('1384', $meta["manager"]["ID"]); ?>														
+                                    <?php echo xprofile_get_field_data('1', $meta["manager"]["ID"]).' '.xprofile_get_field_data('1384', $meta["manager"]["ID"]); ?>
                                     </span>
                                 </p>
                                 <p class="text-secondary font-weight-bold">Location:
@@ -180,8 +193,8 @@
                                 <i class="fa fa-search fa-flip-horizontal fa-4x" aria-hidden="true"></i>
                                 <h5 class="font-weight-bold">Seeking Assistance With</h5>
                                 <ul class="pl-4">
-                                    <?php 
-                                        foreach ($meta['what_are_you_seeking_assistance_with'] as $key => $seeking) {												
+                                    <?php
+                                        foreach ($meta['what_are_you_seeking_assistance_with'] as $key => $seeking) {
                                         ?>
                                     <li class="font-weight-bold"><?=$seeking?></li>
                                     <?php } ?>
@@ -213,7 +226,7 @@
                     </div>
                 </div>
             </div>
-            <?php 
+            <?php
                 }
                 if(!$meta["confidential_deal"] && $meta["deal_status"] != "Canceled"  && in_array ( $filter,  $deal_status) ) {
                     ?>
@@ -235,7 +248,7 @@
 				                            <div class="col-lg-4 col-md-4 col-sm-12 manager mt-3">
 				                                <p class="text-secondary font-weight-bold">Manager:
 				                                    <span class="font-weight-normal">
-				                                    <?php echo xprofile_get_field_data('1', $meta["manager"]["ID"]).' '.xprofile_get_field_data('1384', $meta["manager"]["ID"]); ?>														
+				                                    <?php echo xprofile_get_field_data('1', $meta["manager"]["ID"]).' '.xprofile_get_field_data('1384', $meta["manager"]["ID"]); ?>
 				                                    </span>
 				                                </p>
 				                                <p class="text-secondary font-weight-bold">Location:
@@ -301,8 +314,8 @@
 				                                <i class="fa fa-search fa-flip-horizontal fa-4x" aria-hidden="true"></i>
 				                                <h5 class="font-weight-bold">Seeking Assistance With</h5>
 				                                <ul class="pl-4">
-				                                    <?php 
-				                                        foreach ($meta['what_are_you_seeking_assistance_with'] as $key => $seeking) {												
+				                                    <?php
+				                                        foreach ($meta['what_are_you_seeking_assistance_with'] as $key => $seeking) {
 				                                        ?>
 				                                    <li class="font-weight-bold"><?=$seeking?></li>
 				                                    <?php } ?>
@@ -409,9 +422,42 @@
 		p.text-secondary.font-weight-bold {
 			margin-bottom: 10px;
 		}
+    .checkbox input{
+      width: 1em;
+      height: 1em;
+      margin-right: .4em;
+    }
+    li.post-checkbox {
+      display: inline-block;
+    }
+    .post-checkbox {
+      padding: 1.2em;
+      padding-left: 0;
+    }
+    .post-checkbox span {
+      font-size: 18px;
+    }
+    .post-content {
+      margin-left: 0px;
+    }
+    .post-content {
+        padding-left: 0px;
+    }
     @media screen and (max-width: 767px) {
 	    .logo-img {
 	    	background-position: center;
 	    }
+      .post-checkbox {
+          padding: .52em;
+          width: 100%;
+          padding-left: 13px
+      }
+      .container {
+        padding-left: 0px;
+        margin-left: 0px;
+      }
+
     }
+
+
 </style>
